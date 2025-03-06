@@ -1,0 +1,186 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Szoveg
+{
+    public partial class Form1 : Form
+    {
+        private TextBox txtIP1; 
+        private TextBox txtIP2;
+        private TextBox txtUzenet;
+        private Button btnHozzaad; 
+        private Button btnDekodol;
+        private Button Ki;
+        private DataGridView dgvUzenetek;
+        private Label lblIP1;
+        private Label lblIP2;
+        private Label lblUzenet;
+        private int sorszam = 1;
+
+        public Form1()
+        {
+            InitializeComponent();
+            this.Text = "IP dekódoló";
+            this.Size = new Size(925, 440);
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+            lblIP1 = new Label() 
+            { 
+                Text = "IP 1:", 
+                Location = new Point(220, 23), 
+                AutoSize = true 
+            };
+
+            txtIP1 = new TextBox() 
+            { 
+                Location = new Point(250, 20), 
+                Width = 150 
+            };
+            txtIP1.KeyPress += TxtIP_KeyPress;
+
+            lblIP2 = new Label() 
+            { 
+                Text = "IP 2:", 
+                Location = new Point(480, 23), 
+                AutoSize = true 
+            };
+
+            txtIP2 = new TextBox() 
+            { 
+                Location = new Point(515, 20), 
+                Width = 150 
+            };
+            txtIP2.KeyPress += TxtIP_KeyPress;
+
+            lblUzenet = new Label() 
+            { 
+                Text = "Üzenet:", 
+                Location = new Point(230, 60), 
+                AutoSize = true 
+            };
+
+            txtUzenet = new TextBox() 
+            { 
+                Location = new Point(280, 57), 
+                Width = 370 
+            };
+
+            btnHozzaad = new Button() 
+            { 
+                Text = "Hozzáadás", 
+                Location = new Point(300, 80), 
+                Width = 100 
+            };
+            btnHozzaad.Click += BtnHozzaad_Click;
+
+            btnDekodol = new Button() 
+            { 
+                Text = "Dekódolás", 
+                Location = new Point(520, 80), 
+                Width = 100,
+            };
+            btnDekodol.Click += BtnDekodol_Click;
+
+            Ki = new Button()
+            {
+                Text = "Kilépés",
+                Location = new Point(410, 105),
+                Width = 100
+            };
+            Ki.Click += Ki_Click;
+
+            dgvUzenetek = new DataGridView()
+            {
+                Location = new Point(5, 130),
+                Size = new Size(900, 250),
+                ReadOnly = true,
+                AllowUserToAddRows = false,
+                ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+            };
+
+            dgvUzenetek.Columns.Add("IP1", "IP 1");
+            dgvUzenetek.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            dgvUzenetek.Columns.Add("IP2", "IP 2");
+            dgvUzenetek.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            dgvUzenetek.Columns.Add("Uzenet", "Üzenet (Bináris)");
+            dgvUzenetek.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            dgvUzenetek.Columns.Add("Datum", "Dátum");
+            dgvUzenetek.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            dgvUzenetek.Columns.Add("Sorszam", "Sorszám");
+            dgvUzenetek.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+
+            this.Controls.Add(lblIP1);
+            this.Controls.Add(txtIP1);
+            this.Controls.Add(lblIP2);
+            this.Controls.Add(txtIP2);
+            this.Controls.Add(lblUzenet);
+            this.Controls.Add(txtUzenet);
+            this.Controls.Add(btnHozzaad);
+            this.Controls.Add(btnDekodol);
+            this.Controls.Add(dgvUzenetek);
+            this.Controls.Add(Ki);
+        }
+
+        private void Ki_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void TxtIP_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.')
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void BtnHozzaad_Click(object sender, EventArgs e)
+        {
+            string ip1 = txtIP1.Text;
+            string ip2 = txtIP2.Text;
+            string uzenet = txtUzenet.Text;
+            string kodoltUzenet = EncodeMessage(uzenet);
+            string datum = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+            dgvUzenetek.Rows.Add(ip1, ip2, kodoltUzenet, datum,sorszam++);
+        }
+
+        private void BtnDekodol_Click(object sender, EventArgs e)
+        {
+            if (dgvUzenetek.SelectedRows.Count > 0)
+            {
+                int rowIndex = dgvUzenetek.SelectedRows[0].Index;
+                string kodoltUzenet = dgvUzenetek.Rows[rowIndex].Cells[2].Value.ToString();
+                string dekodoltUzenet = DecodeMessage(kodoltUzenet);
+
+                MessageBox.Show($"Dekódolt üzenet: {dekodoltUzenet}", "Üzenet Dekódolva");
+            }
+        }
+
+        // Üzenet kódolása bináris formátumba
+        private string EncodeMessage(string message)
+        {
+            byte[] bytes = System.Text.Encoding.UTF8.GetBytes(message);
+            string binaryString = string.Join(" ", Array.ConvertAll(bytes, b => Convert.ToString(b, 2).PadLeft(8, '0')));
+            return binaryString;
+        }
+
+        // Üzenet dekódolása vissza szöveggé
+        private string DecodeMessage(string binaryMessage)
+        {
+            string[] binaryValues = binaryMessage.Split(' ');
+            byte[] bytes = Array.ConvertAll(binaryValues, b => Convert.ToByte(b, 2));
+            return System.Text.Encoding.UTF8.GetString(bytes);
+        }
+
+    }
+}
