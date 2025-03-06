@@ -1,0 +1,21 @@
+1: 0001. 01. 01. 0:20:31 - Még egy szép kis tesztüzenet. Kettő más IP cím között - 172.16.200.5 - 10.0.45.123
+2: 0001. 01. 01. 0:20:31 - Egy csodás beszélgetés kezdete ez, barátom! - 8.8.8.8 - 255.255.255.0
+3: 0001. 01. 01. 0:20:31 - Üdv! Kedves, üzengető barátom! - 255.255.255.0 - 8.8.8.8
+4: 0001. 01. 01. 0:20:31 - Tisztelt Tanár úr, elmehetnék e a vonathoz a mai nap? - 149.210.49.8 - 199.48.153.222
+5: 0001. 01. 01. 0:20:31 - Persze! Lenne még bármi kérdése? - 199.48.153.222 - 149.210.49.8
+6: 0001. 01. 01. 0:20:31 - Igazából....lenne, újra írhatnám esetleg a tegnapelőtti dogát? :> - 149.210.49.8 - 199.48.153.222
+7: 0001. 01. 01. 0:20:31 - Még átgondolom! Holnap első óra előtt, amint tudom értesítem! - 199.48.153.222 - 149.210.49.8
+8: 0001. 01. 01. 0:20:31 - Nagyon köszönöm Tanár úr! - 149.210.49.8 - 199.48.153.222
+9: 0001. 01. 01. 0:20:31 - Hali! Milyen napod volt? - 22.222.171.124 - 203.0.113.99
+10: 0001. 01. 01. 0:20:31 - Semmi különös sem történt ma! Veled? - 203.0.113.99 - 22.222.171.124
+11: 0001. 01. 01. 0:20:31 - Oh! Az nem sok :) - 22.222.171.124 - 203.0.113.99
+12: 0001. 01. 01. 0:20:31 - Na! de veled mi volt??? - 203.0.113.99 - 22.222.171.124
+13: 0001. 01. 01. 0:20:31 - Ma nem megyek be főnök! - 101.202.33.144 - 55.87.234.77
+14: 0001. 01. 01. 0:20:31 - Mégis mi a szentségtelen rettenetért nem?! - 55.87.234.77 - 101.202.33.144
+15: 0001. 01. 01. 0:20:31 - Mert meguntam - 101.202.33.144 - 55.87.234.77
+16: 0001. 01. 01. 0:20:31 - Ez egy szép kis üzenet, a nem is olyan távoli jövőböl! - 11.58.99.201 - 76.45.189.200
+17: 0001. 01. 01. 0:20:31 - Emez meg egy válasz a jövőböl! - 76.45.189.200 - 11.58.99.201
+18: 0001. 01. 01. 0:20:31 - Nem sokkal másabb a helyzet.... - 11.58.99.201 - 76.45.189.200
+19: 0001. 01. 01. 0:20:31 - Ez egy üzenet 2024. Október huszonnegyedikéről! pontosabban 12 óra 11 perc 25 másodperckor. - 192.0.2.45 - 199.48.153.222
+20: 0001. 01. 01. 0:20:31 - Ez egy válasz üzenet, varázslatos módon 1 másodpercel később : ) - 199.48.153.222 - 192.0.2.45
+21: 0001. 01. 01. 0:20:31 - Ez egy tökéletes, Pálmai áltál készített üzenetcsomag. Lehet használni. - 192.168.10.1 - 192.168.1.10

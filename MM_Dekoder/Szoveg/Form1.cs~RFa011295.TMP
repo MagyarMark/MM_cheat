@@ -252,7 +252,6 @@ namespace Szoveg
                 }
             }
             dgvUzenet1.ColumnHeaderMouseClick += new DataGridViewCellMouseEventHandler(ColumnHeader_Click);
-
             /*const string uzenetKezdete = "xxx";
             const string uzenetVege = ".-+.";
             const string fileVege = ".-.-.+.+.";
@@ -261,29 +260,29 @@ namespace Szoveg
         }
         private void ColumnHeader_Click(object sender, DataGridViewCellMouseEventArgs e)
         {
-            if (e.ColumnIndex == 4)
+            if (e.ColumnIndex == 4) // Sorszám oszlop
             {
                 SortBySorszam();
             }
         }
         private void SortBySorszam()
         {
-            var sorok = dgvUzenet1.Rows.Cast<DataGridViewRow>().Where(r => r.Cells[4].Value != null).ToList();
+            var rows = dgvUzenet1.Rows.Cast<DataGridViewRow>().Where(r => r.Cells[4].Value != null).ToList();
 
             if (ascending)
             {
-                sorok = sorok.OrderBy(r => int.Parse(r.Cells[4].Value.ToString())).ToList();
+                rows = rows.OrderBy(r => int.Parse(r.Cells[4].Value.ToString())).ToList();
             }
             else
             {
-                sorok = sorok.OrderByDescending(r => int.Parse(r.Cells[4].Value.ToString())).ToList();
+                rows = rows.OrderByDescending(r => int.Parse(r.Cells[4].Value.ToString())).ToList();
             }
 
             dgvUzenet1.Rows.Clear();
 
-            foreach (var sor in sorok)
+            foreach (var row in rows)
             {
-                dgvUzenet1.Rows.Add(sor.Cells.Cast<DataGridViewCell>().Select(c => c.Value).ToArray());
+                dgvUzenet1.Rows.Add(row.Cells.Cast<DataGridViewCell>().Select(c => c.Value).ToArray());
             }
 
             ascending = !ascending;

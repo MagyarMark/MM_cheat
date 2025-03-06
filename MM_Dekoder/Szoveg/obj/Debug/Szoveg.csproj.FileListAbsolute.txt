@@ -17,3 +17,13 @@ C:\Users\MagyarMark\Downloads\Szoveg\Szoveg\obj\Debug\Szoveg.csproj.CoreCompileI
 C:\Users\MagyarMark\Downloads\Szoveg\Szoveg\obj\Debug\Szoveg.exe
 C:\Users\MagyarMark\Downloads\Szoveg\Szoveg\obj\Debug\Szoveg.pdb
 C:\Users\MagyarMark\Downloads\Szoveg\Szoveg\obj\Debug\Szoveg.Form1.resources
+C:\Users\markm\Documents\GitHub\MM_oraimunka\MM_Dekoder\Szoveg\bin\Debug\Szoveg.exe.config
+C:\Users\markm\Documents\GitHub\MM_oraimunka\MM_Dekoder\Szoveg\bin\Debug\Szoveg.exe
+C:\Users\markm\Documents\GitHub\MM_oraimunka\MM_Dekoder\Szoveg\bin\Debug\Szoveg.pdb
+C:\Users\markm\Documents\GitHub\MM_oraimunka\MM_Dekoder\Szoveg\obj\Debug\Szoveg.csproj.AssemblyReference.cache
+C:\Users\markm\Documents\GitHub\MM_oraimunka\MM_Dekoder\Szoveg\obj\Debug\Szoveg.Form1.resources
+C:\Users\markm\Documents\GitHub\MM_oraimunka\MM_Dekoder\Szoveg\obj\Debug\Szoveg.Properties.Resources.resources
+C:\Users\markm\Documents\GitHub\MM_oraimunka\MM_Dekoder\Szoveg\obj\Debug\Szoveg.csproj.GenerateResource.cache
+C:\Users\markm\Documents\GitHub\MM_oraimunka\MM_Dekoder\Szoveg\obj\Debug\Szoveg.csproj.CoreCompileInputs.cache
+C:\Users\markm\Documents\GitHub\MM_oraimunka\MM_Dekoder\Szoveg\obj\Debug\Szoveg.exe
+C:\Users\markm\Documents\GitHub\MM_oraimunka\MM_Dekoder\Szoveg\obj\Debug\Szoveg.pdb

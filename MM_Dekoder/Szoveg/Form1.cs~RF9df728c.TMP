@@ -26,12 +26,8 @@ namespace Szoveg
         private Label lblIP1;
         private Label lblIP2;
         private Label lblUzenet;
-        private Label txtalap;
-        private Label egyenialap;
         private int sorszam = 1;
         string[] adat = File.ReadAllLines("messages.log");
-
-        private bool ascending = true;
 
         public Form1()
         {
@@ -49,26 +45,6 @@ namespace Szoveg
                 Location = new Point(220, 23),
                 AutoSize = true
             };
-            
-            egyenialap = new Label()
-            {
-                Text = "Egyénileg megadható:",
-                ForeColor = Color.Red,
-                Font = new Font("Arial", 10, FontStyle.Bold),
-                Location = new Point(20, 45),
-                AutoSize = true
-            };
-            this.Controls.Add(egyenialap);
-            
-            txtalap = new Label()
-            {
-                Text = "messages.log TXT alapján feldolgozott verzió:",
-                ForeColor = Color.Red,
-                Font = new Font("Arial", 10, FontStyle.Bold),
-                Location = new Point(20,390),
-                AutoSize = true
-            };
-            this.Controls.Add(txtalap);
 
             txtIP1 = new TextBox()
             {
@@ -139,7 +115,7 @@ namespace Szoveg
             
             dgvUzenet1 = new DataGridView()
             {
-                Location = new Point(5, 415),
+                Location = new Point(5, 400),
                 Size = new Size(900, 250),
                 ReadOnly = true,
                 AllowUserToAddRows = false,
@@ -156,23 +132,12 @@ namespace Szoveg
             dgvUzenet.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dgvUzenet.Columns.Add("Sorszam", "Sorszám");
             dgvUzenet.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-
-            /*dgvUzenet1.Columns.Add("szemet", "Szemét");
+            
+            dgvUzenet1.Columns.Add("szemet", "Szemét");
             dgvUzenet1.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dgvUzenet1.Columns.Add("Szöveg", "Szöveg");
             dgvUzenet1.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dgvUzenet1.Columns.Add("Uzenet", "Üzenet (Bináris)");
-            dgvUzenet1.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            dgvUzenet1.Columns.Add("Datum", "Dátum");
-            dgvUzenet1.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            dgvUzenet1.Columns.Add("Sorszam", "Sorszám");
-            dgvUzenet1.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;*/
-
-            dgvUzenet1.Columns.Add("IP1", "IP 1");
-            dgvUzenet1.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            dgvUzenet1.Columns.Add("IP2", "IP 2");
-            dgvUzenet1.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            dgvUzenet1.Columns.Add("Uzenet", "Üzenet");
             dgvUzenet1.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dgvUzenet1.Columns.Add("Datum", "Dátum");
             dgvUzenet1.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
@@ -196,18 +161,18 @@ namespace Szoveg
             string FileVege = ".-.-.+.+.";
             string Elvalaszto = ".x.";
 
-            /*foreach (string sor in adat)
+            foreach (string sor in adat)
             {
                 
 
                 string[] adatok = sor.Replace(UzenetKezdete, " ").Replace(UzenetVege, " ").Replace(FileVege, " ").Replace(Elvalaszto, " ").Split(' ');
 
-                string kodoltUzenet = adatok[2];
-                string dekodoltUzenet = DecodeMessage(kodoltUzenet);
+                /*string kodoltUzenet = adatok[2];
+                string dekodoltUzenet = DecodeMessage(kodoltUzenet);*/
 
 
-                Debug.WriteLine(adatok[0]);//, adatok[1], dekodoltUzenet, adatok[3], adatok[4]);
-            }*/
+               // Debug.WriteLine(adatok[0]);//, adatok[1], dekodoltUzenet, adatok[3], adatok[4]);
+            }
 
             /*foreach (var line in adat)
             {
@@ -238,55 +203,30 @@ namespace Szoveg
                     if (parts.Length >= 4)
                     {
                         string datum = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-                        //dgvUzenet1.Rows.Add(parts[0], parts[1], ip(parts[2]),datum, sorszam++);
+                        dgvUzenet1.Rows.Add(parts[0], parts[1], ip(parts[2]),datum, sorszam++);
 
-                        string timestamp = parts[0].Substring(UzenetKezdete.Length);//szemét
+                        string timestamp = parts[0].Substring(UzenetKezdete.Length);
+                        Debug.WriteLine($" hiba {timestamp}");
                         string message = parts[1];
                         string ip1Hex = parts[2];
                         string ip2Hex = parts[3].Substring(0, parts[3].IndexOf(UzenetVege));
+
+                        long ticks = 12312312231;
+                        DateTime dateTime = new DateTime(ticks);
+
                         string ip1 = ip(ip1Hex);
                         string ip2 = ip(ip2Hex);
 
-                        dgvUzenet1.Rows.Add(ip1,ip2,message,datum,sorszam++);
+                        dgvUzenet1.Rows.Add($"{sorszam++}: {dateTime} - {message} - {ip1} - {ip2}");
                     }
                 }
             }
-            dgvUzenet1.ColumnHeaderMouseClick += new DataGridViewCellMouseEventHandler(ColumnHeader_Click);
 
             /*const string uzenetKezdete = "xxx";
             const string uzenetVege = ".-+.";
             const string fileVege = ".-.-.+.+.";
             const string elvalaszto = ".x.";*/
 
-        }
-        private void ColumnHeader_Click(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            if (e.ColumnIndex == 4)
-            {
-                SortBySorszam();
-            }
-        }
-        private void SortBySorszam()
-        {
-            var sorok = dgvUzenet1.Rows.Cast<DataGridViewRow>().Where(r => r.Cells[4].Value != null).ToList();
-
-            if (ascending)
-            {
-                sorok = sorok.OrderBy(r => int.Parse(r.Cells[4].Value.ToString())).ToList();
-            }
-            else
-            {
-                sorok = sorok.OrderByDescending(r => int.Parse(r.Cells[4].Value.ToString())).ToList();
-            }
-
-            dgvUzenet1.Rows.Clear();
-
-            foreach (var sor in sorok)
-            {
-                dgvUzenet1.Rows.Add(sor.Cells.Cast<DataGridViewCell>().Select(c => c.Value).ToArray());
-            }
-
-            ascending = !ascending;
         }
         private void Ki_Click(object sender, EventArgs e)
         {

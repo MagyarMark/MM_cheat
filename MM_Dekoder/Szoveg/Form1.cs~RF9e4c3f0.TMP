@@ -26,12 +26,8 @@ namespace Szoveg
         private Label lblIP1;
         private Label lblIP2;
         private Label lblUzenet;
-        private Label txtalap;
-        private Label egyenialap;
         private int sorszam = 1;
         string[] adat = File.ReadAllLines("messages.log");
-
-        private bool ascending = true;
 
         public Form1()
         {
@@ -49,26 +45,6 @@ namespace Szoveg
                 Location = new Point(220, 23),
                 AutoSize = true
             };
-            
-            egyenialap = new Label()
-            {
-                Text = "Egyénileg megadható:",
-                ForeColor = Color.Red,
-                Font = new Font("Arial", 10, FontStyle.Bold),
-                Location = new Point(20, 45),
-                AutoSize = true
-            };
-            this.Controls.Add(egyenialap);
-            
-            txtalap = new Label()
-            {
-                Text = "messages.log TXT alapján feldolgozott verzió:",
-                ForeColor = Color.Red,
-                Font = new Font("Arial", 10, FontStyle.Bold),
-                Location = new Point(20,390),
-                AutoSize = true
-            };
-            this.Controls.Add(txtalap);
 
             txtIP1 = new TextBox()
             {
@@ -139,7 +115,7 @@ namespace Szoveg
             
             dgvUzenet1 = new DataGridView()
             {
-                Location = new Point(5, 415),
+                Location = new Point(5, 400),
                 Size = new Size(900, 250),
                 ReadOnly = true,
                 AllowUserToAddRows = false,
@@ -241,6 +217,7 @@ namespace Szoveg
                         //dgvUzenet1.Rows.Add(parts[0], parts[1], ip(parts[2]),datum, sorszam++);
 
                         string timestamp = parts[0].Substring(UzenetKezdete.Length);//szemét
+                        Debug.WriteLine($" hiba {timestamp}");
                         string message = parts[1];
                         string ip1Hex = parts[2];
                         string ip2Hex = parts[3].Substring(0, parts[3].IndexOf(UzenetVege));
@@ -251,42 +228,12 @@ namespace Szoveg
                     }
                 }
             }
-            dgvUzenet1.ColumnHeaderMouseClick += new DataGridViewCellMouseEventHandler(ColumnHeader_Click);
 
             /*const string uzenetKezdete = "xxx";
             const string uzenetVege = ".-+.";
             const string fileVege = ".-.-.+.+.";
             const string elvalaszto = ".x.";*/
 
-        }
-        private void ColumnHeader_Click(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            if (e.ColumnIndex == 4)
-            {
-                SortBySorszam();
-            }
-        }
-        private void SortBySorszam()
-        {
-            var sorok = dgvUzenet1.Rows.Cast<DataGridViewRow>().Where(r => r.Cells[4].Value != null).ToList();
-
-            if (ascending)
-            {
-                sorok = sorok.OrderBy(r => int.Parse(r.Cells[4].Value.ToString())).ToList();
-            }
-            else
-            {
-                sorok = sorok.OrderByDescending(r => int.Parse(r.Cells[4].Value.ToString())).ToList();
-            }
-
-            dgvUzenet1.Rows.Clear();
-
-            foreach (var sor in sorok)
-            {
-                dgvUzenet1.Rows.Add(sor.Cells.Cast<DataGridViewCell>().Select(c => c.Value).ToArray());
-            }
-
-            ascending = !ascending;
         }
         private void Ki_Click(object sender, EventArgs e)
         {
