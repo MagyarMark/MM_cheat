@@ -1,0 +1,10 @@
+C:\Users\markm\Documents\GitHub\MM_oraimunka\20250327_MagyarMark\RealEstateGUI\bin\Debug\RealEstateGUI.exe.config
+C:\Users\markm\Documents\GitHub\MM_oraimunka\20250327_MagyarMark\RealEstateGUI\bin\Debug\RealEstateGUI.exe
+C:\Users\markm\Documents\GitHub\MM_oraimunka\20250327_MagyarMark\RealEstateGUI\bin\Debug\RealEstateGUI.pdb
+C:\Users\markm\Documents\GitHub\MM_oraimunka\20250327_MagyarMark\RealEstateGUI\obj\Debug\RealEstateGUI.csproj.AssemblyReference.cache
+C:\Users\markm\Documents\GitHub\MM_oraimunka\20250327_MagyarMark\RealEstateGUI\obj\Debug\RealEstateGUI.Form1.resources
+C:\Users\markm\Documents\GitHub\MM_oraimunka\20250327_MagyarMark\RealEstateGUI\obj\Debug\RealEstateGUI.Properties.Resources.resources
+C:\Users\markm\Documents\GitHub\MM_oraimunka\20250327_MagyarMark\RealEstateGUI\obj\Debug\RealEstateGUI.csproj.GenerateResource.cache
+C:\Users\markm\Documents\GitHub\MM_oraimunka\20250327_MagyarMark\RealEstateGUI\obj\Debug\RealEstateGUI.csproj.CoreCompileInputs.cache
+C:\Users\markm\Documents\GitHub\MM_oraimunka\20250327_MagyarMark\RealEstateGUI\obj\Debug\RealEstateGUI.exe
+C:\Users\markm\Documents\GitHub\MM_oraimunka\20250327_MagyarMark\RealEstateGUI\obj\Debug\RealEstateGUI.pdb
