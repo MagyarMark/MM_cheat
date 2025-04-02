@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\markm\\Documents\\GitHub\\MM_oraimunka\\20250327_MagyarMark\\RealEstateGUI\\",
+  "WorkspaceRootPath": "C:\\Users\\MagyarMark\\Documents\\GitHub\\MM_oraimunka\\20250327_MagyarMark\\RealEstateGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BFFC4DB-1EBD-446B-9296-6A48953E018C}|RealEstateGUI.csproj|c:\\users\\markm\\documents\\github\\mm_oraimunka\\20250327_magyarmark\\realestategui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5BFFC4DB-1EBD-446B-9296-6A48953E018C}|RealEstateGUI.csproj|c:\\users\\magyarmark\\documents\\github\\mm_oraimunka\\20250327_magyarmark\\realestategui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BFFC4DB-1EBD-446B-9296-6A48953E018C}|RealEstateGUI.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFFC4DB-1EBD-446B-9296-6A48953E018C}|RealEstateGUI.csproj|c:\\users\\markm\\documents\\github\\mm_oraimunka\\20250327_magyarmark\\realestategui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5BFFC4DB-1EBD-446B-9296-6A48953E018C}|RealEstateGUI.csproj|C:\\Users\\MagyarMark\\Documents\\GitHub\\MM_oraimunka\\20250327_MagyarMark\\RealEstateGUI\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5BFFC4DB-1EBD-446B-9296-6A48953E018C}|RealEstateGUI.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,25 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\markm\\Documents\\GitHub\\MM_oraimunka\\20250327_MagyarMark\\RealEstateGUI\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\MagyarMark\\Documents\\GitHub\\MM_oraimunka\\20250327_MagyarMark\\RealEstateGUI\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\markm\\Documents\\GitHub\\MM_oraimunka\\20250327_MagyarMark\\RealEstateGUI\\Form1.cs",
+              "ToolTip": "C:\\Users\\MagyarMark\\Documents\\GitHub\\MM_oraimunka\\20250327_MagyarMark\\RealEstateGUI\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAowD0AAAAAAAAA",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAqwIEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T15:03:10.45Z",
               "EditorCaption": ""
@@ -45,13 +37,45 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\markm\\Documents\\GitHub\\MM_oraimunka\\20250327_MagyarMark\\RealEstateGUI\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\MagyarMark\\Documents\\GitHub\\MM_oraimunka\\20250327_MagyarMark\\RealEstateGUI\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\markm\\Documents\\GitHub\\MM_oraimunka\\20250327_MagyarMark\\RealEstateGUI\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\MagyarMark\\Documents\\GitHub\\MM_oraimunka\\20250327_MagyarMark\\RealEstateGUI\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T11:26:07.275Z",
               "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1424,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 859,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1a46fd64-28d5-434c-8eb3-17a02d419b53}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

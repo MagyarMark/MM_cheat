@@ -49,6 +49,7 @@ namespace hudejo
                         19.066342425796986 GPS koordinátán helyezkedik el. Keresse ki és írja ki a minta 
                         alapján annak a tehermentes ingatlannak az adatait, melyik a legközelebb van 
                         légvonalban a Mesevár óvodához! kiíratásnál legyen kiírva a neve, telefonszáma, alapterülete az ingatlannak, és a szobák száma*/
+            
             parancs.CommandText = "SELECT s.name, s.phone, r.area, r.rooms FROM sellers s JOIN realestates r ON s.id = r.sellerId WHERE name = \"Ápry Lísa\" ORDER BY sqrt(pow(47.4164220114023 - r.latlong, 2) + pow(19.066342425796986 - r.latlong, 2)) LIMIT 1;";
             read = parancs.ExecuteReader();
             while (read.Read())
