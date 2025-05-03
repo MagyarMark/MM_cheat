@@ -1,2 +1,1 @@
-# MM_oraimunka
- órai munkák
+# MM_CheatSheet
