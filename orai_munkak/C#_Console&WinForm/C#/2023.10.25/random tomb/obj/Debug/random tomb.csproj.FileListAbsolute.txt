@@ -1,0 +1,8 @@
+H:\asztalk\C#\2023.10.25\random tomb\bin\Debug\random tomb.exe.config
+H:\asztalk\C#\2023.10.25\random tomb\bin\Debug\random tomb.exe
+H:\asztalk\C#\2023.10.25\random tomb\bin\Debug\random tomb.pdb
+H:\asztalk\C#\2023.10.25\random tomb\obj\Debug\random tomb.csproj.AssemblyReference.cache
+H:\asztalk\C#\2023.10.25\random tomb\obj\Debug\random tomb.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\2023.10.25\random tomb\obj\Debug\random tomb.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2023.10.25\random tomb\obj\Debug\random tomb.exe
+H:\asztalk\C#\2023.10.25\random tomb\obj\Debug\random tomb.pdb

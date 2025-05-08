@@ -1,0 +1,7 @@
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika\bin\Debug\Statisztika.exe.config
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika\bin\Debug\Statisztika.exe
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika\bin\Debug\Statisztika.pdb
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika\obj\Debug\Statisztika.csproj.AssemblyReference.cache
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika\obj\Debug\Statisztika.csproj.CoreCompileInputs.cache
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika\obj\Debug\Statisztika.exe
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika\obj\Debug\Statisztika.pdb

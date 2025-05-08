@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        /*class Harcos{
+            constructor(nev = String, eletero = Int, harciero = Int){
+                this.nev = nev;
+                this.eletero = eletero;
+                this.harciero = harciero;
+            }
+
+            getDamage(){
+                return harciero
+            }
+
+            getHp(){
+                return eletero
+            }
+
+            sebzodik(damage) { this.eletero -= damage; }
+
+            harcol(Harcos) { 
+                this.sebzodik(Harcos.getDamage()); Harcos.sebzodik(this.getDamage()); if (this.getHp() < 1 || Harcos.getHp() < 1) { return true; } return false; 
+            }
+
+            toString() { 
+                return  this.nev + " " + this.getDamage() + " " + this.getHp(); 
+            }
+
+        }
+
+        
+        let h1 = new Harcos("Aladár", 43, 8);
+        let h2 = new Harcos("Albert", 54, 3);
+        console.log(h1.toString())
+        console.log(h2.toString())*/
+        
+
+        class Harcos {
+            constructor(nev, eletero, harciEro) {
+            this.nev = nev
+            this.eletero = eletero
+            this.harciEro = harciEro
+            }
+
+            getNev() {
+                return this.nev
+            }
+
+            getEletero() {
+                return this.eletero
+            }
+
+            getHarciEro() {
+                return this.harciEro
+            }
+
+            setEletero(eletero) {
+                this.eletero = eletero
+            }
+
+            harcol(masikHarcos) {
+                this.eletero -= masikHarcos.getHarciEro();
+                masikHarcos.setEletero(masikHarcos.getEletero() - this.harciEro)
+
+                if (this.eletero <= 0 || masikHarcos.getEletero() <= 0) {
+                return true
+                } 
+                else {  
+                return false
+                }
+            }
+        }
+
+        let harcos1 = new Harcos('Harcos1 ALADÁR', 100, 20)
+        let harcos2 = new Harcos('Harcos2 ALBERT', 120, 15)
+
+        while (!harcos1.harcol(harcos2) && !harcos2.harcol(harcos1)) {
+            console.log("Harcos1 életerő: " + harcos1.getEletero() + " Harcos2 életerő: " +harcos2.getEletero())
+        }
+
+
+        
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\bin\Debug\net8.0-windows\torpedo.exe
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\bin\Debug\net8.0-windows\torpedo.deps.json
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\bin\Debug\net8.0-windows\torpedo.runtimeconfig.json
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\bin\Debug\net8.0-windows\torpedo.dll
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\bin\Debug\net8.0-windows\torpedo.pdb
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\obj\Debug\net8.0-windows\torpedo.Form1.resources
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\obj\Debug\net8.0-windows\torpedo.csproj.GenerateResource.cache
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\obj\Debug\net8.0-windows\torpedo.GeneratedMSBuildEditorConfig.editorconfig
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\obj\Debug\net8.0-windows\torpedo.AssemblyInfoInputs.cache
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\obj\Debug\net8.0-windows\torpedo.AssemblyInfo.cs
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\obj\Debug\net8.0-windows\torpedo.csproj.CoreCompileInputs.cache
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\obj\Debug\net8.0-windows\torpedo.dll
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\obj\Debug\net8.0-windows\refint\torpedo.dll
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\obj\Debug\net8.0-windows\torpedo.pdb
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\obj\Debug\net8.0-windows\torpedo.genruntimeconfig.cache
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedo\torpedo\obj\Debug\net8.0-windows\ref\torpedo.dll

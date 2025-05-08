@@ -1,0 +1,7 @@
+C:\Users\MagyarMark\Desktop\20241106_MagyarMark\Barlangok\bin\Debug\Barlangok.exe.config
+C:\Users\MagyarMark\Desktop\20241106_MagyarMark\Barlangok\bin\Debug\Barlangok.exe
+C:\Users\MagyarMark\Desktop\20241106_MagyarMark\Barlangok\bin\Debug\Barlangok.pdb
+C:\Users\MagyarMark\Desktop\20241106_MagyarMark\Barlangok\obj\Debug\Barlangok.csproj.AssemblyReference.cache
+C:\Users\MagyarMark\Desktop\20241106_MagyarMark\Barlangok\obj\Debug\Barlangok.csproj.CoreCompileInputs.cache
+C:\Users\MagyarMark\Desktop\20241106_MagyarMark\Barlangok\obj\Debug\Barlangok.exe
+C:\Users\MagyarMark\Desktop\20241106_MagyarMark\Barlangok\obj\Debug\Barlangok.pdb

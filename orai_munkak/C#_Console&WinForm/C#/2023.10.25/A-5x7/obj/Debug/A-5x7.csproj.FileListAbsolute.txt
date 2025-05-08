@@ -1,0 +1,8 @@
+H:\asztalk\C#\2023.10.25\A-5x7\bin\Debug\A-5x7.exe.config
+H:\asztalk\C#\2023.10.25\A-5x7\bin\Debug\A-5x7.exe
+H:\asztalk\C#\2023.10.25\A-5x7\bin\Debug\A-5x7.pdb
+H:\asztalk\C#\2023.10.25\A-5x7\obj\Debug\A-5x7.csproj.AssemblyReference.cache
+H:\asztalk\C#\2023.10.25\A-5x7\obj\Debug\A-5x7.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\2023.10.25\A-5x7\obj\Debug\A-5x7.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2023.10.25\A-5x7\obj\Debug\A-5x7.exe
+H:\asztalk\C#\2023.10.25\A-5x7\obj\Debug\A-5x7.pdb

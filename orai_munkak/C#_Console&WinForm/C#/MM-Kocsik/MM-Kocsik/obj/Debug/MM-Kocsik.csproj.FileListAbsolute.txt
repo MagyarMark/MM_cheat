@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-Kocsik\MM-Kocsik\obj\Debug\MM-Kocsik.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-Kocsik\MM-Kocsik\obj\Debug\MM-Kocsik.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-Kocsik\MM-Kocsik\obj\Debug\MM-Kocsik.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-Kocsik\MM-Kocsik\bin\Debug\MM-Kocsik.exe.config
+H:\asztalk\C#\MM-Kocsik\MM-Kocsik\bin\Debug\MM-Kocsik.exe
+H:\asztalk\C#\MM-Kocsik\MM-Kocsik\bin\Debug\MM-Kocsik.pdb
+H:\asztalk\C#\MM-Kocsik\MM-Kocsik\obj\Debug\MM-Kocsik.exe
+H:\asztalk\C#\MM-Kocsik\MM-Kocsik\obj\Debug\MM-Kocsik.pdb

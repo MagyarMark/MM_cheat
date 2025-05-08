@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-EUtagallamai\MM-EUtagallamai\bin\Debug\MM-EUtagallamai.exe.config
+H:\asztalk\C#\MM-EUtagallamai\MM-EUtagallamai\bin\Debug\MM-EUtagallamai.exe
+H:\asztalk\C#\MM-EUtagallamai\MM-EUtagallamai\bin\Debug\MM-EUtagallamai.pdb
+H:\asztalk\C#\MM-EUtagallamai\MM-EUtagallamai\obj\Debug\MM-EUtagallamai.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-EUtagallamai\MM-EUtagallamai\obj\Debug\MM-EUtagallamai.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-EUtagallamai\MM-EUtagallamai\obj\Debug\MM-EUtagallamai.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-EUtagallamai\MM-EUtagallamai\obj\Debug\MM-EUtagallamai.exe
+H:\asztalk\C#\MM-EUtagallamai\MM-EUtagallamai\obj\Debug\MM-EUtagallamai.pdb

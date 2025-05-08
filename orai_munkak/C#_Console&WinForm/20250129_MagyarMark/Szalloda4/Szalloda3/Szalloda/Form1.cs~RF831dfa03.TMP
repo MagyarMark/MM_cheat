@@ -1,0 +1,761 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Diagnostics;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Szalloda
+{
+    
+    public partial class Form1 : Form
+    {
+        class Price
+        {
+            public string seasonName { get; set; }
+            public DateTime fromDate { get; set; }
+            public DateTime toDate { get; set; }
+            public int price { get; set; }
+            public Price(string Line)
+            {
+                string[] cut = Line.Split(';');
+                this.seasonName = cut[0];
+                this.fromDate = DateTime.Parse(cut[1]);
+                this.toDate = DateTime.Parse(cut[2]);
+                this.price = int.Parse(cut[3]);
+            }
+        }
+
+        internal class Reservation
+        {
+            public int id { get; set; }
+            public int room { get; set; }
+            public int startingMonth { get; set; }
+            public int endingMonth { get; set; }
+            public int year { get; set; }
+            public int firstDay { get; set; }
+            public int lastDay { get; set; }
+            public int peopleCount { get; set; }
+            public bool breakfast { get; set; }
+            public string name { get; set; }
+            public bool multimonth { get; set; }
+            public bool isPaid { get; set; }
+
+            public Reservation(string Line, bool isPaid = true)
+            {
+                string[] cut = Line.Split(';');
+                this.id = int.Parse(cut[0]);
+                this.room = int.Parse(cut[1]);
+                this.startingMonth = int.Parse(cut[2]);
+                this.endingMonth = int.Parse(cut[3]);
+                this.year = int.Parse(cut[4]);
+                this.firstDay = int.Parse(cut[5]);
+                this.lastDay = int.Parse(cut[6]);
+                this.peopleCount = int.Parse(cut[7]);
+                this.breakfast = false;
+                if (cut[8] == "1")
+                {
+                    this.breakfast = true;
+                }
+                this.name = cut[9];
+                this.multimonth = false;
+                if (cut[10] == "1") { this.multimonth = true; }
+
+                if (!isPaid)
+                {
+                    this.isPaid = false;
+                }
+                else
+                {
+                    this.isPaid = true;
+                }
+            }
+        }
+
+        CheckBox[,] napok= new CheckBox[31, 31];
+        Label[] szoba = new Label[31];
+        Label[] nap= new Label[31];
+        public Form1()
+        {
+            InitializeComponent();
+            
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            button1_Click(sender, e);
+            comboBox1.Items.Add("2023");
+            comboBox1.Items.Add("2024");
+            comboBox1.Items.Add("2025");
+            comboBox1.Items.Add("2026");
+            comboBox1.Items.Add("2027");
+            comboBox1.Items.Add("2028");
+            comboBox1.Items.Add("2029");
+            comboBox1.Items.Add("2030");
+            comboBox1.Items.Add("2031");
+            comboBox1.Items.Add("2032");
+            comboBox1.Items.Add("2033");
+            comboBox1.Items.Add("2034");
+            comboBox1.Items.Add("2035");
+            comboBox1.Items.Add("2036");
+            comboBox1.Items.Add("2037");
+            comboBox1.Items.Add("2038");
+            comboBox1.Items.Add("2039");
+            comboBox1.Items.Add("2040");
+            comboBox1.Items.Add("2041");
+            comboBox1.Items.Add("2042");
+            comboBox1.Items.Add("2043");
+            comboBox1.Items.Add("2044");
+            comboBox1.Items.Add("2045");
+            comboBox1.Items.Add("2046");
+            comboBox1.Items.Add("2047");
+            comboBox1.Items.Add("2048");
+            comboBox1.Items.Add("2049");
+            comboBox1.Items.Add("2050");
+
+            comboBox2.Items.Add("Január");
+            comboBox2.Items.Add("Február");
+            comboBox2.Items.Add("Március");
+            comboBox2.Items.Add("Április");
+            comboBox2.Items.Add("Május");
+            comboBox2.Items.Add("Június");
+            comboBox2.Items.Add("Július");
+            comboBox2.Items.Add("Augusztus");
+            comboBox2.Items.Add("Szeptember");
+            comboBox2.Items.Add("Október");
+            comboBox2.Items.Add("November");
+            comboBox2.Items.Add("December");
+
+            comboBox1.Enabled = false;
+            comboBox2.Enabled = false;
+
+            /*for (int i = 0; i < 31; i++)
+            {
+                for (int j = 0; j < 27; j++)
+                {
+                    napok[i, j] = new CheckBox();
+                    napok[i, j].Location = new Point(75 + i *20, 80 + j * 20);
+                    napok[i, j].Size = new Size(20, 20);
+                    napok[i, j].Checked = false;
+                    Controls.Add(napok[i, j]);
+                }
+            }*/
+
+            for (int i = 0; i < 27; i++)
+            {
+                szoba[i] = new Label();
+                szoba[i].Location = new Point(10, 82 + i * 20);
+                szoba[i].Size = new Size(55,16);
+                szoba[i].Font = new Font("Arial", 8, FontStyle.Bold);
+                szoba[i].Text = $"{i+1}.szoba";
+                Controls.Add(szoba[i]);
+            }
+
+            for (int i = 0; i < 28; i++)
+            {
+                nap[i] = new Label();
+                nap[i].Location = new Point(75 + i * 20, 55);
+                nap[i].Size = new Size(20, 16);
+                nap[i].Font = new Font("Arial", 8, FontStyle.Bold);
+                nap[i].Text = $"{i + 1}.";
+                Controls.Add(nap[i]);
+            }
+
+            comboBox1.Text = DateTime.Now.ToString("yyyy");
+            comboBox2.Text = DateTime.Now.ToString("MMMM");
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
+
+
+            if (comboBox2.SelectedIndex == 1)
+            {
+                for (int i = 0; i < 28; i++)
+                {
+                    for (int j = 0; j < 27; j++)
+                    {
+                        napok[i, j] = new CheckBox();
+                        napok[i, j].Location = new Point(75 + i * 20, 80 + j * 20);
+                        napok[i, j].Size = new Size(20, 20);
+                        napok[i, j].BackColor = Color.Green;
+                        napok[i, j].Enabled = false;
+                        napok[i, j].Checked = false;
+                        Controls.Add(napok[i, j]);
+                    }
+                }
+                for (int i = 0; i < 28; i++)
+                {
+                    nap[i] = new Label();
+                    nap[i].Location = new Point(75 + i * 20, 55);
+                    nap[i].Size = new Size(20, 16);
+                    nap[i].Font = new Font("Arial", 8, FontStyle.Bold);
+                    nap[i].Text = $"{i + 1}.";
+                    Controls.Add(nap[i]);
+                }
+            }
+            
+
+
+        }
+        private void BtnKi_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
+        /*private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox2.SelectedIndex == 1) // febr
+            {
+                for (int i = 0; i < 27; i++)
+                {
+                    for (int j = 0; j < 27; j++)
+                    {
+                        napok[i, j].Visible = true;
+                    }
+                }
+            }
+            else
+            {
+                for (int i = 0; i < 31; i++)
+                {
+                    for (int j = 0; j < 27; j++)
+                    {
+                        napok[i, j].Visible = true;
+                    }
+                }
+            }
+        }*/
+
+        private void BtnTel_Click(object sender, EventArgs e)
+        {
+            BtnFoglalas.Visible = false;
+            BtnKi.Visible = false;
+            BtnStat.Visible = false;
+        }
+
+        private void BtnStat_Click(object sender, EventArgs e)
+        {
+            BtnTel.Visible = false;
+            BtnFoglalas.Visible = false;
+            BtnKi.Visible = false;
+
+            StreamWriter stat = new StreamWriter("stat.txt");
+            stat.Write("");
+            stat.Close();
+        }
+
+        private void BtnFoglalas_Click(object sender, EventArgs e)
+        {
+            BtnStat.Visible = false;
+            BtnTel.Visible = false;
+            BtnKi.Visible = false;
+
+            comboBox1.Enabled = true;
+            comboBox2.Enabled = true;
+
+            /*if (comboBox2.Text == "Február")
+            {
+                matrix(28);
+            }
+            else if (comboBox2.Text == "Március")
+            {
+                matrix(31);
+            }
+            else if (comboBox2.Text == "Április")
+            {
+                matrix(30);
+            }
+            else if (comboBox2.Text == "Május")
+            {
+                matrix(31);
+            }
+            else if (comboBox2.Text == "Június")
+            {
+                matrix(30);
+            }
+            else if (comboBox2.Text == "Július")
+            {
+                matrix(31);
+            }
+            else if (comboBox2.Text == "Augusztus")
+            {
+                matrix(31);
+            }
+            else if (comboBox2.Text == "Szeptember")
+            {
+                matrix(30);
+            }
+            else if (comboBox2.Text == "Október")
+            {
+                matrix(31);
+            }
+            else if (comboBox2.Text == "November")
+            {
+                matrix(30);
+            }else if (comboBox2.Text == "December")
+            {
+                matrix(31);
+            }*/
+
+            for (int i = 0; i < 31; i++)
+            {
+                for (int j = 0; j < 27; j++)
+                {
+                    if (napok[i, j] != null)
+                    {
+                        napok[i, j].Enabled = true;
+                    }
+                }
+            }
+
+            /*if (comboBox2.Text == "Február")
+            {
+                for (int i = 0; i < 31; i++)
+                {
+                    for (int j = 0; j < 27; j++)
+                    {
+                        napok[i, j] = new CheckBox();
+                        napok[i, j].Location = new Point(75 + i * 20, 80 + j * 20);
+                        napok[i, j].Size = new Size(20, 20);
+                        napok[i, j].Checked = false;
+                        napok[i, j].Enabled = true;
+                        napok[i, j].BackColor = Color.Green;
+                        Controls.Add(napok[i, j]);
+                    }
+                }
+                for (int i = 0; i < napok.GetLongLength(1); i++)
+                {
+                    nap[i] = new Label();
+                    nap[i].Location = new Point(75 + i * 20, 55);
+                    nap[i].Size = new Size(20, 16);
+                    nap[i].Font = new Font("Arial", 8, FontStyle.Bold);
+                    nap[i].Text = $"{i + 1}.";
+                    Controls.Add(nap[i]);
+                }
+            }
+
+            if (comboBox2.Text == "Március")
+            {
+                for (int i = 0; i < 31; i++)
+                {
+                    for (int j = 0; j < 27; j++)
+                    {
+                        napok[i, j] = new CheckBox();
+                        napok[i, j].Location = new Point(75 + i * 20, 80 + j * 20);
+                        napok[i, j].Size = new Size(20, 20);
+                        napok[i, j].BackColor = Color.Green;
+                        napok[i, j].Enabled = true;
+                        napok[i, j].Checked = false;
+                        Controls.Add(napok[i, j]);
+                    }
+                }
+                for (int i = 0; i < napok.GetLongLength(1); i++)
+                {
+                    nap[i] = new Label();
+                    nap[i].Location = new Point(75 + i * 20, 55);
+                    nap[i].Size = new Size(20, 16);
+                    nap[i].Font = new Font("Arial", 8, FontStyle.Bold);
+                    nap[i].Text = $"{i + 1}.";
+                    Controls.Add(nap[i]);
+                }
+            }
+
+            if (comboBox2.Text == "Április")
+            {
+                for (int i = 0; i < 30; i++)
+                {
+                    for (int j = 0; j < 27; j++)
+                    {
+                        napok[i, j] = new CheckBox();
+                        napok[i, j].Location = new Point(75 + i * 20, 80 + j * 20);
+                        napok[i, j].Size = new Size(20, 20);
+                        napok[i, j].BackColor = Color.Green;
+                        napok[i, j].Enabled = true;
+                        napok[i, j].Checked = false;
+                        Controls.Add(napok[i, j]);
+                    }
+                }
+                for (int i = 0; i < napok.GetLongLength(1); i++)
+                {
+                    nap[i] = new Label();
+                    nap[i].Location = new Point(75 + i * 20, 55);
+                    nap[i].Size = new Size(20, 16);
+                    nap[i].Font = new Font("Arial", 8, FontStyle.Bold);
+                    nap[i].Text = $"{i + 1}.";
+                    Controls.Add(nap[i]);
+                }
+            }
+
+            if (comboBox2.Text == "Május")
+            {
+                for (int i = 0; i < 31; i++)
+                {
+                    for (int j = 0; j < 27; j++)
+                    {
+                        napok[i, j] = new CheckBox();
+                        napok[i, j].Location = new Point(75 + i * 20, 80 + j * 20);
+                        napok[i, j].Size = new Size(20, 20);
+                        napok[i, j].BackColor = Color.Green;
+                        napok[i, j].Enabled = true;
+                        napok[i, j].Checked = false;
+                        Controls.Add(napok[i, j]);
+                    }
+                }
+                for (int i = 0; i < napok.GetLongLength(1); i++)
+                {
+                    nap[i] = new Label();
+                    nap[i].Location = new Point(75 + i * 20, 55);
+                    nap[i].Size = new Size(20, 16);
+                    nap[i].Font = new Font("Arial", 8, FontStyle.Bold);
+                    nap[i].Text = $"{i + 1}.";
+                    Controls.Add(nap[i]);
+                }
+            }
+            if (comboBox2.Text == "Június")
+            {
+                for (int i = 0; i < 30; i++)
+                {
+                    for (int j = 0; j < 27; j++)
+                    {
+                        napok[i, j] = new CheckBox();
+                        napok[i, j].Location = new Point(75 + i * 20, 80 + j * 20);
+                        napok[i, j].Size = new Size(20, 20);
+                        napok[i, j].BackColor = Color.Green;
+                        napok[i, j].Enabled = true;
+                        napok[i, j].Checked = false;
+                        Controls.Add(napok[i, j]);
+                    }
+                }
+                for (int i = 0; i < napok.GetLongLength(1); i++)
+                {
+                    nap[i] = new Label();
+                    nap[i].Location = new Point(75 + i * 20, 55);
+                    nap[i].Size = new Size(20, 16);
+                    nap[i].Font = new Font("Arial", 8, FontStyle.Bold);
+                    nap[i].Text = $"{i + 1}.";
+                    Controls.Add(nap[i]);
+                }
+            }
+
+            if (comboBox2.Text == "Július")
+            {
+                for (int i = 0; i < 31; i++)
+                {
+                    for (int j = 0; j < 27; j++)
+                    {
+                        napok[i, j] = new CheckBox();
+                        napok[i, j].Location = new Point(75 + i * 20, 80 + j * 20);
+                        napok[i, j].Size = new Size(20, 20);
+                        napok[i, j].BackColor = Color.Green;
+                        napok[i, j].Enabled = true;
+                        napok[i, j].Checked = false;
+                        Controls.Add(napok[i, j]);
+                    }
+                }
+                for (int i = 0; i < napok.GetLongLength(1); i++)
+                {
+                    nap[i] = new Label();
+                    nap[i].Location = new Point(75 + i * 20, 55);
+                    nap[i].Size = new Size(20, 16);
+                    nap[i].Font = new Font("Arial", 8, FontStyle.Bold);
+                    nap[i].Text = $"{i + 1}.";
+                    Controls.Add(nap[i]);
+                }
+            }
+
+            if (comboBox2.Text == "Augusztus")
+            {
+                for (int i = 0; i < 31; i++)
+                {
+                    for (int j = 0; j < 27; j++)
+                    {
+                        napok[i, j] = new CheckBox();
+                        napok[i, j].Location = new Point(75 + i * 20, 80 + j * 20);
+                        napok[i, j].Size = new Size(20, 20);
+                        napok[i, j].BackColor = Color.Green;
+                        napok[i, j].Enabled = true;
+                        napok[i, j].Checked = false;
+                        Controls.Add(napok[i, j]);
+                    }
+                }
+                for (int i = 0; i < napok.GetLongLength(1); i++)
+                {
+                    nap[i] = new Label();
+                    nap[i].Location = new Point(75 + i * 20, 55);
+                    nap[i].Size = new Size(20, 16);
+                    nap[i].Font = new Font("Arial", 8, FontStyle.Bold);
+                    nap[i].Text = $"{i + 1}.";
+                    Controls.Add(nap[i]);
+                }
+            }
+
+            if (comboBox2.Text == "Szeptember")
+            {
+                for (int i = 0; i < 30; i++)
+                {
+                    for (int j = 0; j < 27; j++)
+                    {
+                        napok[i, j] = new CheckBox();
+                        napok[i, j].Location = new Point(75 + i * 20, 80 + j * 20);
+                        napok[i, j].Size = new Size(20, 20);
+                        napok[i, j].BackColor = Color.Green;
+                        napok[i, j].Enabled = true;
+                        napok[i, j].Checked = false;
+                        Controls.Add(napok[i, j]);
+                    }
+                }
+                for (int i = 0; i < napok.GetLongLength(1); i++)
+                {
+                    nap[i] = new Label();
+                    nap[i].Location = new Point(75 + i * 20, 55);
+                    nap[i].Size = new Size(20, 16);
+                    nap[i].Font = new Font("Arial", 8, FontStyle.Bold);
+                    nap[i].Text = $"{i + 1}.";
+                    Controls.Add(nap[i]);
+                }
+            }
+
+            if (comboBox2.Text == "Október")
+            {
+                for (int i = 0; i < 31; i++)
+                {
+                    for (int j = 0; j < 27; j++)
+                    {
+                        napok[i, j] = new CheckBox();
+                        napok[i, j].Location = new Point(75 + i * 20, 80 + j * 20);
+                        napok[i, j].Size = new Size(20, 20);
+                        napok[i, j].BackColor = Color.Green;
+                        napok[i, j].Enabled = true;
+                        napok[i, j].Checked = false;
+                        Controls.Add(napok[i, j]);
+                    }
+                }
+                for (int i = 0; i < napok.GetLongLength(1); i++)
+                {
+                    nap[i] = new Label();
+                    nap[i].Location = new Point(75 + i * 20, 55);
+                    nap[i].Size = new Size(20, 16);
+                    nap[i].Font = new Font("Arial", 8, FontStyle.Bold);
+                    nap[i].Text = $"{i + 1}.";
+                    Controls.Add(nap[i]);
+                }
+            }
+
+            if (comboBox2.Text == "November")
+            {
+                for (int i = 0; i < 30; i++)
+                {
+                    for (int j = 0; j < 27; j++)
+                    {
+                        napok[i, j] = new CheckBox();
+                        napok[i, j].Location = new Point(75 + i * 20, 80 + j * 20);
+                        napok[i, j].Size = new Size(20, 20);
+                        napok[i, j].BackColor = Color.Green;
+                        napok[i, j].Enabled = true;
+                        napok[i, j].Checked = false;
+                        Controls.Add(napok[i, j]);
+                    }
+                }
+                for (int i = 0; i < napok.GetLongLength(1); i++)
+                {
+                    nap[i] = new Label();
+                    nap[i].Location = new Point(75 + i * 20, 55);
+                    nap[i].Size = new Size(20, 16);
+                    nap[i].Font = new Font("Arial", 8, FontStyle.Bold);
+                    nap[i].Text = $"{i + 1}.";
+                    Controls.Add(nap[i]);
+                }
+            }
+
+            if (comboBox2.Text == "December")
+            {
+                for (int i = 0; i < 31; i++)
+                {
+                    for (int j = 0; j < 27; j++)
+                    {
+                        napok[i, j] = new CheckBox();
+                        napok[i, j].Location = new Point(75 + i * 20, 80 + j * 20);
+                        napok[i, j].Size = new Size(20, 20);
+                        napok[i, j].BackColor = Color.Green;
+                        napok[i, j].Enabled = true;
+                        napok[i, j].Checked = false;
+                        Controls.Add(napok[i, j]);
+                    }
+                }
+                for (int i = 0; i < napok.GetLongLength(1); i++)
+                {
+                    nap[i] = new Label();
+                    nap[i].Location = new Point(75 + i * 20, 55);
+                    nap[i].Size = new Size(20, 16);
+                    nap[i].Font = new Font("Arial", 8, FontStyle.Bold);
+                    nap[i].Text = $"{i + 1}.";
+                    Controls.Add(nap[i]);
+                }
+            }*/
+
+        }
+
+        private void matrix(int napokSzama)
+        {
+            for (int i = 0; i < napokSzama; i++)
+            {
+                for (int j = 0; j < 27; j++)
+                {
+                    napok[i, j] = new CheckBox();
+                    napok[i, j].Location = new Point(75 + i * 20, 80 + j * 20);
+                    napok[i, j].Size = new Size(20, 20);
+                    napok[i, j].BackColor = Color.Blue; // Kezdetben kék
+                    napok[i, j].Enabled = true;
+                    napok[i, j].Checked = false;
+                    Controls.Add(napok[i, j]);
+                }
+            }
+        }
+
+
+        private void BtnVissza_Click(object sender, EventArgs e)
+        {
+            BtnStat.Visible = true;
+            BtnTel.Visible = true;
+            BtnKi.Visible = true;
+            BtnFoglalas.Visible = true;
+
+            comboBox1.Enabled = false;
+            comboBox2.Enabled = false;
+            comboBox1.Text = DateTime.Now.ToString("yyyy");
+            comboBox2.Text = DateTime.Now.ToString("MMMM");
+            
+
+            /*for (int i = 0; i < 31; i++)
+            {
+                for (int j = 0; j < 27; j++)
+                {
+                    if (napok[i, j] != null)
+                    {
+                        Controls.Remove(napok[i, j]);
+                        napok[i, j] = null;
+                    }
+                }
+                if (nap[i] != null)
+                {
+                    Controls.Remove(nap[i]);
+                    nap[i] = null;
+                }
+            }*/
+
+            /*for (int i = 0; i < 31; i++)
+            {
+                for (int j = 0; j < 27; j++)
+                {
+                    if (napok[i, j] != null)
+                    {
+                        napok[i, j].Enabled = false;
+                        napok[i, j].Checked = default;
+                        napok[i,j].ResetText();
+                    }
+                }
+            }*/
+
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            StreamReader reader = new StreamReader("szalloda.data.txt");
+            while (!reader.EndOfStream)
+            {
+                foglalas.Add(new Reservation(reader.ReadLine()));
+            }
+            reader.Close();
+
+            reader = new StreamReader("arak.txt");
+            while (!reader.EndOfStream)
+            {
+                prices.Add(new Price(reader.ReadLine()));
+            }
+            reader.Close();
+
+            foreach (var r in foglalas)
+            {
+                Debug.WriteLine($"Foglalás: Szoba {r.room}, {r.year}.{r.startingMonth}-{r.endingMonth}, {r.firstDay}-{r.lastDay}");
+            }
+
+        }
+        List<Reservation> foglalas = new List<Reservation>();
+        List<Price> prices = new List<Price>();
+
+        private void Szinezes()
+        {
+            int selectedYear = int.Parse(comboBox1.Text);
+            int selectedMonth = comboBox2.SelectedIndex + 1;
+
+            Debug.WriteLine($"Színezés indul: {selectedYear}-{selectedMonth}");
+
+            foreach (var reservation in foglalas)
+            {
+                Debug.WriteLine($"Ellenőrzés: Szoba {reservation.room}, {reservation.year}.{reservation.startingMonth}-{reservation.endingMonth}, {reservation.firstDay}-{reservation.lastDay}");
+
+                if (reservation.year == selectedYear &&
+                    ((reservation.startingMonth <= selectedMonth && reservation.endingMonth >= selectedMonth) ||
+                    (reservation.multimonth && (reservation.startingMonth == selectedMonth || reservation.endingMonth == selectedMonth))))
+                {
+                    int startDay = (reservation.startingMonth == selectedMonth) ? reservation.firstDay - 1 : 0;
+                    int endDay = (reservation.endingMonth == selectedMonth) ? reservation.lastDay - 1 : DateTime.DaysInMonth(selectedYear, selectedMonth) - 1;
+
+                    for (int day = startDay; day <= endDay; day++)
+                    {
+                        int roomIndex = reservation.room - 1;
+                        if (day >= 0 && day < 31 && roomIndex >= 0 && roomIndex < 27 && napok[day, roomIndex] != null)
+                        {
+                            Debug.WriteLine($"Színezés: {day + 1}. nap, {reservation.room}. szoba");
+                            napok[day, roomIndex].BackColor = Color.Red;
+                            napok[day, roomIndex].Enabled = false;
+                            napok[day, roomIndex].Checked = true;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 31; i++)
+            {
+                for (int j = 0; j < 27; j++)
+                {
+                    if (napok[i, j] != null)
+                    {
+                        Controls.Remove(napok[i, j]);
+                        napok[i, j] = null;
+                    }
+                }
+                if (nap[i] != null)
+                {
+                    Controls.Remove(nap[i]);
+                    nap[i] = null;
+                }
+            }
+
+            int napokSzama = DateTime.DaysInMonth(int.Parse(comboBox1.Text), comboBox2.SelectedIndex + 1);
+            matrix(napokSzama);
+            Szinezes();
+        }
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 31; i++)
+            {
+                for (int j = 0; j < 27; j++)
+                {
+                    if (napok[i, j] != null)
+                    {
+                        napok[i, j].Checked = false;
+                    }
+                }
+            }
+            Szinezes();
+        }
+    }
+}

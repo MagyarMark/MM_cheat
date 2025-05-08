@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>1.feladat</h1>
+    <p for="beszoveg">Írj be valamit:</p>
+    <input type="text" id="beszoveg" name="beszoveg">
+    <button type="button" onclick="szoveg()">Küldés</button>
+    <div id="szoveg"></div>
+
+    <script>
+        function szoveg() {
+            var beszoveg = document.getElementById('beszoveg').value;
+            document.getElementById('szoveg').innerText = 'Beírt szöveg: ' + beszoveg;
+        }
+    </script>
+
+    <h1>2.feladat</h1>
+    <p for="beszam">Írj be valamit:</p>
+    <input type="number" id="beszam" name="beszam">
+    <button type="button" onclick="szamm()">Küldés</button>
+    <div id="szam"></div>
+
+    <script>
+        function szamm() {
+            var beszam = document.getElementById('beszam').value;
+            document.getElementById('szam').innerText = 'Beírt szám: ' + beszam;
+        }
+    </script>
+
+    <h1>3. feladat</h1>
+    <p for="szam">Írj be valamit:</p>
+    <input type="number" id="szam" name="szam">
+    <button type="button" onclick="lista()">Küldés</button>
+    <div id="valasz"></div>
+
+    <script>
+        function lista() {
+            var beszam = document.getElementById('szam').value;
+            document.getElementById('valasz').innerText = 'Beírt szám: ' + szam;
+        }
+    </script>
+
+    <h1>feladat egyszerűbb code-al</h1>
+    <p id="numberMessage"></p>
+
+    <script>
+        function showNumber(){
+            const number = document.getElementById("inputNumber").value;
+            document.getElementById(numberMessage).innerText = "Beirt szam: " + number;
+        }
+    </script>
+</body>
+</html>

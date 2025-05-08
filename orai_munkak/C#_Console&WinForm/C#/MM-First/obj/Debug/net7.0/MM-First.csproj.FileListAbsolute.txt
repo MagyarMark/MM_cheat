@@ -1,0 +1,15 @@
+H:\asztalk\C#\MM-First\bin\Debug\net7.0\MM-First.exe
+H:\asztalk\C#\MM-First\bin\Debug\net7.0\MM-First.deps.json
+H:\asztalk\C#\MM-First\bin\Debug\net7.0\MM-First.runtimeconfig.json
+H:\asztalk\C#\MM-First\bin\Debug\net7.0\MM-First.dll
+H:\asztalk\C#\MM-First\bin\Debug\net7.0\MM-First.pdb
+H:\asztalk\C#\MM-First\obj\Debug\net7.0\MM-First.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-First\obj\Debug\net7.0\MM-First.GeneratedMSBuildEditorConfig.editorconfig
+H:\asztalk\C#\MM-First\obj\Debug\net7.0\MM-First.AssemblyInfoInputs.cache
+H:\asztalk\C#\MM-First\obj\Debug\net7.0\MM-First.AssemblyInfo.cs
+H:\asztalk\C#\MM-First\obj\Debug\net7.0\MM-First.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-First\obj\Debug\net7.0\MM-First.dll
+H:\asztalk\C#\MM-First\obj\Debug\net7.0\refint\MM-First.dll
+H:\asztalk\C#\MM-First\obj\Debug\net7.0\MM-First.pdb
+H:\asztalk\C#\MM-First\obj\Debug\net7.0\MM-First.genruntimeconfig.cache
+H:\asztalk\C#\MM-First\obj\Debug\net7.0\ref\MM-First.dll

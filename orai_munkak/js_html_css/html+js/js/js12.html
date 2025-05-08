@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: solid  1px  green;
+            box-shadow: 4px 4px 4px #6A6;
+            border-radius: 8px;
+            background-color : #3A3;
+        }
+
+        table tr td{
+            width: 24px;
+	        text-align: right;
+	        padding-right: 4px;
+	        line-height: 20px;
+	        font-family: Arial;
+            font-size: 12px;
+            border-radius: 8px;
+            background-color: #CFC;
+        }
+
+        table tr:nth-child(5n) td, table tr td:nth-child(5n){
+            background-color: #8f8;
+        }
+
+        table tr:first-child td    , table tr td:first-child{
+            background-color : #4C4;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+
+    </table>
+
+    <script>
+        const w = 20;
+        const h = 20;
+
+        const table = document.getElementsByTagName("table")[0]
+        let row;
+        let column;
+        for (let i = 1; i <= h; i++) {
+            row = document.createElement("tr");
+            for(let j = 1; j<= w; j++){
+                column = document.createElement("td")
+                column.innerText = i * j;
+                row.append(column)
+            }
+            table.append(row)
+            
+        }
+
+    </script>
+</body>
+</html>

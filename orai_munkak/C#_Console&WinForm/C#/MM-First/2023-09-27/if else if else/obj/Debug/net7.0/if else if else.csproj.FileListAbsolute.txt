@@ -1,0 +1,15 @@
+H:\régi\asztalk\C#\MM-First\2023-09-27\if else if else\bin\Debug\net7.0\if else if else.exe
+H:\régi\asztalk\C#\MM-First\2023-09-27\if else if else\bin\Debug\net7.0\if else if else.deps.json
+H:\régi\asztalk\C#\MM-First\2023-09-27\if else if else\bin\Debug\net7.0\if else if else.runtimeconfig.json
+H:\régi\asztalk\C#\MM-First\2023-09-27\if else if else\bin\Debug\net7.0\if else if else.dll
+H:\régi\asztalk\C#\MM-First\2023-09-27\if else if else\bin\Debug\net7.0\if else if else.pdb
+H:\régi\asztalk\C#\MM-First\2023-09-27\if else if else\obj\Debug\net7.0\if else if else.csproj.AssemblyReference.cache
+H:\régi\asztalk\C#\MM-First\2023-09-27\if else if else\obj\Debug\net7.0\if else if else.GeneratedMSBuildEditorConfig.editorconfig
+H:\régi\asztalk\C#\MM-First\2023-09-27\if else if else\obj\Debug\net7.0\if else if else.AssemblyInfoInputs.cache
+H:\régi\asztalk\C#\MM-First\2023-09-27\if else if else\obj\Debug\net7.0\if else if else.AssemblyInfo.cs
+H:\régi\asztalk\C#\MM-First\2023-09-27\if else if else\obj\Debug\net7.0\if else if else.csproj.CoreCompileInputs.cache
+H:\régi\asztalk\C#\MM-First\2023-09-27\if else if else\obj\Debug\net7.0\if else if else.dll
+H:\régi\asztalk\C#\MM-First\2023-09-27\if else if else\obj\Debug\net7.0\refint\if else if else.dll
+H:\régi\asztalk\C#\MM-First\2023-09-27\if else if else\obj\Debug\net7.0\if else if else.pdb
+H:\régi\asztalk\C#\MM-First\2023-09-27\if else if else\obj\Debug\net7.0\if else if else.genruntimeconfig.cache
+H:\régi\asztalk\C#\MM-First\2023-09-27\if else if else\obj\Debug\net7.0\ref\if else if else.dll

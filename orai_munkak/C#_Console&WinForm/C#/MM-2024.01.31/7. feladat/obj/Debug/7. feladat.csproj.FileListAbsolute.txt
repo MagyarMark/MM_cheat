@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-2024.01.31\7. feladat\obj\Debug\7. feladat.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-2024.01.31\7. feladat\obj\Debug\7. feladat.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-2024.01.31\7. feladat\obj\Debug\7. feladat.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-2024.01.31\7. feladat\bin\Debug\_7.feladat.exe.config
+H:\asztalk\C#\MM-2024.01.31\7. feladat\bin\Debug\_7.feladat.exe
+H:\asztalk\C#\MM-2024.01.31\7. feladat\bin\Debug\_7.feladat.pdb
+H:\asztalk\C#\MM-2024.01.31\7. feladat\obj\Debug\_7.feladat.exe
+H:\asztalk\C#\MM-2024.01.31\7. feladat\obj\Debug\_7.feladat.pdb

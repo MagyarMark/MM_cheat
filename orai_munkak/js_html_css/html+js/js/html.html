@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Létrehozunk egy canvas elemet
+let canvas = document.createElement('canvas');
+canvas.width = 500;
+canvas.height = 500;
+
+// Létrehozunk egy 2D rajzoló kontextust
+let ctx = canvas.getContext('2d');
+
+// Kitöltjük a canvas-t fehér színnel
+ctx.fillStyle = 'white';
+ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+// Létrehozzuk a PNG képet
+let pngUrl = canvas.toDataURL();
+
+// Létrehozunk egy új link elemet a letöltéshez
+let downloadLink = document.createElement('a');
+downloadLink.href = pngUrl;
+downloadLink.download = 'ures.png';
+
+// Kattintás eseményt szimulálunk a linken, hogy elindítsa a letöltést
+downloadLink.click();
+
+    </script>
+</body>
+</html>

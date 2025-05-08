@@ -1,0 +1,10 @@
+H:\2024-2025\ikt-aaf\20240904_MagyarMark\First forms\bin\Debug\First forms.exe.config
+H:\2024-2025\ikt-aaf\20240904_MagyarMark\First forms\bin\Debug\First forms.exe
+H:\2024-2025\ikt-aaf\20240904_MagyarMark\First forms\bin\Debug\First forms.pdb
+H:\2024-2025\ikt-aaf\20240904_MagyarMark\First forms\obj\Debug\First forms.csproj.AssemblyReference.cache
+H:\2024-2025\ikt-aaf\20240904_MagyarMark\First forms\obj\Debug\First_forms.Properties.Resources.resources
+H:\2024-2025\ikt-aaf\20240904_MagyarMark\First forms\obj\Debug\First forms.csproj.GenerateResource.cache
+H:\2024-2025\ikt-aaf\20240904_MagyarMark\First forms\obj\Debug\First forms.csproj.CoreCompileInputs.cache
+H:\2024-2025\ikt-aaf\20240904_MagyarMark\First forms\obj\Debug\First forms.exe
+H:\2024-2025\ikt-aaf\20240904_MagyarMark\First forms\obj\Debug\First forms.pdb
+H:\2024-2025\ikt-aaf\20240904_MagyarMark\First forms\obj\Debug\First_forms.alap_ablak.resources

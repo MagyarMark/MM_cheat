@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-Vibi\MM-Vibi\bin\Debug\MM-Vibi.exe.config
+H:\asztalk\C#\MM-Vibi\MM-Vibi\bin\Debug\MM-Vibi.exe
+H:\asztalk\C#\MM-Vibi\MM-Vibi\bin\Debug\MM-Vibi.pdb
+H:\asztalk\C#\MM-Vibi\MM-Vibi\obj\Debug\MM-Vibi.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-Vibi\MM-Vibi\obj\Debug\MM-Vibi.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-Vibi\MM-Vibi\obj\Debug\MM-Vibi.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-Vibi\MM-Vibi\obj\Debug\MM-Vibi.exe
+H:\asztalk\C#\MM-Vibi\MM-Vibi\obj\Debug\MM-Vibi.pdb

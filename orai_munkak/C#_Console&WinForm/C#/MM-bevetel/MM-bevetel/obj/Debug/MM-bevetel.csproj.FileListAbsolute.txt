@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-bevetel\MM-bevetel\bin\Debug\MM-bevetel.exe.config
+H:\asztalk\C#\MM-bevetel\MM-bevetel\bin\Debug\MM-bevetel.exe
+H:\asztalk\C#\MM-bevetel\MM-bevetel\bin\Debug\MM-bevetel.pdb
+H:\asztalk\C#\MM-bevetel\MM-bevetel\obj\Debug\MM-bevetel.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-bevetel\MM-bevetel\obj\Debug\MM-bevetel.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-bevetel\MM-bevetel\obj\Debug\MM-bevetel.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-bevetel\MM-bevetel\obj\Debug\MM-bevetel.exe
+H:\asztalk\C#\MM-bevetel\MM-bevetel\obj\Debug\MM-bevetel.pdb

@@ -1,0 +1,90 @@
+@keyframes pelda{
+    0%{
+        margin-left: 25px;
+        margin-top: 100px;
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        border-radius: 0%;
+    }
+
+    60%{
+        margin-left:100px;
+        margin-top: 150px;
+        width: 120px;
+        height: 120px;
+        background-color: green;
+        border-radius: 20%;
+    }
+
+    100%{
+        margin-left: 270px;
+        margin-top: 180px;
+        height: 200px;
+        width: 200px;
+        background-color: blue;
+        border-radius: 50%;
+    }
+}
+
+#box{
+    animation-name: pelda;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-fill-mode: none;
+    cursor: pointer;
+}
+
+:active #box{
+    animation-play-state: running;
+}
+
+p .blink{
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: steps(2, start);
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink{
+    0%{opacity:1;}
+    100%{opacity: 0;}
+}
+
+.news{
+    width: 800px;
+}
+
+.marqee{
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.marqee div{
+    display: block;
+    width: 200%;
+    height: 30px;
+    position: absolute;
+    overflow: hidden;
+    animation-name: marqee;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes marqee{
+    0%{left: 0px;}
+    100%{left: -100%;}
+}
+
+.marqee span{
+    float: left;
+    width: 50%;
+}

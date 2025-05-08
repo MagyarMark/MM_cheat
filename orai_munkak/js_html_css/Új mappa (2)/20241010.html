@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*const nevKi = ()=>{
+            console.log("Imre")
+        }
+        //nevKi()
+        setTimeout(nevKi,5)
+        console.log("Holló")*/
+
+        //callback hell
+        /* function ReceptLekerdez(){
+            setTimeout(() => {
+                const ReceptID = [676, 102, 34, 1009, 321];
+                console.log(ReceptID);
+                setTimeout((id) => {
+                    const Recept = {
+                        cim: "Gulyás leves",
+                        kategoria: "Levesek"
+                    };
+                    console.log(`${id}: ${Recept.cim}; `)
+                    setTimeout((kategoria) =>{
+                        const Levesek = [
+                            {cim: "Nyírségi gombocleves", kategoria: "levesek"},
+                            {cim: "Borsoleves", kategoria: "levesek"}
+                        ];
+                        console.log(Levesek);
+                    }, 1500, Recept.kategoria);
+                }, 1500, ReceptID[1])
+            },2000)
+        }
+        ReceptLekerdez(); */
+
+        //promise
+        const AzonositokLekerdezese = new Promise((resolve, reject) =>{
+            setTimeout(() =>{
+                resolve([676, 102, 34, 1009, 321])
+                reject("Valami hiba ")
+            }, 2000);
+        });
+
+        const ReceptLekeres = receptID => {
+            return new Promise((resolve, reject) =>{
+                setTimeout((id) =>{
+                    const recept ={
+                        cim: "Gulyás leves",
+                        kategoria: "Levesek"
+                    };
+                    resolve(`${id}: ${recept.cim};`);
+                }, 1500, receptID)
+            })
+        }
+
+        const kategorialekeres = kategoria => {
+            return new Promise((resolve,reject) =>{
+                setTimeout((kategoria) => {
+                    const levesek = [
+                        {cim: "Nyírségi gombocleves", kategoria: "levesek"},
+                        {cim: "Borsoleves", kategoria: "levesek"}
+                    ];
+                    resolve(levesek);
+                }, 1500, kategoria)
+            })
+        }
+
+        /* AzonositokLekerdezese
+            .then((azonositok) =>{
+                console.log(azonositok);
+                return ReceptLekeres(azonositok[1]);
+
+            })
+            .then(recept=>{
+                console.log(recept)
+                return kategorialekeres(recept.kategoria)
+            })
+            .then(kategoria =>{
+                console.log(kategoria)
+            })
+            .catch(hiba =>{
+                console.log(hiba)
+            }); */
+
+        async function lekeres(){
+            try {
+                const azonositok = await AzonositokLekerdezese;
+                console.log(azonositok);
+                const recept = await ReceptLekeres(azonositok[1]);
+                console.log(recept);
+                const kategoria = await kategorialekeres(recept.kategoria);
+                console.log(kategoria);
+            } catch (error) {
+                console.log(error.message);
+            }
+        }
+        lekeres();
+
+    </script>
+</body>
+</html>

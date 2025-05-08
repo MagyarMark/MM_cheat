@@ -1,0 +1,8 @@
+H:\asztalk\C#\Alprogramok_2024.01.24\eljaras_gyak\bin\Debug\eljaras_gyak.exe.config
+H:\asztalk\C#\Alprogramok_2024.01.24\eljaras_gyak\bin\Debug\eljaras_gyak.exe
+H:\asztalk\C#\Alprogramok_2024.01.24\eljaras_gyak\bin\Debug\eljaras_gyak.pdb
+H:\asztalk\C#\Alprogramok_2024.01.24\eljaras_gyak\obj\Debug\eljaras_gyak.csproj.AssemblyReference.cache
+H:\asztalk\C#\Alprogramok_2024.01.24\eljaras_gyak\obj\Debug\eljaras_gyak.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\Alprogramok_2024.01.24\eljaras_gyak\obj\Debug\eljaras_gyak.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\Alprogramok_2024.01.24\eljaras_gyak\obj\Debug\eljaras_gyak.exe
+H:\asztalk\C#\Alprogramok_2024.01.24\eljaras_gyak\obj\Debug\eljaras_gyak.pdb

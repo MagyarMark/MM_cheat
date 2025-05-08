@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*let s = "\karakterlanc";
+        for(i =0; i < s.length; i++){
+            console.log(s[i])
+        }
+
+        for (b of s){
+            console.log(b)
+        }
+        console.log(s)
+        console.log(s.length)
+
+        let s1 = "Tanulj";
+        let s2 = "JavaScirp-el";
+        let s = s1.concat(" ",s2)
+        console.log(s);
+
+        let s = "JavaScript";
+        console.log(s.charAt(4))
+        console.log(s.charCodeAt(4))
+        console.log(s.endsWith("Script"))
+        console.log(s.startsWith("Script"))
+
+        console.log(String.fromCharCode(65,108,109,97))
+
+        let a = "Az alma nem esik messze a fájától";
+        console.log(a.includes('alma'));
+        console.log(a.indexOf('alma'))
+        console.log(a.lastIndexOf('alma'))
+
+        let s = "la";
+        console.log(s.padEnd(5, "0"))
+        console.log(s.repeat(5))
+
+        let s = "A ledvenc programozási nyelvem a HTML és a HTML"
+        console.log(s);
+        uj_szoveg = s.replace('HTML','JavaScript')
+        console.log(uj_szoveg)
+
+        let s = "A JavaScript egy script nyelv.";
+        console.log(s.slice(3,6))
+        console.log(s.slice(4))
+        console.log(s.slice(-6))
+        console.log(s.slice(-7,-4))
+        console.log(s.substring(2,7))
+        console.log(s.substr(3,3))
+
+        let s = "A JavaScript egy script nyelv.";
+        let szavak = s.split(' ');
+        console.log(szavak)
+        for(szo of szavak){
+            console.log(szo)
+        }
+
+        console.log('JavaScript'.toUpperCase())
+        console.log("JavaScript".toLowerCase())
+
+        console.log('      java              script'.trim())
+
+        // kérje be a program a teljes nevünket és köszöntsön a vezetéknevünkön
+
+        let nev = prompt("kérek egy családnevet: ");
+        let nev2 = prompt("Kérek egy vezetéknevet: ")
+        console.log("Szia " + (nev2))
+
+        //számold meg mennyi a betű van a szövegben
+
+        let a = "A magyar kormány"
+        let db = 0;
+        for(darab in a.toLowerCase()){
+            if(db == 'a'){
+                db++;
+            }
+        }
+        console.log(db)*/
+
+        // kérj be egy mondatot  és döntsük el, hogy vissza felé ugyan az-e
+
+        let mondat = "géza kék az ég";
+        let visszafele = mondat.split("").reverse().join("");
+        if (mondat === visszafele) {
+            console.log("a mondat nem ugyanaz"+ visszafele);
+        } else {
+        console.log("a mondat ugyanaz:"+ " " + visszafele);
+        }
+    </script>
+</body>
+</html>

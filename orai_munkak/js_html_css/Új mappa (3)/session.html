@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="üzenet"></div>
+    <p><button onclick="clickCounter()" type="button">Kattints</button></p>
+    <p id="szamlalo"></p>
+
+    <script>
+        /*if(typeof(Storage) != undefined) {
+            //localStorage.setItem("csaladnev", "Szabo");
+            localStorage.csaladnev = "Szabo";
+            //localStorage.removeItem("csaladnev");
+            //localStorage.clear();
+            //localStorage.length;
+            document.getElementById("üzenet").innerHTML = localStorage.key(0); 
+            //localStorage.getItem("csaladnev");
+        }else{
+            document.getElementById("üzenet").innerHTML = "A böngésző nem támogatott";
+        }*/
+
+        function clickCounter() {
+            if(localStorage.clickcount){
+                localStorage.clickcount++;
+
+            }else{
+                localStorage.clickcount = 1;
+            }
+            document.getElementById("szamlalo").innerHTML = "Kattintások száma: " + localStorage.clickcount;
+        }
+
+        
+    </script>
+</body>
+</html>

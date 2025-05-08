@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "fájl_ki/1.0.0": {
+        "runtime": {
+          "fájl_ki.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "fájl_ki/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

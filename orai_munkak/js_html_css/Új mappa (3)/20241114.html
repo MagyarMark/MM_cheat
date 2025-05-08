@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="20241114.json">
+</head>
+<body onload="loadCountry()">
+    <!--
+    csinálj egy olyan oldalt ami le szedi az ország adatokat le gördülő listában olyan elem legyen rajta amivel lehet dátumot választani 
+    le gördülő lista, dátum választó gomb, api oldalt használva(https://nameday.abalin.net)
+    csinálj egy legördülő listát benne szerepeljen az ország rövidítése amit a 20241114.json fájl tartalmaz mellé egy gombot a választott ország után gomb nyomásra írja ki az adott országban szereplő összes névnapot minden alá
+    -->
+
+    <select id="country"></select>
+    <input type="date" name="date" id="date">
+    <button type="button" onclick="loadData()">Kiírás</button>
+
+    <p id="szoveg"></p>
+
+    <script>
+
+        function loadCountry() {
+            let xhttp = new XMLHttpRequest();
+            let country = document.getElementById('country');
+
+            xhttp.onreadystatechange = function() {
+                if(this.readyState == 4 && this.status == 200) {
+                    const obj = JSON.parse(this.responseText);
+                    for(key in obj.nameday) {
+                        const option = document.createElement('option');
+                        option.value = key;
+                        option.text = key;
+                        country.appendChild(option);
+                    }
+                }
+            }
+
+            xhttp.open("POST", "https://nameday.abalin.net/api/V1/today", true);
+            xhttp.setRequestHeader('Content-type', 'application/json');
+            xhttp.setRequestHeader('Accept', 'application/json');
+            xhttp.send();
+        }
+
+        function loadData() {
+            let xhttp = new XMLHttpRequest();
+            let country = document.getElementById('country').value;
+            let date = document.getElementById('date').value.split('-');
+            const day = parseInt(date[2]);
+            const month = parseInt(date[1]);
+            const year = parseInt(date[0]);
+
+            xhttp.onreadystatechange = function() {
+                if(this.readyState == 4 && this.status == 200) {
+                    const obj = JSON.parse(this.responseText);
+                    document.getElementById('szoveg').innerHTML = obj.nameday[country];
+
+                }
+            }
+
+            xhttp.open("POST", `https://nameday.abalin.net/api/V1/getdate`, true);
+            xhttp.setRequestHeader('Content-type', 'application/json');
+            xhttp.setRequestHeader('Accept', 'application/json');
+            xhttp.send(JSON.stringify({'day': day, 'month': month, 'year': year}));
+        }
+
+    </script>
+
+    <!-- <select id="countrySelect">
+        <option value="">Válassz</option>
+    </select>
+    <button onclick="getNamedays()">névnapok</button>
+    <ul id="namedaysList"></ul>
+    
+    <script>
+        fetch('https://nameday.abalin.net/api/V1/today')
+            .then(response => response.json())
+            .then(data => {
+                const countries = Object.keys(data.nameday);
+                const select = document.getElementById('countrySelect');
+                countries.forEach(country => {
+                    const option = document.createElement('option');
+                    option.value = country;
+                    option.textContent = country;
+                    select.appendChild(option);
+                });
+            });
+    
+        function getNamedays() {
+            const selectedCountry = document.getElementById('countrySelect').value;
+            const namedaysList = document.getElementById('namedaysList');
+            namedaysList.innerHTML = '';
+    
+            if (selectedCountry) {
+                fetch('https://nameday.abalin.net/api/V1/today')
+                    .then(response => response.json())
+                    .then(data => {
+                        const namedays = data.nameday[selectedCountry];
+                        if (namedays) {
+                            namedays.split(', ').forEach(nameday => {
+                                const li = document.createElement('li');
+                                li.textContent = nameday;
+                                namedaysList.appendChild(li);
+                            });
+                        } else {
+                            const li = document.createElement('li');
+                            li.textContent = 'Nincs névnap';
+                            namedaysList.appendChild(li);
+                        }
+                    });
+            }
+        }
+    </script>-->
+</body>
+</html>

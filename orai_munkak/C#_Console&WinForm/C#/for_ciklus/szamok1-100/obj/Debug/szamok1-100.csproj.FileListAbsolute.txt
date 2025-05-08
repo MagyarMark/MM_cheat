@@ -1,0 +1,8 @@
+H:\asztalk\C#\for_ciklus\szamok1-100\bin\Debug\szamok1-100.exe.config
+H:\asztalk\C#\for_ciklus\szamok1-100\bin\Debug\szamok1-100.exe
+H:\asztalk\C#\for_ciklus\szamok1-100\bin\Debug\szamok1-100.pdb
+H:\asztalk\C#\for_ciklus\szamok1-100\obj\Debug\szamok1-100.csproj.AssemblyReference.cache
+H:\asztalk\C#\for_ciklus\szamok1-100\obj\Debug\szamok1-100.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\for_ciklus\szamok1-100\obj\Debug\szamok1-100.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\for_ciklus\szamok1-100\obj\Debug\szamok1-100.exe
+H:\asztalk\C#\for_ciklus\szamok1-100\obj\Debug\szamok1-100.pdb

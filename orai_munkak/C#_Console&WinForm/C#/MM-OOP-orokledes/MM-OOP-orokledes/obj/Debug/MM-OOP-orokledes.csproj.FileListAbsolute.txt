@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-OOP-orokledes\MM-OOP-orokledes\bin\Debug\MM-OOP-orokledes.exe.config
+H:\asztalk\C#\MM-OOP-orokledes\MM-OOP-orokledes\bin\Debug\MM-OOP-orokledes.exe
+H:\asztalk\C#\MM-OOP-orokledes\MM-OOP-orokledes\bin\Debug\MM-OOP-orokledes.pdb
+H:\asztalk\C#\MM-OOP-orokledes\MM-OOP-orokledes\obj\Debug\MM-OOP-orokledes.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-OOP-orokledes\MM-OOP-orokledes\obj\Debug\MM-OOP-orokledes.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-OOP-orokledes\MM-OOP-orokledes\obj\Debug\MM-OOP-orokledes.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-OOP-orokledes\MM-OOP-orokledes\obj\Debug\MM-OOP-orokledes.exe
+H:\asztalk\C#\MM-OOP-orokledes\MM-OOP-orokledes\obj\Debug\MM-OOP-orokledes.pdb

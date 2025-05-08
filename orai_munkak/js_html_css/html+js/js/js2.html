@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*let a = prompt("Kérek egy számot: ", 1);
+        console.log(typeof(a));
+        
+        let kezd = 10;
+        let db = 20;
+
+        console.log(Math.floor(Math.random() * db) + kezd);
+        
+        //1. feladat: Névbekérés és üdvözlés
+
+        let nev = prompt("kérek egy nevet: ");
+        console.log("Szia " + (nev))
+
+        //2.feladat oldal bekérés és kerület terület számolás
+
+        let a = prompt("a oldal: ")
+        let b = prompt("b oldal: ")
+
+        console.log("Kerülete: " + (a + b) * 2)
+        console.log("Területe: " + (a * b))
+
+        //3. lottó szám húzás szimulálása
+
+        let szam1 = 1;
+        let szam2 = 90;
+
+        console.log(Math.floor(Math.random()* szam2) + szam1)
+
+        //4. feladat: óra perc másodperc bekérése és ki íratása a napnak
+
+        let ora = prompt("órát: ")
+        let perc = prompt("perc: ")
+        let mp = prompt("másodperc: ")
+
+        console.log("A nap " + (ora * 3600) + (perc * 6) + (mp) + 'másodperce')
+
+        let veletlen = Math.random();
+        console.log(Math.round(veletlen * 100) / 100);
+
+        let a = 5;
+        if(a> 0){
+            console.log('pozitív');
+        }else if (a == 0){
+            console.log('nulla');
+        }else{
+            console.log('negatív');
+        }
+
+        let nap = 4;
+        let napNev = '';
+        switch(nap){
+            case 1:
+                napNev = "Hétfö";
+                break;
+            case 2:
+                napNev = "Kedd";
+                break;
+            case 3:
+                napNev = "Szerda";
+                break;
+            case 4:
+                napNev = "Csütörtök";
+                break;
+            case 5:
+                napNev = "Péntek";
+                break;
+            case 6: 
+                napNev = "Szombat";
+                break;
+            case 7:
+                napNev = "vasárnap";
+                break;
+            default:
+                napNev = "Ismeretlen";
+                break;
+        }
+        console.log(napNev)
+
+        // kérj be 2 számot és döntsük el, hogy melyik a nagyobb vagy egyenlő
+
+        let szam = prompt("szám: ")
+        let szam2 = prompt("2 szám: ")
+
+        if (szam > szam2){
+            console.log(szam + '>' + szam2);
+        }else if (szam < szam2){
+            console.log(szam + '<' + szam2);
+        }else{
+            console.log(szam + '=' + szam2)
+        }
+
+        //fej vagy írás
+
+        let bekert = prompt("fej vagy írás");
+        let dobas = Math.floor(Math.random()*2);
+        let dobott = dobas == 0 ? 'fej' : 'írás';
+        if (bekert == dobott){
+            console.log("nyert");
+        } else{
+            cosnole.log("nem nyert");
+        }
+
+        //kérjük be egy pont kordinátáit és határozzuk meg melyik sík negyedben van
+
+        let pont = prompt("add meg a kordinátát: ")
+        let pont2 = prompt("add meg a második síknegyedet: ")
+
+        if (pont > 0 && pont2 > 0){
+            console.log("1.síknegyed")
+        }else if (pont < 0 && pont2 > 0) {
+            console.log("2. síknegyed")
+        }else if(pont < 0 && pont2 < 0){
+            console.log("3.síknegyed")
+        }else if( pont > 0 && pont2 < 0){
+            console.log("4.síknegyed")
+        }else{
+            console.log("valamelyik tengelyen van")
+        }
+
+        for (let i = 1; i <= 5; i++){
+            console.log(i);
+        }
+
+        let person = {name: "Pisti", age: 40, email: "pisti@gmail.hu"};
+        for(key in person){
+            console.log(key + ' = ' + person[key])
+        }
+
+        let cars = ["BMW", "volgswagen", "Trabant"];
+        for(car of cars){
+            console.log(cars[car]);
+        }
+        
+        let i = 1;
+        while(i <= 5){
+            console.log(i);
+            i++;
+        }
+
+        let i = 1;
+        do {
+            console.log(i);
+            i++;
+        }while(i <=5);
+
+        let i = 1;
+        while(true){
+            if(i > 5){
+                break;
+            }
+            console.log(i);
+            i++;
+        }
+
+        let i = 0;
+        while (i < 10){
+            i++;
+            if(i % 2 ==1){
+                continue;
+            }
+            console.log(i);
+
+        }
+
+        //írjanak egy programot ami be kér egy n értéket és ki írja az első természetes N számot
+
+        let n = prompt("adj meg egy számot: ")
+        let mind = 0;
+        for(let i = 1; i <= n; i++){
+            mind +=i;
+        }
+        console.log(mind)*/
+
+        let db = 0, dobas;
+        do{
+            dobas = Math.floor(Math.random()*6)+1;
+            console.log(dobas)
+            db++;
+        }while(dobas != 6);
+        console.log(db+ "dobásból lett 6-os szám")
+
+
+    </script>
+</body>
+</html>

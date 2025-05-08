@@ -1,0 +1,15 @@
+H:\asztalk\C#\MM-try-catch\1.feladat\bin\Debug\net7.0\1.feladat.exe
+H:\asztalk\C#\MM-try-catch\1.feladat\bin\Debug\net7.0\1.feladat.deps.json
+H:\asztalk\C#\MM-try-catch\1.feladat\bin\Debug\net7.0\1.feladat.runtimeconfig.json
+H:\asztalk\C#\MM-try-catch\1.feladat\bin\Debug\net7.0\1.feladat.dll
+H:\asztalk\C#\MM-try-catch\1.feladat\bin\Debug\net7.0\1.feladat.pdb
+H:\asztalk\C#\MM-try-catch\1.feladat\obj\Debug\net7.0\1.feladat.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-try-catch\1.feladat\obj\Debug\net7.0\1.feladat.GeneratedMSBuildEditorConfig.editorconfig
+H:\asztalk\C#\MM-try-catch\1.feladat\obj\Debug\net7.0\1.feladat.AssemblyInfoInputs.cache
+H:\asztalk\C#\MM-try-catch\1.feladat\obj\Debug\net7.0\1.feladat.AssemblyInfo.cs
+H:\asztalk\C#\MM-try-catch\1.feladat\obj\Debug\net7.0\1.feladat.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-try-catch\1.feladat\obj\Debug\net7.0\1.feladat.dll
+H:\asztalk\C#\MM-try-catch\1.feladat\obj\Debug\net7.0\refint\1.feladat.dll
+H:\asztalk\C#\MM-try-catch\1.feladat\obj\Debug\net7.0\1.feladat.pdb
+H:\asztalk\C#\MM-try-catch\1.feladat\obj\Debug\net7.0\1.feladat.genruntimeconfig.cache
+H:\asztalk\C#\MM-try-catch\1.feladat\obj\Debug\net7.0\ref\1.feladat.dll

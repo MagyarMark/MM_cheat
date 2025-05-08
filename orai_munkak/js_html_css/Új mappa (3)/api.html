@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button type="button" onclick="loadDoc()">Adat lekérés</button>
+    <p id="demo"></p>
+    <p id="header"></p>
+    <p id="type"></p> -->
+    
+    <button type="button" onclick="showBear()"> Medve megjelenítése</button>
+    <button type="button" onclick="showCat()"> Macska megjelenítése</button>
+
+    <script>
+        //let http = new XMLHttpRequest();
+        /*function loadDoc() {
+            let xhttp = new XMLHttpRequest();
+
+            xhttp.onreadystatechange = function() {
+                if(this.readyState == 4 && this.status == 200) {
+                    const obj = JSON.parse(this.responseText);
+                    document.getElementById('demo').innerHTML = obj.nameday[lang];//this.responseText;
+                    //document.getElementById('header').innerHTML = this.getAllResponseHeaders();
+                    //document.getElementById('type').innerHTML = navigator.language;
+                }
+            };
+            xhttp.open("post", "https://nameday.abalin.net/api/V1/today", true);
+            xhttp.setRequestHeader('Content-type', 'application/json');
+            xhttp.setRequestHeader('Accept', 'application/json');
+            xhttp.send(JSON.stringify({'country': `$[lang]`}));
+
+            /*let nyelv = navigator.language;
+        xhttp.open("post", "https://nameday.abalin.net/api/V1/today", true);
+        xhttp.setRequestHeader('Content-type', 'application/json');
+        xhttp.setRequestHeader('Accept', 'application/json');
+        xhttp.send(JSON.stringify({'country': nyelv}));
+        }*/
+
+        //írj olyan programot ami erről az oldalról: https://http.dog/[code].jpg lekér adatot és megjeleníti a képernyőn  formátumban
+
+        function showBear(code) {
+            let image = document.createElement('img');
+            image.src = `https://placebear.com/200/300`;
+            document.body.appendChild(image);
+        }
+
+        let i = 0;
+        function showCat() {
+            let image = document.createElement('img');
+            image.src = `https://cataas.com/cat?${i}`;
+            document.body.appendChild(image);
+            i++;
+            
+        }
+    
+    </script>
+</body>
+</html>

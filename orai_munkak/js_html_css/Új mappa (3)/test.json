@@ -1,0 +1,22 @@
+{
+    "vezeteknev": "Kovács",
+    "keresztnev": "János",
+    "kor": 25,
+    "cim":{
+        "utcahazszam": "2. utca 21.",
+        "varos": "New York",
+        "allam": "NY",
+        "iranyitoszam": "10021"
+    },
+    "telefonszam":[
+        {
+            "tipus": "otthoni",
+            "szam": "212 555-1234"
+
+        },
+        {
+            "tipus": "fax",
+            "szam": "646 555-4657"
+        }
+    ]
+}

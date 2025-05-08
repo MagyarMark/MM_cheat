@@ -1,0 +1,27 @@
+C:\Users\MagyarMark\Desktop\20241113_MagyarMark\barlangok\bin\Debug\barlangok.exe.config
+C:\Users\MagyarMark\Desktop\20241113_MagyarMark\barlangok\bin\Debug\barlangok.exe
+C:\Users\MagyarMark\Desktop\20241113_MagyarMark\barlangok\bin\Debug\barlangok.pdb
+C:\Users\MagyarMark\Desktop\20241113_MagyarMark\barlangok\obj\Debug\barlangok.csproj.AssemblyReference.cache
+C:\Users\MagyarMark\Desktop\20241113_MagyarMark\barlangok\obj\Debug\barlangok.csproj.CoreCompileInputs.cache
+C:\Users\MagyarMark\Desktop\20241113_MagyarMark\barlangok\obj\Debug\barlangok.exe
+C:\Users\MagyarMark\Desktop\20241113_MagyarMark\barlangok\obj\Debug\barlangok.pdb
+C:\Users\MagyarMark\Desktop\20241113_MagyarMark\barlangok\obj\Debug\barlangok.Form1.resources
+C:\Users\MagyarMark\Desktop\20241113_MagyarMark\barlangok\obj\Debug\barlangok.csproj.GenerateResource.cache
+C:\Users\markm\Downloads\barlangok (1)\barlangok\bin\Debug\barlangok.exe.config
+C:\Users\markm\Downloads\barlangok (1)\barlangok\bin\Debug\barlangok.exe
+C:\Users\markm\Downloads\barlangok (1)\barlangok\bin\Debug\barlangok.pdb
+C:\Users\markm\Downloads\barlangok (1)\barlangok\obj\Debug\barlangok.csproj.AssemblyReference.cache
+C:\Users\markm\Downloads\barlangok (1)\barlangok\obj\Debug\barlangok.Form1.resources
+C:\Users\markm\Downloads\barlangok (1)\barlangok\obj\Debug\barlangok.csproj.GenerateResource.cache
+C:\Users\markm\Downloads\barlangok (1)\barlangok\obj\Debug\barlangok.csproj.CoreCompileInputs.cache
+C:\Users\markm\Downloads\barlangok (1)\barlangok\obj\Debug\barlangok.exe
+C:\Users\markm\Downloads\barlangok (1)\barlangok\obj\Debug\barlangok.pdb
+C:\Users\MagyarMark\Downloads\barlangok PLUSZ\barlangok PLUSZ\barlangok\bin\Debug\barlangok.exe.config
+C:\Users\MagyarMark\Downloads\barlangok PLUSZ\barlangok PLUSZ\barlangok\bin\Debug\barlangok.exe
+C:\Users\MagyarMark\Downloads\barlangok PLUSZ\barlangok PLUSZ\barlangok\bin\Debug\barlangok.pdb
+C:\Users\MagyarMark\Downloads\barlangok PLUSZ\barlangok PLUSZ\barlangok\obj\Debug\barlangok.csproj.AssemblyReference.cache
+C:\Users\MagyarMark\Downloads\barlangok PLUSZ\barlangok PLUSZ\barlangok\obj\Debug\barlangok.Form1.resources
+C:\Users\MagyarMark\Downloads\barlangok PLUSZ\barlangok PLUSZ\barlangok\obj\Debug\barlangok.csproj.GenerateResource.cache
+C:\Users\MagyarMark\Downloads\barlangok PLUSZ\barlangok PLUSZ\barlangok\obj\Debug\barlangok.csproj.CoreCompileInputs.cache
+C:\Users\MagyarMark\Downloads\barlangok PLUSZ\barlangok PLUSZ\barlangok\obj\Debug\barlangok.exe
+C:\Users\MagyarMark\Downloads\barlangok PLUSZ\barlangok PLUSZ\barlangok\obj\Debug\barlangok.pdb

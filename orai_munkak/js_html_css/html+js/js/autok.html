@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        class Auto {
+            constructor(nev, penz, fogyasztas, benzin, tankMeret) {
+                this.nev = nev
+                this.penz = penz
+                this.fogyasztas = fogyasztas
+                this.benzin = benzin
+                this.tankMeret = tankMeret
+            }
+
+            megy(tavolsag) {
+                let szuksegesBenzin = tavolsag * this.fogyasztas;
+                    if (this.benzin >= szuksegesBenzin) {
+                    this.benzin -= szuksegesBenzin
+                    return true
+                    } else {
+                    return false
+                    }
+            }
+
+            tankol(benzinKut) {
+                let szuksegesBenzin = this.tankMeret - this.benzin;
+                let ar = szuksegesBenzin * benzinKut.getAr()
+
+                if (this.penz >= ar && benzinKut.getBenzin() >= szuksegesBenzin) {
+                    this.penz -= ar
+                    benzinKut.setBenzin(benzinKut.getBenzin() - szuksegesBenzin)
+                    this.benzin += szuksegesBenzin
+                }
+            }
+        }
+
+        class BenzinKut {
+            constructor(benzin, ar) {
+                this.benzin = benzin
+                this.ar = ar
+            }
+
+            getBenzin() {
+                return this.benzin
+            }
+
+            setBenzin(benzin) {
+                this.benzin = benzin
+            }
+
+            getAr() {
+                return this.ar
+            }
+        }
+
+        let benzinKut = new BenzinKut(1000, 350)
+        console.log("Benzin: "+ benzinKut.getBenzin())
+        console.log("benzin Ár: " + benzinKut.getAr())
+
+        let auto1 = new Auto('auto1', 5000, 5, 50, 60)
+        console.log(auto1.megy())
+
+        let auto2 = new Auto('auto2', 4000, 0.04, 40, 50)
+        console.log(auto2.megy())
+
+        let auto3 = new Auto('auto3', 6000, 6, 60, 70)
+        console.log(auto3.megy())
+
+        let auto4 =new Auto('auto4', 5500, 0.055, 0)
+        console.log(auto4.megy())
+    </script>
+    
+</body>
+</html>

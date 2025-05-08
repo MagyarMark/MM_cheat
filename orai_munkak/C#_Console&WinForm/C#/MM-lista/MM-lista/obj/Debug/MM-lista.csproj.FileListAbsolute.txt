@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-lista\MM-lista\bin\Debug\MM-lista.exe.config
+H:\asztalk\C#\MM-lista\MM-lista\bin\Debug\MM-lista.exe
+H:\asztalk\C#\MM-lista\MM-lista\bin\Debug\MM-lista.pdb
+H:\asztalk\C#\MM-lista\MM-lista\obj\Debug\MM-lista.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-lista\MM-lista\obj\Debug\MM-lista.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-lista\MM-lista\obj\Debug\MM-lista.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-lista\MM-lista\obj\Debug\MM-lista.exe
+H:\asztalk\C#\MM-lista\MM-lista\obj\Debug\MM-lista.pdb

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        /*let person = {
+            firstname: "Csaba",
+            lastname: "Faragó",
+            age: 43
+        }
+
+        person.country = "Hungary";
+        console.log(person.firstname)
+        console.log(person.country)
+
+        let person = new Object();
+
+        person.firstname = "Mihály";
+        person.lastname = "Faragó";
+        person.age = 43;
+
+        console.log(person.firstname)
+
+        let person = {
+            firstname: "Csaba",
+            lastname: "Faragó",
+            age: 43,
+
+            fullname: function(){
+                return this.firstname + " " + this.lastname
+            }
+        };
+
+        person.country = "Hungary";
+        console.log(person.firstname)
+        console.log(person.country)
+        console.log(person['lastname'])
+
+        let ageStr = "age";
+        console.log(person[ageStr])
+
+        console.log(person.fullname())
+
+        let person = {
+            firstname: "Csaba",
+            lastname: "Faragó",
+            age: 43,
+
+            fullname: function(){
+                return this.firstname + " " + this.lastname
+            }
+        };
+
+        for (property in person){
+            console.log(property + ": " + person[property])
+        }
+
+        console.log(Object.keys(person))//vissza ad egy tömböt ami tartalmazza a kulcsokat
+        console.log(Object.values(person))//értékeket fog vissza adni a 4. érték egy függvény nem fog konkrét értéket vissza adni
+        console.log(Object.entries(person))//4 tömböt ad vissza kulcs érték párként 
+
+        console.log(person.fullname())
+
+        let person = {
+            _firstname: "",
+            _lastname: "",
+            _age: 0,
+
+            get firstName(){
+                return this._firstname
+            },
+            set firstName(firstName){
+                this._firstName = firstName
+            },
+
+            get lastName(){
+                return this._firstname
+            },
+            set lastName(lastName){
+                this._lastName = lastName
+            },
+
+            get age(){
+                return this._age
+            },
+            set age(lastName){
+                this._age = age
+            },
+        }
+
+        console.log(person)
+
+        String.prototype.print = function(){
+            console.log(this.valueOf());
+        }
+
+        let s = "Alma";
+        s.print()
+
+        function Tanulo(nev, nem){
+            this.nev = nev;
+            this.nem = nem; 
+        }
+
+        Tanulo.prototype.kor = 15;
+
+        let peti = new Tanulo()
+        console.log(peti.kor) 
+
+        function dolgozo(nev, telepules, fizetes){
+            this.nev = nev;
+            this.telepules = telepules;
+            this.fizetes = fizetes;
+        }
+
+        dolgozo.prototype.munka = function(){
+            console.log("Munka")
+        }
+
+        let janos = new dolgozo('Nagy János',"Szolnok",8532000)
+        console.log(janos.nev)
+        janos.munka()
+        
+
+        let prototype = {
+            name: "Prototype",
+            sayName: function(){
+                console.log("Nevem: " + this.name)
+            }
+        }
+
+        prototype.sayName()
+        let Objectum = Object(prototype)
+        Objectum.name = "Objektum"
+        Objectum.sayName()
+
+        let prototype = {
+            name: "Prototype",
+            sayName: function(){
+                console.log("Nevem: " + this.name)
+            }
+        }
+
+        let objektum = Object.create(prototype, {
+            name:{
+                value: "Objektum",
+
+                enumerable: true,
+                writable: true,
+                configurable: true,
+            }
+        })
+
+        objektum.sayName()
+
+        function Person(firstname,lastname,age){
+            this.firstname = firstname,
+            this.lastname = lastname,
+            this.age = age,
+            this.fullname = function(){
+                return this.firstname + " " + this.lastname
+            }
+        }
+
+        let p = new Person ("Csaba", "Faragó", 43)
+        console.log(p.fullname())
+
+        class Person{
+            constructor(firstname, lastname){
+                this.firstname = firstname;
+                this.lastname = lastname;
+            }
+
+            fullname(){
+                return this.firstname + " " + this.lastname;
+            }
+        }
+
+        class HungarianPerson extends Person{
+            constructor(firstname, lastname){
+                this.firstname, lastname;
+                this.lastname, firstname;
+            }
+
+            fullname(){
+                return this.lastname + " " + this.firstname;
+            }
+        }
+
+        let p1 = new Person("Jhon", "Smith")
+        let p2 = new Person("Csaba", "Faragó")
+        console.log(p1.fullname())
+        console.log(p2.fullname())
+
+        console.log(Object.keys(p1))
+        console.log(Object.getOwnPropertyNames(p1))
+
+        Object.preventExtensions(p1)
+        Object.isExtensible(p1)
+        Object.seal(p1)
+        Object.isSealed(p1)
+        Object.freeze(p1)
+        Object.isFrozen(p1)*/
+
+
+
+
+
+        //1.feladat: 
+
+
+
+
+        class Auto{
+            constructor(modell, evjarat, szin){
+                this.modell = modell;
+                this.evjarat = evjarat;
+                this.szin = szin;
+            }
+
+            kocsi(){
+                return this.modell + " " + this.evjarat + " " + this.szin;
+            }
+
+            kor() {
+               return 2024 - this.evjarat;
+            }
+
+            get Modell(){
+                return this.modell
+            };
+            set Modell(Modell){
+                this.modell = Modell
+            };
+
+            get Evjarat(){
+                return this.evjarat
+            };
+            set Evjarat(Evjarat){
+                this.evjarat = Evjarat
+            };
+
+            get Szin(){
+                return this.szin
+            };
+            set Szin(Szin){
+                this.szin = Szin
+            };
+        }
+
+        class ujauto extends Auto{
+            constructor(modell, evjarat, szin, fogyasztas, uzemanyagtankmeret){
+                super(modell, evjarat, szin)
+                this.fogyasztas = fogyasztas;
+                this.uzemanyagtankmeret = uzemanyagtankmeret;
+            }
+
+            kocsi(){
+                return this.modell + " " + this.evjarat + " " + this.szin;
+            }
+        }
+
+        let c1 = new Auto("Mercedes", "2018", "Fekete")
+        let c2 = new Auto ("Volkswagen", "2016", "Kék")
+        console.log(c1.kocsi())
+        console.log(c2.kocsi())
+        console.log(c1.kor())
+        console.log(c2.kor())
+
+
+        //2. feladat:
+
+
+
+        class Szamitogep{
+            constructor(szabadmemoria = 1024, bevanekapcsolva = false){
+                this.szabadmemoria = szabadmemoria;
+                this.bevanekapcsolva = bevanekapcsolva;
+            }
+
+            kapcsol() {
+                if(this.bevanekapcsolva === 'ki') {
+                    this.bevanekapcsolva = 'be';
+                } 
+                else {
+                this.bevanekapcsolva = 'ki';
+                }
+            }   
+
+            programMasol(programmeret) {
+                if (this.szabadmemoria && programmeret <= this.szabadmemoria) {
+                    this.szabadmemoria -= programmeret;
+                    return true;w
+                }  
+                else {
+                return false;
+                }
+            }
+
+            alap(){
+                return this.szabadmemoria + " " + this.bevanekapcsolva;
+            }
+        }
+
+        let pc1 = new Szamitogep()
+        let pc2 = new Szamitogep(800,"be")
+
+        console.log(pc1.alap())
+        console.log(pc2.programMasol(pc1))
+
+    
+    </script>
+
+</body>
+</html>

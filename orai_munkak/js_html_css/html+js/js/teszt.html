@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="cimsor">Címsor</h1>
+    <button type="button" onclick="document.getElementById('cimsor').style.backgroundColor = 'red'">Piros háttér</button>
+    <button type="button" onclick="document.getElementById('cimsor').style.visibility = 'hidden'">Címsor eltüntetése</button>
+    <button type="button" onclick="document.getElementById('cimsor').style.visibility = 'visible'">Címsor előhozása</button>
+    <button type="button" onclick="document.body.style.backgroundColor = 'red'">Az oldal háttere legyen piros</button>
+    <button type="button" onclick="document.body.style.visibility = 'hidden'">Az oldal eltüntetése</button>
+
+    //csinálj egy html oldalt amin több elem is van majd válasszuk ki az oldal egy elemét és a console-ra irassuk ki
+
+    <h1 id="H1" onclick="ha1()">Elem 1</h1>
+    
+    <h1 id="H2" onclick="ha2()">Elem 2</h1>
+
+    <h1 id="H3" onclick="ha3()">Elem 3</h1>
+    
+    <script>
+        /*console.log(document.getElementsByTagName("h1")[0]) 
+        console.log(document.getElementsByTagName("h1")[1]) 
+        console.log(document.getElementsByTagName("h1")[2])
+        console.log(document.getElementsByTagName("h1")[3]) */ 
+
+        function ha1() {
+            console.log(document.getElementsByTagName("h1")[1])
+        }
+
+        function ha2() {
+            console.log(document.getElementsByTagName("h1")[2])
+        }
+
+        function ha3() {
+            console.log(document.getElementsByTagName("h1")[3])
+        }
+
+    </script>
+</body>
+</html>

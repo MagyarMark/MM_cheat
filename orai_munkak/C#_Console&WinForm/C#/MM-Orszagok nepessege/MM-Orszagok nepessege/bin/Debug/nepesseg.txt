@@ -1,0 +1,250 @@
+1	Z	Kína	0	1368150000
+2	Z	India	0	1263150000
+3	M	Amerikai Egyesült Államok	0	319168000
+4	Z	Indonézia	0	252164800
+5	D	Brazília	0	203510000
+6	Z	Pakisztán	0	188263000
+7	F	Nigéria	0	178517000
+8	Z	Banglades	0	157396000
+9	E	Oroszország	0	146233000
+10	Z	Japán	0	127080000
+11	M	Mexikó	0	119713203
+12	Z	Fülöp-szigetek	0	100618300
+13	Z	Vietnam	0	89708900
+14	F	Etiópia	0	87952991
+15	F	Egyiptom	0	87578100
+16	E	Németország	0	80767000
+17	Z	Irán	0	77927200
+18	Z	Törökország	0	76667864
+19	F	Kongói Demokratikus Köztársaság	0	69360000
+20	E	Franciaország	0	66078000
+21	Z	Thaiföld	0	64871000
+22	E	Egyesült Királyság	0	64105654
+23	E	Olaszország	0	60780377
+24	F	Dél-afrikai Köztársaság	0	54002000
+25	Z	Mianmar	0	51419420
+26	F	Tanzánia	0	50757000
+27	Z	Dél-Korea	0	50423955
+28	D	Kolumbia	0	47884500
+29	E	Spanyolország	0	46507800
+30	F	Kenya	0	45546000
+31	E	Ukrajna	0	42973696
+32	D	Argentína	0	42669500
+33	F	Algéria	0	38700000
+34	E	Lengyelország	0	38496000
+35	F	Szudán	0	37289406
+36	Z	Irak	0	36004552
+37	M	Kanada	0	35540419
+38	F	Uganda	0	34856813
+39	F	Marokkó	0	33449600
+40	D	Peru	0	30814175
+41	Z	Szaúd-Arábia	0	30770375
+42	Z	Üzbegisztán	0	30492800
+43	Z	Malajzia	0	30414500
+44	D	Venezuela	0	30206307
+45	Z	Nepál	0	28121000
+46	F	Ghána	0	27043093
+47	Z	Afganisztán	0	26023100
+48	Z	Jemen	0	25956000
+49	F	Mozambik	0	25041922
+50	Z	Észak-Korea	0	25027000
+51	O	Ausztrália	0	23679600
+52	Z	Kínai Köztársaság	0	23417116
+53	F	Kamerun	0	22819000
+54	Z	Szíria	0	22940020
+55	F	Madagaszkár	0	21263403
+56	F	Elefántcsontpart	0	20805000
+57	Z	Srí Lanka	0	20277597
+58	E	Románia	0	19942642
+59	F	Angola	0	19813179
+60	D	Chile	0	17819054
+61	Z	Kazahsztán	0	17353700
+62	F	Burkina Faso	0	17322796
+63	F	Niger	0	17138707
+64	E	Hollandia	0	16878700
+65	F	Malawi	0	16829000
+66	D	Ecuador	0	15877800
+67	M	Guatemala	0	15806675
+68	F	Mali	0	15768000
+69	Z	Kambodzsa	0	15184116
+70	F	Zambia	0	15023315
+71	F	Csád	0	13211000
+72	F	Zimbabwe	0	13061239
+73	F	Szenegál	0	12872601
+74	F	Dél-Szudán	0	11384393
+75	E	Belgium	0	11225496
+76	M	Kuba	0	11210064
+77	F	Ruanda	0	10996891
+78	E	Görögország	0	10992598
+79	F	Tunézia	0	10982754
+80	F	Szomália	0	10806000
+81	M	Haiti	0	10745665
+82	F	Guinea	0	10628972
+83	E	Csehország	0	10521600
+84	F	Burundi	0	10483000
+85	E	Portugália	0	10477800
+86	M	Dominikai Köztársaság	0	10378267
+87	D	Bolívia	0	10027254
+88	F	Benin	0	9988068
+89	E	Magyarország	0	9879000
+90	E	Svédország	0	9728498
+91	Z	Azerbajdzsán	0	9552500
+92	E	Fehéroroszország	0	9475100
+93	Z	Egyesült Arab Emírségek	0	9446000
+94	M	Honduras	0	8725111
+95	E	Ausztria	0	8527230
+96	Z	Izrael	0	8253200
+97	E	Svájc	0	8183800
+98	Z	Tádzsikisztán	0	8160000
+99	O	Pápua Új-Guinea	0	7398500
+100	E	Bulgária	0	7245677
+101	Z	Hongkong	1	7234800
+102	E	Szerbia	0	7146759
+103	F	Togo	0	6993000
+104	D	Paraguay	0	6893727
+105	Z	Laosz	0	6693300
+106	Z	Jordánia	0	6660770
+107	F	Eritrea	0	6536000
+108	M	El Salvador	0	6401240
+109	F	Líbia	0	6253000
+110	F	Sierra Leone	0	6205000
+111	M	Nicaragua	0	6196000
+112	Z	Kirgizisztán	0	5842600
+113	E	Dánia	0	5655750
+114	Z	Szingapúr	0	5469700
+115	E	Finnország	0	5470437
+116	E	Szlovákia	0	5415949
+117	Z	Türkmenisztán	0	5834032
+118	E	Norvégia	0	5156450
+119	Z	Libanon	0	4966000
+120	M	Costa Rica	0	4713168
+121	F	Közép-afrikai Köztársaság	0	4709000
+122	E	Írország	0	4609600
+123	F	Kongói Köztársaság	0	4559000
+124	Z	Palesztina	0	4550368
+125	O	Új-Zéland	0	4544280
+126	Z	Grúzia	0	4490500
+127	F	Libéria	0	4397000
+128	E	Horvátország	0	4267558
+129	Z	Omán	0	4086828
+130	E	Bosznia-Hercegovina	0	3791622
+131	M	Panama	0	3713312
+132	M	Puerto Rico	3	3615086
+133	E	Moldova	0	3557600
+134	F	Szomáliföld	0	3500000
+135	F	Mauritánia	0	3545620
+136	D	Uruguay	0	3404198
+137	Z	Kuvait	0	3065850
+138	Z	Örményország	0	3009800
+139	Z	Mongólia	0	2985045
+140	E	Litvánia	0	2927310
+141	E	Albánia	0	2895947
+142	M	Jamaica	0	2717991
+143	Z	Katar	0	2216500
+144	F	Namíbia	0	2113077
+145	F	Lesotho	0	2098000
+146	E	Macedónia	0	2065769
+147	E	Szlovénia	0	2064790
+148	F	Botswana	0	2024904
+149	E	Lettország	0	1991800
+150	F	Gambia	0	1882450
+151	E	Koszovó	0	1816891
+152	F	Bissau-Guinea	0	1746000
+153	F	Gabon	0	1711000
+154	F	Egyenlítői-Guinea	0	1430000
+155	M	Trinidad és Tobago	0	1328019
+156	Z	Bahrein	0	1316500
+157	E	Észtország	0	1315819
+158	F	Szváziföld	0	1268000
+159	F	Mauritius	0	1261208
+160	Z	Kelet-Timor	0	1212107
+161	F	Dzsibuti	0	886000
+162	O	Fidzsi-szigetek	0	879178
+163	E	Ciprus	0	858000
+164	F	Réunion	20	840974
+165	D	Guyana	0	784894
+166	Z	Bhután	0	754450
+167	F	Comore-szigetek	0	752000
+168	Z	Makaó	1	631000
+169	E	Montenegró	0	620029
+170	F	Nyugat-Szahara	0	586000
+171	O	Salamon-szigetek	0	581344
+172	E	Luxemburg	0	549700
+173	D	Suriname	0	534189
+174	F	Zöld-foki Köztársaság	0	518467
+175	E	Dnyeszter Menti Köztársaság	0	505153
+176	E	Málta	0	416055
+177	M	Guadeloupe	20	405739
+178	Z	Maldív-szigetek	0	399939
+179	Z	Brunei	0	393162
+180	M	Martinique	20	386486
+181	M	Bahama-szigetek	0	368390
+182	M	Belize	0	349728
+183	E	Izland	0	328170
+184	E	Észak-Ciprus	0	294906
+185	M	Barbados	0	285000
+186	O	Francia Polinézia	20	268270
+187	O	Vanuatu	0	264652
+188	O	Új-Kaledónia	20	258958
+189	Z	Abházia	0	240705
+190	D	Francia Guyana	20	237549
+191	F	Mayotte	20	212600
+192	O	Szamoa	0	187820
+193	F	São Tomé és Príncipe	0	187356
+194	M	Saint Lucia	0	184000
+195	O	Guam	3	159358
+196	M	Curaçao	64	150563
+197	Z	Hegyi-Karabah	0	141400
+198	M	Saint Vincent és a Grenadine-szigetek	0	109000
+199	O	Kiribati	0	106461
+200	M	Amerikai Virgin-szigetek	3	106405
+201	M	Grenada	0	103328
+202	O	Tonga	0	103036
+203	M	Aruba	64	101484
+204	O	Mikronézia	0	101351
+205	E	Jersey	22	99000
+206	F	Seychelle-szigetek	0	89949
+207	M	Antigua és Barbuda	0	86295
+208	E	Man	22	84497
+209	E	Andorra	0	76098
+210	M	Dominikai Közösség	0	71293
+211	M	Bermuda	22	64237
+212	E	Guernsey	22	63085
+213	M	Grönland	113	56295
+214	O	Marshall-szigetek	0	56086
+215	O	Amerikai Szamoa	3	55519
+216	M	Kajmán-szigetek	22	55465
+217	M	Saint Kitts és Nevis	0	55000
+218	O	Északi-Mariana-szigetek	3	53883
+219	Z	Dél-Oszétia	0	51574
+220	E	Feröer	113	48605
+221	M	Sint Maarten	64	37429
+222	E	Liechtenstein	0	37132
+223	M	Saint-Martin	20	36979
+224	E	Monaco	0	36950
+225	E	San Marino	0	32743
+226	M	Turks- és Caicos-szigetek	22	31458
+227	E	Gibraltár	22	30001
+228	M	Brit Virgin-szigetek	22	29537
+229	E	Åland	115	28875
+230	M	Flag of the Netherlands.svg Holland Karib-szigetek (Magában foglalja Bonaire, Saba és Sint Eustatius szigetét)	64	23296
+231	O	Palau	0	20901
+232	O	Cook-szigetek	125	14974
+233	E	Egyesült Királyság Akrotíri és Dekélia	22	14700
+234	M	Anguilla	22	13452
+235	O	Wallis és Futuna	20	13135
+236	O	Tuvalu	0	11323
+237	O	Nauru	0	9945
+238	M	Saint-Barthélemy	20	8938
+239	M	Saint-Pierre és Miquelon	20	6081
+240	M	Montserrat	22	4922
+241	F	Szent Ilona, Flag of Ascension Island.svg Ascension és Tristan da Cunha	22	4000
+242	D	Falkland-szigetek	22	3000
+243	E	Norvégia Spitzbergák és a Jan Mayen-sziget	118	2562
+244	O	Norfolk-sziget	51	2302
+245	Z	Karácsony-sziget	51	2072
+246	O	Niue	125	1613
+247	O	Tokelau-szigetek	125	1411
+248	E	Vatikán	0	839
+249	Z	Kókusz-szigetek	51	596
+250	O	Pitcairn-szigetek	22	56

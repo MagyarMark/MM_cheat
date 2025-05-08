@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        /*
+        function nyugdíj(ev){
+            let szoveg = 'Nyugdíjig hátralevő évek száma: ';
+            return function(szuletesiEv){
+                let datumObjektum = new Date();
+                let aktualisEv = datumObjektum.getFullYear();
+                let kor = aktualisEv-szuletesiEv
+                console.log(szoveg + (ev - kor))
+            }
+        }
+
+        let nyugdíjazasUSA = nyugdíj(66);
+        nyugdíjazasUSA(1971);
+
+        function Myhello(name){
+            this.name = name;
+            this.sayHello = function(){
+                return `hello, ${this.name}`;
+            }
+        }
+
+        let myhello = new Myhello('Balázs')
+        console.log(myhello.sayHello())
+        
+        function Person(firstName, lastName, age){
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.age = age;
+            this.fullName = function(){
+                return this.firstName + " " + this.lastName + " " + this.age; 
+            }
+        }
+
+        let p1 = new Person('Csaba','Faragó',43)
+        let p2 = new Person('László','Nagy',35)
+        console.log(p1.fullName.call(p2))
+        console.log(p1.fullName.apply(p2))
+
+        const obj = {
+            name: 'Example',
+            logName: function(){
+                console.log(this.name)
+            }
+        }
+        
+        const logNamefunction = obj.logName.bind(obj)
+        logNamefunction()
+
+
+        const obj = {
+            name: 'Example',
+            logName: function(){
+                setTimeout(function(){
+                    console.log(this.name)
+                }.bind(this),1000)
+            }
+        }
+        
+        const logNamefunction = obj.logName.bind(obj)
+        logNamefunction()
+
+        function* fibonacci(){
+            let n1 = 0
+            let n2 = 1
+            while (true) {
+                yield n1
+                let sum = n1 + n2
+                n1 = n2
+                n2 = sum
+            }
+        }
+
+        const fib = fibonacci()
+        for (i = 0; i < 10; i++)  {
+            console.log(fib.next().value)            
+        }
+
+        function fibonacci(n){
+            if(n < 2){
+                return n
+            }else{
+                return fibonacci(n - 1) + fibonacci(n - 2)
+            }
+        }
+
+        console.log(fibonacci(10))
+
+        function factorial(n){
+            if(n === 0){
+                return 1
+            }else{
+                return n * factorial(n - 1)
+            }
+        }
+
+        console.log(factorial(5))
+
+        //írjon egy függvényt ami 1 másodperc függvényt kap és ki írja perc másodperc ként
+
+        function ido() {
+            setInterval(() => {
+            let datum = new Date()
+            let ora = datum.getHours()
+            let perc = datum.getMinutes()
+            let mp = datum.getSeconds()
+            console.log(`${ora}:${perc}:${mp}`)
+        })}   
+
+        ido()
+
+        //TANÁR MEGOLDAS:
+
+        function perc(mp){
+            let perc = Math.floor(mp/60)
+            let masodperc = mp % 60
+            return perc + ':' + masodperc
+        }
+
+        console.log(perc(90))
+
+        //kapjon paraméter ként egy számot és adjon vissza igaz értéket ha prímszám
+
+        function Prim(szam) {
+            if (szam <= 1) 
+            return false
+
+            if (szam === 2) 
+            return true
+
+            if (szam % 2 === 0) 
+            return false
+
+            let prim = Math.sqrt(szam);
+            for (let i = 3; i <= prim; i += 2) {
+                if (szam % i === 0) 
+                return false
+            }
+            return true;
+        }
+        let primszam = 15
+        console.log(Prim(primszam))
+
+        //írj egy függvényt amely paraméterként kér egy szöveget vagy mondatot és megszámolja hányszor szerepel a betű a szövegben
+
+        function szovegszamlalo(szoveg) {
+            let szam = 0;
+                for(let i = 0; i < szoveg.length; i++) {
+                    if(szoveg.charAt(i).toLowerCase() == 'a') {
+                        szam++;
+                    }
+                }
+            return szam;
+        }
+
+        let szovegek = 'Az alma nagyon almás'
+        console.log(szovegszamlalo(szovegek))*/
+
+        // szoveget kap paraméterként és vissza adja vissza felé ki írva
+
+        function reverse(s){
+            return s.split("").reverse().join("");
+        }
+
+        console.log(reverse('Géza kék az ég'))
+
+
+
+    </script>
+
+</body>
+</html>

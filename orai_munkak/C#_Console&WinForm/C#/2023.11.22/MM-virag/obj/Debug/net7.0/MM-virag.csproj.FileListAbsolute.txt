@@ -1,0 +1,15 @@
+H:\asztalk\C#\2023.11.22\MM-virag\bin\Debug\net7.0\MM-virag.exe
+H:\asztalk\C#\2023.11.22\MM-virag\bin\Debug\net7.0\MM-virag.deps.json
+H:\asztalk\C#\2023.11.22\MM-virag\bin\Debug\net7.0\MM-virag.runtimeconfig.json
+H:\asztalk\C#\2023.11.22\MM-virag\bin\Debug\net7.0\MM-virag.dll
+H:\asztalk\C#\2023.11.22\MM-virag\bin\Debug\net7.0\MM-virag.pdb
+H:\asztalk\C#\2023.11.22\MM-virag\obj\Debug\net7.0\MM-virag.csproj.AssemblyReference.cache
+H:\asztalk\C#\2023.11.22\MM-virag\obj\Debug\net7.0\MM-virag.GeneratedMSBuildEditorConfig.editorconfig
+H:\asztalk\C#\2023.11.22\MM-virag\obj\Debug\net7.0\MM-virag.AssemblyInfoInputs.cache
+H:\asztalk\C#\2023.11.22\MM-virag\obj\Debug\net7.0\MM-virag.AssemblyInfo.cs
+H:\asztalk\C#\2023.11.22\MM-virag\obj\Debug\net7.0\MM-virag.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2023.11.22\MM-virag\obj\Debug\net7.0\MM-virag.dll
+H:\asztalk\C#\2023.11.22\MM-virag\obj\Debug\net7.0\refint\MM-virag.dll
+H:\asztalk\C#\2023.11.22\MM-virag\obj\Debug\net7.0\MM-virag.pdb
+H:\asztalk\C#\2023.11.22\MM-virag\obj\Debug\net7.0\MM-virag.genruntimeconfig.cache
+H:\asztalk\C#\2023.11.22\MM-virag\obj\Debug\net7.0\ref\MM-virag.dll

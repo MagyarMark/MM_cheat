@@ -1,0 +1,10 @@
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika GUI\bin\Debug\Statisztika GUI.exe.config
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika GUI\bin\Debug\Statisztika GUI.exe
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika GUI\bin\Debug\Statisztika GUI.pdb
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika GUI\obj\Debug\Statisztika GUI.csproj.AssemblyReference.cache
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika GUI\obj\Debug\Statisztika_GUI.Form1.resources
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika GUI\obj\Debug\Statisztika_GUI.Properties.Resources.resources
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika GUI\obj\Debug\Statisztika GUI.csproj.GenerateResource.cache
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika GUI\obj\Debug\Statisztika GUI.csproj.CoreCompileInputs.cache
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika GUI\obj\Debug\Statisztika GUI.exe
+C:\Users\MagyarMark\Desktop\20241009_MagyarMark\Statisztika GUI\obj\Debug\Statisztika GUI.pdb

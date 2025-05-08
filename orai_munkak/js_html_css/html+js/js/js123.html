@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            width: 10px;
+            height: 10px;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <table></table>
+
+    <script>
+        const table = document.getElementsByTagName("table")[0]
+
+        let row;
+        let column;
+        for (let i = 0; i < 16; i++) {
+            row = document.createElement("tr");
+            for(let j = 0; j < 16; j++){
+                column = document.createElement("td")
+                color = "#" + j.toString(16) + i.toString(16) + '0';
+                column.style.backgroundColor = color;
+                row.append(column)
+            }
+            for(let j = 0; j < 16; j++){
+                column = document.createElement("td")
+                color = "#f" + i.toString(16) + j.toString(16);
+                column.style.backgroundColor = color;
+                row.append(column)
+            }
+            for(let j = 0; j < 16; j++){
+                column = document.createElement("td")
+                color = "#" + (15-j).toString(16) + i.toString(16) + 'f';
+                column.style.backgroundColor = color;
+                row.append(column)
+            }
+            table.append(row)
+            
+        }
+        const table1 = document.getElementsByTagName("table")[0]
+
+        let row1;
+        let column1;
+        for (let i = 0; i < 16; i++) {
+            row1 = document.createElement("tr");
+            for(let j = 0; j < 16; j++){
+                column1 = document.createElement("td")
+                color1 = "#" + j.toString(16) + (15-i).toString(16) + '0';
+                column1.style.backgroundColor = color1;
+                row1.append(column1)
+            }
+            for(let j = 0; j < 16; j++){
+                column1 = document.createElement("td")
+                color1 = "#f" + (15-i).toString(16) + j.toString(16);
+                column1.style.backgroundColor = color1;
+                row1.append(column1)
+            }
+            for(let j = 0; j < 16; j++){
+                column1 = document.createElement("td")
+                color1 = "#" + (15-j).toString(16) + (15-i).toString(16) + 'f';
+                column1.style.backgroundColor = color1;
+                row1.append(column1)
+            }
+            table1.append(row1)
+            
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda\bin\Debug\Szalloda.exe.config
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda\bin\Debug\Szalloda.exe
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda\bin\Debug\Szalloda.pdb
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda\obj\Debug\Szalloda.csproj.AssemblyReference.cache
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda\obj\Debug\Szalloda.Form1.resources
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda\obj\Debug\Szalloda.Properties.Resources.resources
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda\obj\Debug\Szalloda.csproj.GenerateResource.cache
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda\obj\Debug\Szalloda.csproj.CoreCompileInputs.cache
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda\obj\Debug\Szalloda.exe
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda\obj\Debug\Szalloda.pdb
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda (2)\Szalloda\bin\Debug\Szalloda.exe.config
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda (2)\Szalloda\bin\Debug\Szalloda.exe
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda (2)\Szalloda\bin\Debug\Szalloda.pdb
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda (2)\Szalloda\obj\Debug\Szalloda.csproj.AssemblyReference.cache
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda (2)\Szalloda\obj\Debug\Szalloda.Properties.Resources.resources
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda (2)\Szalloda\obj\Debug\Szalloda.csproj.GenerateResource.cache
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda (2)\Szalloda\obj\Debug\Szalloda.csproj.CoreCompileInputs.cache
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda (2)\Szalloda\obj\Debug\Szalloda.exe
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda (2)\Szalloda\obj\Debug\Szalloda.pdb
+C:\Users\MagyarMark\Desktop\20250129_MagyarMark\Szalloda (2)\Szalloda\obj\Debug\Szalloda.Form1.resources

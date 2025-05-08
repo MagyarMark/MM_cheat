@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM_OOP\MM_OOP\bin\Debug\MM_OOP.exe.config
+H:\asztalk\C#\MM_OOP\MM_OOP\bin\Debug\MM_OOP.exe
+H:\asztalk\C#\MM_OOP\MM_OOP\bin\Debug\MM_OOP.pdb
+H:\asztalk\C#\MM_OOP\MM_OOP\obj\Debug\MM_OOP.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM_OOP\MM_OOP\obj\Debug\MM_OOP.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM_OOP\MM_OOP\obj\Debug\MM_OOP.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM_OOP\MM_OOP\obj\Debug\MM_OOP.exe
+H:\asztalk\C#\MM_OOP\MM_OOP\obj\Debug\MM_OOP.pdb

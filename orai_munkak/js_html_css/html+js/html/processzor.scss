@@ -1,0 +1,83 @@
+$blue: #3bbfce;
+$margin: 16px;
+
+.content-navigation{
+    border-color: $blue;
+    color: darken($blue, 9%)
+}
+.border{
+    padding: $margin /2;
+    margin: $margin /2;
+    border-color: $blue;
+}
+
+table .h1{
+    margin: 2em 0;
+    tdd.ln{
+        text-align: right;
+    }
+}
+
+li{
+    font: {
+        family: serif;
+        weight: bold;
+        size: 1.2em;
+    }
+}
+
+@mixin threedeettext($color){
+    color: $color;
+    text-shadow: 
+    0 2px 0 darken($color,14%),
+    0 4px 0 darken($color,16%),
+    0 6px 0 darken($color,18%),
+    0 8px 0 darken($color,20%),
+    3px 8px 15px rgba(0, 0, 0, 0.1),
+    3px 8px 5px rgba(0, 0, 0, 0.3),
+    ;
+}
+
+h1{
+    font-size: 120px;
+    @include threedeettext(#d4daa8);
+}
+
+h2{
+    font-size: 90px;
+    @include threedeettext(lighten(#d4daa8, 10%));
+}
+
+$textcolor: silver;
+p{
+    color: $textcolor;
+    @if lightness($textcolor) < 50%{
+        background-color: white;
+    }
+    @else {
+        background-color: black;
+    }
+}
+
+@for $i from 1 through 4{
+    .column-#{$i} {
+        width: 10px * $i;
+    }
+}
+
+$list: jack,jhon,peter;
+.photos{
+    @each $author in $list{
+        .photo-#{author}{
+            background-image: image-url("avatars/#{$author}.png");
+        }
+    }
+}
+
+$column: 4;
+@while $column > 0{
+    .cols-#{$column} {
+        width: 10px * $column;
+    }
+    $column: $column - 1;
+}

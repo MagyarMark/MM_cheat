@@ -1,0 +1,15 @@
+H:\asztalk\C#\Beiskolazas_2023_11_08\london\bin\Debug\net7.0\london.exe
+H:\asztalk\C#\Beiskolazas_2023_11_08\london\bin\Debug\net7.0\london.deps.json
+H:\asztalk\C#\Beiskolazas_2023_11_08\london\bin\Debug\net7.0\london.runtimeconfig.json
+H:\asztalk\C#\Beiskolazas_2023_11_08\london\bin\Debug\net7.0\london.dll
+H:\asztalk\C#\Beiskolazas_2023_11_08\london\bin\Debug\net7.0\london.pdb
+H:\asztalk\C#\Beiskolazas_2023_11_08\london\obj\Debug\net7.0\london.csproj.AssemblyReference.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\london\obj\Debug\net7.0\london.GeneratedMSBuildEditorConfig.editorconfig
+H:\asztalk\C#\Beiskolazas_2023_11_08\london\obj\Debug\net7.0\london.AssemblyInfoInputs.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\london\obj\Debug\net7.0\london.AssemblyInfo.cs
+H:\asztalk\C#\Beiskolazas_2023_11_08\london\obj\Debug\net7.0\london.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\london\obj\Debug\net7.0\london.dll
+H:\asztalk\C#\Beiskolazas_2023_11_08\london\obj\Debug\net7.0\refint\london.dll
+H:\asztalk\C#\Beiskolazas_2023_11_08\london\obj\Debug\net7.0\london.pdb
+H:\asztalk\C#\Beiskolazas_2023_11_08\london\obj\Debug\net7.0\london.genruntimeconfig.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\london\obj\Debug\net7.0\ref\london.dll

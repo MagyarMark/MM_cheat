@@ -1,0 +1,8 @@
+H:\asztalk\C#\2024.01.03\MM-allatkert\bin\Debug\MM-allatkert.exe.config
+H:\asztalk\C#\2024.01.03\MM-allatkert\bin\Debug\MM-allatkert.exe
+H:\asztalk\C#\2024.01.03\MM-allatkert\bin\Debug\MM-allatkert.pdb
+H:\asztalk\C#\2024.01.03\MM-allatkert\obj\Debug\MM-allatkert.csproj.AssemblyReference.cache
+H:\asztalk\C#\2024.01.03\MM-allatkert\obj\Debug\MM-allatkert.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\2024.01.03\MM-allatkert\obj\Debug\MM-allatkert.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2024.01.03\MM-allatkert\obj\Debug\MM-allatkert.exe
+H:\asztalk\C#\2024.01.03\MM-allatkert\obj\Debug\MM-allatkert.pdb

@@ -1,0 +1,8 @@
+H:\asztalk\C#\Közmondások 2024.01.17\Kozmondasok\bin\Debug\Kozmondasok.exe.config
+H:\asztalk\C#\Közmondások 2024.01.17\Kozmondasok\bin\Debug\Kozmondasok.exe
+H:\asztalk\C#\Közmondások 2024.01.17\Kozmondasok\bin\Debug\Kozmondasok.pdb
+H:\asztalk\C#\Közmondások 2024.01.17\Kozmondasok\obj\Debug\Kozmondasok.csproj.AssemblyReference.cache
+H:\asztalk\C#\Közmondások 2024.01.17\Kozmondasok\obj\Debug\Kozmondasok.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\Közmondások 2024.01.17\Kozmondasok\obj\Debug\Kozmondasok.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\Közmondások 2024.01.17\Kozmondasok\obj\Debug\Kozmondasok.exe
+H:\asztalk\C#\Közmondások 2024.01.17\Kozmondasok\obj\Debug\Kozmondasok.pdb

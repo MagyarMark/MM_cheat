@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-ut_eredmenyek\MM-ut_eredmenyek\bin\Debug\MM-ut_eredmenyek.exe.config
+H:\asztalk\C#\MM-ut_eredmenyek\MM-ut_eredmenyek\bin\Debug\MM-ut_eredmenyek.exe
+H:\asztalk\C#\MM-ut_eredmenyek\MM-ut_eredmenyek\bin\Debug\MM-ut_eredmenyek.pdb
+H:\asztalk\C#\MM-ut_eredmenyek\MM-ut_eredmenyek\obj\Debug\MM-ut_eredmenyek.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-ut_eredmenyek\MM-ut_eredmenyek\obj\Debug\MM-ut_eredmenyek.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-ut_eredmenyek\MM-ut_eredmenyek\obj\Debug\MM-ut_eredmenyek.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-ut_eredmenyek\MM-ut_eredmenyek\obj\Debug\MM-ut_eredmenyek.exe
+H:\asztalk\C#\MM-ut_eredmenyek\MM-ut_eredmenyek\obj\Debug\MM-ut_eredmenyek.pdb

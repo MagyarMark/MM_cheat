@@ -1,0 +1,8 @@
+H:\asztalk\C#\2023.10.25\matrix\bin\Debug\matrix.exe.config
+H:\asztalk\C#\2023.10.25\matrix\bin\Debug\matrix.exe
+H:\asztalk\C#\2023.10.25\matrix\bin\Debug\matrix.pdb
+H:\asztalk\C#\2023.10.25\matrix\obj\Debug\matrix.csproj.AssemblyReference.cache
+H:\asztalk\C#\2023.10.25\matrix\obj\Debug\matrix.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\2023.10.25\matrix\obj\Debug\matrix.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2023.10.25\matrix\obj\Debug\matrix.exe
+H:\asztalk\C#\2023.10.25\matrix\obj\Debug\matrix.pdb

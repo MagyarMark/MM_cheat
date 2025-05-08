@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <title>Táblázat formázása</title>
+</head>
+<body>
+<div>
+    <table>
+        <caption>ízelítő az <span>angolszász</span> hosszmértékből</caption>
+        <thead>
+            <tr>
+                <th></th><th>magyar fordítás</th>
+                <th>váltószám</th><th>metrikusan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>inch</th><td>hüvelyk</td><td>12* line</td>
+                <td>=2,54cm</td>
+            </tr>
+            <tr>
+                <th>foot</th><td>láb</td><td>=12 inch</td> 
+                <td>=30,48cm</td>
+            </tr>
+            <tr>
+                <th>yard</th><td>róf</td><td>= 3 foot</td>
+                <td>=91,44cm</td>
+            </tr>
+            <tr>
+                <th>fathom</th><td>öl</td><td>=2 yard</td>
+                <td>1,83m</td>
+            </tr>
+            <tr>
+                <th>pole</th><td>rúd</td><td id="pole">=5&half; yard</td>
+                <td>=5,03m</td>
+            </tr>
+            <tr>
+                <th>furlong</th><td>?</td><td>=40 pole</td>
+                <td>201,16m</td>
+            </tr>
+            <tr>
+                <th>statute mile</th><td>szárazföldi mérföld</td><td>=8 furlong</td>
+                <td>=1609,33m</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="4">*egyes források 10-es váltószámot adnak meg</td></tr>
+        </tfoot>
+    </table>
+</div>
+</body>
+</html>

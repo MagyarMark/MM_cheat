@@ -1,0 +1,8 @@
+H:\asztalk\C#\2023.10.25\2d_tomb\bin\Debug\2d_tomb.exe.config
+H:\asztalk\C#\2023.10.25\2d_tomb\bin\Debug\2d_tomb.exe
+H:\asztalk\C#\2023.10.25\2d_tomb\bin\Debug\2d_tomb.pdb
+H:\asztalk\C#\2023.10.25\2d_tomb\obj\Debug\2d_tomb.csproj.AssemblyReference.cache
+H:\asztalk\C#\2023.10.25\2d_tomb\obj\Debug\2d_tomb.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\2023.10.25\2d_tomb\obj\Debug\2d_tomb.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2023.10.25\2d_tomb\obj\Debug\2d_tomb.exe
+H:\asztalk\C#\2023.10.25\2d_tomb\obj\Debug\2d_tomb.pdb

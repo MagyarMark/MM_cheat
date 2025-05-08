@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "téglalap", "téglalap\téglalap.csproj", "{0EC061AC-3B0B-40A8-91B4-4523EC95FE72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Átlag", "Átlag\Átlag.csproj", "{1EC7D9C3-D09E-43E2-ADCC-59F5E4574A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feltétel", "Feltétel\Feltétel.csproj", "{F549CF74-F57D-4545-90E9-D015C2BDB115}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EC061AC-3B0B-40A8-91B4-4523EC95FE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC061AC-3B0B-40A8-91B4-4523EC95FE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC061AC-3B0B-40A8-91B4-4523EC95FE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC061AC-3B0B-40A8-91B4-4523EC95FE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC7D9C3-D09E-43E2-ADCC-59F5E4574A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC7D9C3-D09E-43E2-ADCC-59F5E4574A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC7D9C3-D09E-43E2-ADCC-59F5E4574A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC7D9C3-D09E-43E2-ADCC-59F5E4574A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F549CF74-F57D-4545-90E9-D015C2BDB115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F549CF74-F57D-4545-90E9-D015C2BDB115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F549CF74-F57D-4545-90E9-D015C2BDB115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F549CF74-F57D-4545-90E9-D015C2BDB115}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8FB1523-BA04-4F05-AB62-94B9E059116D}
+	EndGlobalSection
+EndGlobal

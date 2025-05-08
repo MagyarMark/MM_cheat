@@ -1,0 +1,8 @@
+H:\asztalk\C#\2024.01.17\muvelt es szep\bin\Debug\muvelt es szep.exe.config
+H:\asztalk\C#\2024.01.17\muvelt es szep\bin\Debug\muvelt es szep.exe
+H:\asztalk\C#\2024.01.17\muvelt es szep\bin\Debug\muvelt es szep.pdb
+H:\asztalk\C#\2024.01.17\muvelt es szep\obj\Debug\muvelt es szep.csproj.AssemblyReference.cache
+H:\asztalk\C#\2024.01.17\muvelt es szep\obj\Debug\muvelt es szep.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\2024.01.17\muvelt es szep\obj\Debug\muvelt es szep.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2024.01.17\muvelt es szep\obj\Debug\muvelt es szep.exe
+H:\asztalk\C#\2024.01.17\muvelt es szep\obj\Debug\muvelt es szep.pdb

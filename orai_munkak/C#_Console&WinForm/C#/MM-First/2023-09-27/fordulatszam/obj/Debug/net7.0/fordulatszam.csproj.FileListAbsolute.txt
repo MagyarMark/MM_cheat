@@ -1,0 +1,15 @@
+H:\régi\asztalk\C#\MM-First\2023-09-27\fordulatszam\obj\Debug\net7.0\fordulatszam.csproj.AssemblyReference.cache
+H:\régi\asztalk\C#\MM-First\2023-09-27\fordulatszam\obj\Debug\net7.0\fordulatszam.GeneratedMSBuildEditorConfig.editorconfig
+H:\régi\asztalk\C#\MM-First\2023-09-27\fordulatszam\obj\Debug\net7.0\fordulatszam.AssemblyInfoInputs.cache
+H:\régi\asztalk\C#\MM-First\2023-09-27\fordulatszam\obj\Debug\net7.0\fordulatszam.AssemblyInfo.cs
+H:\régi\asztalk\C#\MM-First\2023-09-27\fordulatszam\obj\Debug\net7.0\fordulatszam.csproj.CoreCompileInputs.cache
+H:\régi\asztalk\C#\MM-First\2023-09-27\fordulatszam\bin\Debug\net7.0\fordulatszam.exe
+H:\régi\asztalk\C#\MM-First\2023-09-27\fordulatszam\bin\Debug\net7.0\fordulatszam.deps.json
+H:\régi\asztalk\C#\MM-First\2023-09-27\fordulatszam\bin\Debug\net7.0\fordulatszam.runtimeconfig.json
+H:\régi\asztalk\C#\MM-First\2023-09-27\fordulatszam\bin\Debug\net7.0\fordulatszam.dll
+H:\régi\asztalk\C#\MM-First\2023-09-27\fordulatszam\bin\Debug\net7.0\fordulatszam.pdb
+H:\régi\asztalk\C#\MM-First\2023-09-27\fordulatszam\obj\Debug\net7.0\fordulatszam.dll
+H:\régi\asztalk\C#\MM-First\2023-09-27\fordulatszam\obj\Debug\net7.0\refint\fordulatszam.dll
+H:\régi\asztalk\C#\MM-First\2023-09-27\fordulatszam\obj\Debug\net7.0\fordulatszam.pdb
+H:\régi\asztalk\C#\MM-First\2023-09-27\fordulatszam\obj\Debug\net7.0\fordulatszam.genruntimeconfig.cache
+H:\régi\asztalk\C#\MM-First\2023-09-27\fordulatszam\obj\Debug\net7.0\ref\fordulatszam.dll

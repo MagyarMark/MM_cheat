@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-Zaroprojekt\MM-Zaroprojekt\bin\Debug\MM-Zaroprojekt.exe.config
+H:\asztalk\C#\MM-Zaroprojekt\MM-Zaroprojekt\bin\Debug\MM-Zaroprojekt.exe
+H:\asztalk\C#\MM-Zaroprojekt\MM-Zaroprojekt\bin\Debug\MM-Zaroprojekt.pdb
+H:\asztalk\C#\MM-Zaroprojekt\MM-Zaroprojekt\obj\Debug\MM-Zaroprojekt.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-Zaroprojekt\MM-Zaroprojekt\obj\Debug\MM-Zaroprojekt.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-Zaroprojekt\MM-Zaroprojekt\obj\Debug\MM-Zaroprojekt.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-Zaroprojekt\MM-Zaroprojekt\obj\Debug\MM-Zaroprojekt.exe
+H:\asztalk\C#\MM-Zaroprojekt\MM-Zaroprojekt\obj\Debug\MM-Zaroprojekt.pdb

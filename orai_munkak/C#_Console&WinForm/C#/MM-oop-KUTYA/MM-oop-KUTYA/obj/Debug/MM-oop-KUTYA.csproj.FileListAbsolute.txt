@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-oop-KUTYA\MM-oop-KUTYA\bin\Debug\MM-oop-KUTYA.exe.config
+H:\asztalk\C#\MM-oop-KUTYA\MM-oop-KUTYA\bin\Debug\MM-oop-KUTYA.exe
+H:\asztalk\C#\MM-oop-KUTYA\MM-oop-KUTYA\bin\Debug\MM-oop-KUTYA.pdb
+H:\asztalk\C#\MM-oop-KUTYA\MM-oop-KUTYA\obj\Debug\MM-oop-KUTYA.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-oop-KUTYA\MM-oop-KUTYA\obj\Debug\MM-oop-KUTYA.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-oop-KUTYA\MM-oop-KUTYA\obj\Debug\MM-oop-KUTYA.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-oop-KUTYA\MM-oop-KUTYA\obj\Debug\MM-oop-KUTYA.exe
+H:\asztalk\C#\MM-oop-KUTYA\MM-oop-KUTYA\obj\Debug\MM-oop-KUTYA.pdb

@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-elemek\MM-elemek\bin\Debug\MM-elemek.exe.config
+H:\asztalk\C#\MM-elemek\MM-elemek\bin\Debug\MM-elemek.exe
+H:\asztalk\C#\MM-elemek\MM-elemek\bin\Debug\MM-elemek.pdb
+H:\asztalk\C#\MM-elemek\MM-elemek\obj\Debug\MM-elemek.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-elemek\MM-elemek\obj\Debug\MM-elemek.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-elemek\MM-elemek\obj\Debug\MM-elemek.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-elemek\MM-elemek\obj\Debug\MM-elemek.exe
+H:\asztalk\C#\MM-elemek\MM-elemek\obj\Debug\MM-elemek.pdb

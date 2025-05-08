@@ -1,0 +1,323 @@
+﻿namespace pitypangGUI
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.telBtn = new System.Windows.Forms.Button();
+            this.exitBtn = new System.Windows.Forms.Button();
+            this.foglalasokBtn = new System.Windows.Forms.Button();
+            this.StatsBtn = new System.Windows.Forms.Button();
+            this.yearComBox = new System.Windows.Forms.ComboBox();
+            this.monthComBox = new System.Windows.Forms.ComboBox();
+            this.convertBtn = new System.Windows.Forms.Button();
+            this.dbglabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.startDatePicker = new System.Windows.Forms.DateTimePicker();
+            this.endDatePicker = new System.Windows.Forms.DateTimePicker();
+            this.reserveBtn = new System.Windows.Forms.Button();
+            this.szobaTxtBox = new System.Windows.Forms.TextBox();
+            this.szobaTxt = new System.Windows.Forms.Label();
+            this.szemlyekTxtBox = new System.Windows.Forms.TextBox();
+            this.szmelyektxt = new System.Windows.Forms.Label();
+            this.NemRadio = new System.Windows.Forms.RadioButton();
+            this.igenRadio = new System.Windows.Forms.RadioButton();
+            this.breakfastTxt = new System.Windows.Forms.Label();
+            this.nameTxtBox = new System.Windows.Forms.TextBox();
+            this.nameTxt = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(30, 37);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(656, 575);
+            this.panel1.TabIndex = 0;
+            // 
+            // telBtn
+            // 
+            this.telBtn.Location = new System.Drawing.Point(692, 41);
+            this.telBtn.Name = "telBtn";
+            this.telBtn.Size = new System.Drawing.Size(75, 23);
+            this.telBtn.TabIndex = 2;
+            this.telBtn.Text = "Telefon";
+            this.telBtn.UseVisualStyleBackColor = true;
+            this.telBtn.Click += new System.EventHandler(this.telBtn_Click);
+            // 
+            // exitBtn
+            // 
+            this.exitBtn.Location = new System.Drawing.Point(692, 167);
+            this.exitBtn.Name = "exitBtn";
+            this.exitBtn.Size = new System.Drawing.Size(75, 23);
+            this.exitBtn.TabIndex = 3;
+            this.exitBtn.Text = "Kilépés";
+            this.exitBtn.UseVisualStyleBackColor = true;
+            this.exitBtn.Click += new System.EventHandler(this.exitBtn_Click);
+            // 
+            // foglalasokBtn
+            // 
+            this.foglalasokBtn.Location = new System.Drawing.Point(692, 124);
+            this.foglalasokBtn.Name = "foglalasokBtn";
+            this.foglalasokBtn.Size = new System.Drawing.Size(75, 23);
+            this.foglalasokBtn.TabIndex = 4;
+            this.foglalasokBtn.Text = "Foglalások";
+            this.foglalasokBtn.UseVisualStyleBackColor = true;
+            // 
+            // StatsBtn
+            // 
+            this.StatsBtn.Location = new System.Drawing.Point(692, 85);
+            this.StatsBtn.Name = "StatsBtn";
+            this.StatsBtn.Size = new System.Drawing.Size(75, 23);
+            this.StatsBtn.TabIndex = 5;
+            this.StatsBtn.Text = "Statisztika";
+            this.StatsBtn.UseVisualStyleBackColor = true;
+            // 
+            // yearComBox
+            // 
+            this.yearComBox.FormattingEnabled = true;
+            this.yearComBox.Location = new System.Drawing.Point(30, 10);
+            this.yearComBox.Name = "yearComBox";
+            this.yearComBox.Size = new System.Drawing.Size(121, 21);
+            this.yearComBox.TabIndex = 6;
+            this.yearComBox.SelectedIndexChanged += new System.EventHandler(this.yearComBox_SelectedIndexChanged);
+            // 
+            // monthComBox
+            // 
+            this.monthComBox.FormattingEnabled = true;
+            this.monthComBox.Location = new System.Drawing.Point(157, 10);
+            this.monthComBox.Name = "monthComBox";
+            this.monthComBox.Size = new System.Drawing.Size(121, 21);
+            this.monthComBox.TabIndex = 7;
+            this.monthComBox.SelectedIndexChanged += new System.EventHandler(this.monthComBox_SelectedIndexChanged);
+            // 
+            // convertBtn
+            // 
+            this.convertBtn.Location = new System.Drawing.Point(692, 212);
+            this.convertBtn.Name = "convertBtn";
+            this.convertBtn.Size = new System.Drawing.Size(103, 23);
+            this.convertBtn.TabIndex = 8;
+            this.convertBtn.Text = "Fájl Konvertálás";
+            this.convertBtn.UseVisualStyleBackColor = true;
+            this.convertBtn.Click += new System.EventHandler(this.convertBtn_Click);
+            // 
+            // dbglabel
+            // 
+            this.dbglabel.AutoSize = true;
+            this.dbglabel.Location = new System.Drawing.Point(386, 18);
+            this.dbglabel.Name = "dbglabel";
+            this.dbglabel.Size = new System.Drawing.Size(35, 13);
+            this.dbglabel.TabIndex = 9;
+            this.dbglabel.Text = "label1";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(692, 590);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 13);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "dbglabel2";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(692, 561);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "label1";
+            // 
+            // startDatePicker
+            // 
+            this.startDatePicker.Location = new System.Drawing.Point(695, 428);
+            this.startDatePicker.Name = "startDatePicker";
+            this.startDatePicker.Size = new System.Drawing.Size(200, 20);
+            this.startDatePicker.TabIndex = 12;
+            this.startDatePicker.ValueChanged += new System.EventHandler(this.startDatePicker_ValueChanged);
+            // 
+            // endDatePicker
+            // 
+            this.endDatePicker.Location = new System.Drawing.Point(695, 454);
+            this.endDatePicker.Name = "endDatePicker";
+            this.endDatePicker.Size = new System.Drawing.Size(200, 20);
+            this.endDatePicker.TabIndex = 13;
+            // 
+            // reserveBtn
+            // 
+            this.reserveBtn.Location = new System.Drawing.Point(753, 480);
+            this.reserveBtn.Name = "reserveBtn";
+            this.reserveBtn.Size = new System.Drawing.Size(75, 23);
+            this.reserveBtn.TabIndex = 14;
+            this.reserveBtn.Text = "Foglalás";
+            this.reserveBtn.UseVisualStyleBackColor = true;
+            this.reserveBtn.Click += new System.EventHandler(this.reserveBtn_Click);
+            // 
+            // szobaTxtBox
+            // 
+            this.szobaTxtBox.Location = new System.Drawing.Point(786, 409);
+            this.szobaTxtBox.Name = "szobaTxtBox";
+            this.szobaTxtBox.Size = new System.Drawing.Size(100, 20);
+            this.szobaTxtBox.TabIndex = 15;
+            // 
+            // szobaTxt
+            // 
+            this.szobaTxt.AutoSize = true;
+            this.szobaTxt.Location = new System.Drawing.Point(707, 409);
+            this.szobaTxt.Name = "szobaTxt";
+            this.szobaTxt.Size = new System.Drawing.Size(40, 13);
+            this.szobaTxt.TabIndex = 16;
+            this.szobaTxt.Text = "Szoba:";
+            // 
+            // szemlyekTxtBox
+            // 
+            this.szemlyekTxtBox.Location = new System.Drawing.Point(786, 380);
+            this.szemlyekTxtBox.Name = "szemlyekTxtBox";
+            this.szemlyekTxtBox.Size = new System.Drawing.Size(100, 20);
+            this.szemlyekTxtBox.TabIndex = 17;
+            // 
+            // szmelyektxt
+            // 
+            this.szmelyektxt.AutoSize = true;
+            this.szmelyektxt.Location = new System.Drawing.Point(705, 387);
+            this.szmelyektxt.Name = "szmelyektxt";
+            this.szmelyektxt.Size = new System.Drawing.Size(61, 13);
+            this.szmelyektxt.TabIndex = 18;
+            this.szmelyektxt.Text = "Személyek:";
+            // 
+            // NemRadio
+            // 
+            this.NemRadio.AutoSize = true;
+            this.NemRadio.Location = new System.Drawing.Point(853, 322);
+            this.NemRadio.Name = "NemRadio";
+            this.NemRadio.Size = new System.Drawing.Size(47, 17);
+            this.NemRadio.TabIndex = 19;
+            this.NemRadio.TabStop = true;
+            this.NemRadio.Text = "Nem";
+            this.NemRadio.UseVisualStyleBackColor = true;
+            // 
+            // igenRadio
+            // 
+            this.igenRadio.AutoSize = true;
+            this.igenRadio.Location = new System.Drawing.Point(801, 320);
+            this.igenRadio.Name = "igenRadio";
+            this.igenRadio.Size = new System.Drawing.Size(46, 17);
+            this.igenRadio.TabIndex = 20;
+            this.igenRadio.TabStop = true;
+            this.igenRadio.Text = "Igen";
+            this.igenRadio.UseVisualStyleBackColor = true;
+            // 
+            // breakfastTxt
+            // 
+            this.breakfastTxt.AutoSize = true;
+            this.breakfastTxt.Location = new System.Drawing.Point(707, 324);
+            this.breakfastTxt.Name = "breakfastTxt";
+            this.breakfastTxt.Size = new System.Drawing.Size(55, 13);
+            this.breakfastTxt.TabIndex = 21;
+            this.breakfastTxt.Text = "Reggeli? :";
+            // 
+            // nameTxtBox
+            // 
+            this.nameTxtBox.Location = new System.Drawing.Point(786, 354);
+            this.nameTxtBox.Name = "nameTxtBox";
+            this.nameTxtBox.Size = new System.Drawing.Size(100, 20);
+            this.nameTxtBox.TabIndex = 22;
+            // 
+            // nameTxt
+            // 
+            this.nameTxt.AutoSize = true;
+            this.nameTxt.Location = new System.Drawing.Point(706, 361);
+            this.nameTxt.Name = "nameTxt";
+            this.nameTxt.Size = new System.Drawing.Size(30, 13);
+            this.nameTxt.TabIndex = 23;
+            this.nameTxt.Text = "Név:";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(961, 644);
+            this.Controls.Add(this.nameTxt);
+            this.Controls.Add(this.nameTxtBox);
+            this.Controls.Add(this.breakfastTxt);
+            this.Controls.Add(this.igenRadio);
+            this.Controls.Add(this.NemRadio);
+            this.Controls.Add(this.szmelyektxt);
+            this.Controls.Add(this.szemlyekTxtBox);
+            this.Controls.Add(this.szobaTxt);
+            this.Controls.Add(this.szobaTxtBox);
+            this.Controls.Add(this.reserveBtn);
+            this.Controls.Add(this.endDatePicker);
+            this.Controls.Add(this.startDatePicker);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.dbglabel);
+            this.Controls.Add(this.convertBtn);
+            this.Controls.Add(this.monthComBox);
+            this.Controls.Add(this.yearComBox);
+            this.Controls.Add(this.StatsBtn);
+            this.Controls.Add(this.foglalasokBtn);
+            this.Controls.Add(this.exitBtn);
+            this.Controls.Add(this.telBtn);
+            this.Controls.Add(this.panel1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button telBtn;
+        private System.Windows.Forms.Button exitBtn;
+        private System.Windows.Forms.Button foglalasokBtn;
+        private System.Windows.Forms.Button StatsBtn;
+        private System.Windows.Forms.ComboBox yearComBox;
+        private System.Windows.Forms.ComboBox monthComBox;
+        private System.Windows.Forms.Button convertBtn;
+        private System.Windows.Forms.Label dbglabel;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DateTimePicker startDatePicker;
+        private System.Windows.Forms.DateTimePicker endDatePicker;
+        private System.Windows.Forms.Button reserveBtn;
+        private System.Windows.Forms.TextBox szobaTxtBox;
+        private System.Windows.Forms.Label szobaTxt;
+        private System.Windows.Forms.Label szmelyektxt;
+        private System.Windows.Forms.TextBox szemlyekTxtBox;
+        private System.Windows.Forms.RadioButton NemRadio;
+        private System.Windows.Forms.RadioButton igenRadio;
+        private System.Windows.Forms.Label breakfastTxt;
+        private System.Windows.Forms.TextBox nameTxtBox;
+        private System.Windows.Forms.Label nameTxt;
+    }
+}
+

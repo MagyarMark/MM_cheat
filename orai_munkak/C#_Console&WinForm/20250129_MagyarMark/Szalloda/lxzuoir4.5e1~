@@ -1,0 +1,167 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Reflection.Emit;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Szalloda
+{
+    public partial class Form2 : Form
+    {
+        public Form2()
+        {
+            InitializeComponent();
+        }
+        public Form2()
+        {
+            InitializeComponent();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            StreamReader reader = new StreamReader("foglalas.txt");
+            StreamWriter writer = new StreamWriter("out.txt");
+            int year = 0;
+            int ctr = 0;
+            while (!reader.EndOfStream)
+            {
+                string[] choppedLine = reader.ReadLine().Split(' ');
+                if (choppedLine.Length < 2)
+                {
+                    year = int.Parse(choppedLine[0]);
+                    continue;
+                }
+                else
+                {
+                    int id = int.Parse(choppedLine[0]);
+                    int room = int.Parse(choppedLine[1]);
+                    int firstDay = getRealDay(int.Parse(choppedLine[2]));
+                    int lastDay = getRealDay(int.Parse(choppedLine[3]));
+                    int peopleCount = int.Parse(choppedLine[4]);
+                    int startingMonth = getMonth(int.Parse(choppedLine[2]));
+                    int endMonth = getMonth(int.Parse(choppedLine[3]));
+                    int breakfast = int.Parse(choppedLine[5]);
+                    string name = choppedLine[6];
+                    string multimonth = "0";
+                    if (startingMonth != endMonth) multimonth = "1";
+                    writer.WriteLine($"{id};{room};{startingMonth};{endMonth};{year};{firstDay};{lastDay};{peopleCount};{breakfast};{name};{multimonth}");
+                }
+                ctr++;
+                label1.Text = $"{ctr}";
+            }
+            writer.Close();
+            reader.Close();
+            this.Close();
+        }
+
+        public int getMonth(int nap)
+        {
+            if (nap < 32)
+            {
+                return 0;
+            }
+            else if (nap > 31 && nap < 60)
+            {
+                return 1;
+            }
+            else if (nap > 59 && nap < 91)
+            {
+                return 2;
+            }
+            else if (nap > 90 && nap < 121)
+            {
+                return 3;
+            }
+            else if (nap > 120 && nap < 152)
+            {
+                return 4;
+            }
+            else if (nap > 151 && nap < 182)
+            {
+                return 5;
+            }
+            else if (nap > 181 && nap < 213)
+            {
+                return 6;
+            }
+            else if (nap > 212 && nap < 244)
+            {
+                return 7;
+            }
+            else if (nap > 243 && nap < 274)
+            {
+                return 8;
+            }
+            else if (nap > 273 && nap < 305)
+            {
+                return 9;
+            }
+            else if (nap > 304 && nap < 335)
+            {
+                return 10;
+            }
+            else
+            {
+                return 11;
+            }
+        }
+
+        public int getRealDay(int nap)
+        {
+            if (nap < 32)
+            {
+                return nap;
+            }
+            else if (nap > 31 && nap < 60)
+            {
+                return nap - 31;
+            }
+            else if (nap > 59 && nap < 91)
+            {
+                return nap - 59;
+            }
+            else if (nap > 90 && nap < 121)
+            {
+                return nap - 90;
+            }
+            else if (nap > 120 && nap < 152)
+            {
+                return nap - 120;
+            }
+            else if (nap > 151 && nap < 182)
+            {
+                return nap - 151;
+            }
+            else if (nap > 181 && nap < 213)
+            {
+                return nap - 181;
+            }
+            else if (nap > 212 && nap < 244)
+            {
+                return nap - 212;
+            }
+            else if (nap > 243 && nap < 274)
+            {
+                return nap - 243;
+            }
+            else if (nap > 273 && nap < 305)
+            {
+                return nap - 273;
+            }
+            else if (nap > 304 && nap < 335)
+            {
+                return nap - 304;
+            }
+            else
+            {
+                return nap - 335;
+            }
+        }
+    }
+}

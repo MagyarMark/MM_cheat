@@ -1,0 +1,15 @@
+H:\régi\asztalk\C#\MM-First\2023-09-27\Jegyadas\bin\Debug\net7.0\Jegyadas.exe
+H:\régi\asztalk\C#\MM-First\2023-09-27\Jegyadas\bin\Debug\net7.0\Jegyadas.deps.json
+H:\régi\asztalk\C#\MM-First\2023-09-27\Jegyadas\bin\Debug\net7.0\Jegyadas.runtimeconfig.json
+H:\régi\asztalk\C#\MM-First\2023-09-27\Jegyadas\bin\Debug\net7.0\Jegyadas.dll
+H:\régi\asztalk\C#\MM-First\2023-09-27\Jegyadas\bin\Debug\net7.0\Jegyadas.pdb
+H:\régi\asztalk\C#\MM-First\2023-09-27\Jegyadas\obj\Debug\net7.0\Jegyadas.csproj.AssemblyReference.cache
+H:\régi\asztalk\C#\MM-First\2023-09-27\Jegyadas\obj\Debug\net7.0\Jegyadas.GeneratedMSBuildEditorConfig.editorconfig
+H:\régi\asztalk\C#\MM-First\2023-09-27\Jegyadas\obj\Debug\net7.0\Jegyadas.AssemblyInfoInputs.cache
+H:\régi\asztalk\C#\MM-First\2023-09-27\Jegyadas\obj\Debug\net7.0\Jegyadas.AssemblyInfo.cs
+H:\régi\asztalk\C#\MM-First\2023-09-27\Jegyadas\obj\Debug\net7.0\Jegyadas.csproj.CoreCompileInputs.cache
+H:\régi\asztalk\C#\MM-First\2023-09-27\Jegyadas\obj\Debug\net7.0\Jegyadas.dll
+H:\régi\asztalk\C#\MM-First\2023-09-27\Jegyadas\obj\Debug\net7.0\refint\Jegyadas.dll
+H:\régi\asztalk\C#\MM-First\2023-09-27\Jegyadas\obj\Debug\net7.0\Jegyadas.pdb
+H:\régi\asztalk\C#\MM-First\2023-09-27\Jegyadas\obj\Debug\net7.0\Jegyadas.genruntimeconfig.cache
+H:\régi\asztalk\C#\MM-First\2023-09-27\Jegyadas\obj\Debug\net7.0\ref\Jegyadas.dll

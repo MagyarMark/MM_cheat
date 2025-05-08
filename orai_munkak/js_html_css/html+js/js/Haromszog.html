@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        class Háromszög {
+            constructor(a, b, c) {
+                this.a = a
+                this.b = b
+                this.c = c
+            }
+
+        egyenloszaru() {
+            return this.a === this.b || this.b === this.c || this.a === this.c
+        }
+
+        szabalyos() {
+            return this.a === this.b && this.b === this.c
+        }
+
+        kerulet() {
+            return this.a + this.b + this.c
+        }
+
+        terulet() {
+            let s = this.kerulet() / 2
+            return Math.sqrt(s * (s - this.a) * (s - this.b) * (s - this.c))
+            }
+        }
+
+        let haromszog = new Háromszög(2,2,2);
+        console.log(haromszog.egyenloszaru(), haromszog.szabalyos(), haromszog.kerulet(), haromszog.terulet())
+
+
+    </script>
+
+</body>
+</html>:

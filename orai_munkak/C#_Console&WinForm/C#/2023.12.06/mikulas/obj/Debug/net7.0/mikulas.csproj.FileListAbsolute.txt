@@ -1,0 +1,15 @@
+H:\asztalk\C#\2023.12.06\mikulas\bin\Debug\net7.0\mikulas.exe
+H:\asztalk\C#\2023.12.06\mikulas\bin\Debug\net7.0\mikulas.deps.json
+H:\asztalk\C#\2023.12.06\mikulas\bin\Debug\net7.0\mikulas.runtimeconfig.json
+H:\asztalk\C#\2023.12.06\mikulas\bin\Debug\net7.0\mikulas.dll
+H:\asztalk\C#\2023.12.06\mikulas\bin\Debug\net7.0\mikulas.pdb
+H:\asztalk\C#\2023.12.06\mikulas\obj\Debug\net7.0\mikulas.csproj.AssemblyReference.cache
+H:\asztalk\C#\2023.12.06\mikulas\obj\Debug\net7.0\mikulas.GeneratedMSBuildEditorConfig.editorconfig
+H:\asztalk\C#\2023.12.06\mikulas\obj\Debug\net7.0\mikulas.AssemblyInfoInputs.cache
+H:\asztalk\C#\2023.12.06\mikulas\obj\Debug\net7.0\mikulas.AssemblyInfo.cs
+H:\asztalk\C#\2023.12.06\mikulas\obj\Debug\net7.0\mikulas.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2023.12.06\mikulas\obj\Debug\net7.0\mikulas.dll
+H:\asztalk\C#\2023.12.06\mikulas\obj\Debug\net7.0\refint\mikulas.dll
+H:\asztalk\C#\2023.12.06\mikulas\obj\Debug\net7.0\mikulas.pdb
+H:\asztalk\C#\2023.12.06\mikulas\obj\Debug\net7.0\mikulas.genruntimeconfig.cache
+H:\asztalk\C#\2023.12.06\mikulas\obj\Debug\net7.0\ref\mikulas.dll

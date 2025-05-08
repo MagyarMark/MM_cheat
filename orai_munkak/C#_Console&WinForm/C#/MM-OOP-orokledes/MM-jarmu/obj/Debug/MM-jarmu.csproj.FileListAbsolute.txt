@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-OOP-orokledes\MM-jarmu\bin\Debug\MM-jarmu.exe.config
+H:\asztalk\C#\MM-OOP-orokledes\MM-jarmu\bin\Debug\MM-jarmu.exe
+H:\asztalk\C#\MM-OOP-orokledes\MM-jarmu\bin\Debug\MM-jarmu.pdb
+H:\asztalk\C#\MM-OOP-orokledes\MM-jarmu\obj\Debug\MM-jarmu.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-OOP-orokledes\MM-jarmu\obj\Debug\MM-jarmu.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-OOP-orokledes\MM-jarmu\obj\Debug\MM-jarmu.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-OOP-orokledes\MM-jarmu\obj\Debug\MM-jarmu.exe
+H:\asztalk\C#\MM-OOP-orokledes\MM-jarmu\obj\Debug\MM-jarmu.pdb

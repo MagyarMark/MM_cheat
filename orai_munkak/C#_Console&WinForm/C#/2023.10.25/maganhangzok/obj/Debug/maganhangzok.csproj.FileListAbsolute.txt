@@ -1,0 +1,8 @@
+H:\asztalk\C#\2023.10.25\maganhangzok\bin\Debug\maganhangzok.exe.config
+H:\asztalk\C#\2023.10.25\maganhangzok\bin\Debug\maganhangzok.exe
+H:\asztalk\C#\2023.10.25\maganhangzok\bin\Debug\maganhangzok.pdb
+H:\asztalk\C#\2023.10.25\maganhangzok\obj\Debug\maganhangzok.csproj.AssemblyReference.cache
+H:\asztalk\C#\2023.10.25\maganhangzok\obj\Debug\maganhangzok.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\2023.10.25\maganhangzok\obj\Debug\maganhangzok.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2023.10.25\maganhangzok\obj\Debug\maganhangzok.exe
+H:\asztalk\C#\2023.10.25\maganhangzok\obj\Debug\maganhangzok.pdb

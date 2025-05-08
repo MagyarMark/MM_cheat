@@ -1,0 +1,8 @@
+H:\asztalk\C#\2024.01.03\Lista dolgok\bin\Debug\Lista dolgok.exe.config
+H:\asztalk\C#\2024.01.03\Lista dolgok\bin\Debug\Lista dolgok.exe
+H:\asztalk\C#\2024.01.03\Lista dolgok\bin\Debug\Lista dolgok.pdb
+H:\asztalk\C#\2024.01.03\Lista dolgok\obj\Debug\Lista dolgok.csproj.AssemblyReference.cache
+H:\asztalk\C#\2024.01.03\Lista dolgok\obj\Debug\Lista dolgok.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\2024.01.03\Lista dolgok\obj\Debug\Lista dolgok.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2024.01.03\Lista dolgok\obj\Debug\Lista dolgok.exe
+H:\asztalk\C#\2024.01.03\Lista dolgok\obj\Debug\Lista dolgok.pdb

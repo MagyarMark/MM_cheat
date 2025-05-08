@@ -1,0 +1,8 @@
+H:\asztalk\C#\2023.10.25\numpad\bin\Debug\numpad.exe.config
+H:\asztalk\C#\2023.10.25\numpad\bin\Debug\numpad.exe
+H:\asztalk\C#\2023.10.25\numpad\bin\Debug\numpad.pdb
+H:\asztalk\C#\2023.10.25\numpad\obj\Debug\numpad.csproj.AssemblyReference.cache
+H:\asztalk\C#\2023.10.25\numpad\obj\Debug\numpad.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\2023.10.25\numpad\obj\Debug\numpad.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2023.10.25\numpad\obj\Debug\numpad.exe
+H:\asztalk\C#\2023.10.25\numpad\obj\Debug\numpad.pdb

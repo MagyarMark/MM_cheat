@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        /*function add(a, b){
+            return a + b
+        }
+        console.log(add(3, 2))
+
+        let add = function (a, b){
+            return a + b
+        }
+        console.log(add(3, 2))
+
+        let add = (a, b) => a + b
+        console.log(add(3,2))
+
+        let udv = () => "HALO"
+        console.log(udv())
+
+        let udv = nev => "HALO " + nev + "!!!"
+        console.log(udv("ALBERT"))
+        
+        let add = Function("a", "b", "return a + b")
+        console.log(add(3,2))
+
+        (function (){
+            let nev = "KIS MIKLÓS",
+                udv = function(){
+                    return " SZEVASZ! "+ nev + " vagyok"
+                }
+            console.log(udv())
+        }())
+        
+        let person = {name: "PÉTER", age: 45}
+        let i = 5 
+        function f(p, x){
+            p.name = "Sándor"
+            x = 8
+        }
+
+        console.log(person.name)
+        console.log(i)
+        f(person, i)
+        console.log(person.name)
+        console.log(i)
+
+        function szemely(nev = "KARCSI", lakhely = {varos: "Pajkaszeg"}){
+            return nev + " Lakhelye: " + lakhely.varos
+        }
+        console.log(szemely())
+        console.log(szemely("BÉLA"))
+
+        function tanulo(nev, ...jegyek){
+            return nev + " jegyei: " + jegyek.join(", ");
+        }
+        console.log("LÁSZLÓ", 5, 3, 4, 2, 1, 4, 3, 5)
+
+        function findMax(){
+            let max = -Infinity
+            for (e of arguments){
+                if(max < e){
+                    max = e
+                }
+            } 
+            return max;
+        }
+        console.log(findMax(2, 5, 10, 6, 2, 45, 3, 21))
+
+        console.log(add(5, 2))
+
+        function add(a, b){
+            return a+b
+        }
+
+        function add(a,b){
+            return a+b
+        }
+        function multiply(a,b){
+            return a*b
+        }
+        function perform(a,b, operation){
+            return operation(a,b)
+        }
+        console.log(perform(3,2,add))
+        console.log(perform(3,2,multiply))
+
+        function perform(a,b, operation){
+            return operation(a,b)
+        }
+        console.log(perform(3, 2, (a,b) => a+b))
+
+        let evek = [1954, 1990,, 1963, 2000, 2010]
+
+        function tombMuvelet(tomb, fgv){
+            let eredmeny = []
+            for(e of tomb){
+                eredmeny.push(fgv(e))
+            }
+            return eredmeny
+        }
+
+        function korszamitas(elem){
+            return 2024 - elem
+        }
+
+        let korok = tombMuvelet(evek, korszamitas)
+
+        console.log(korok)*/
+
+        function interjukerdes(foglalkozas){
+            if(foglalkozas === "tanár"){
+                return function(nev){
+                    console.log(nev + ", meg tudná mondani a tantárgyakat?")
+                }
+            }else if(foglalkozas === "eladó"){
+                return function(nev){
+                    console.log(nev + ", hogyan kezelne egy vevőt?")
+                }
+            }else{
+                return function(nev){
+                    console.log("Mi a foglalkozása: " + nev)
+                }
+            }
+        }
+
+        let kerdesTanaroknak = interjukerdes('tanár')
+        kerdesTanaroknak("Pál")
+        let kerdesEladoknak = interjukerdes('eladó')
+        kerdesEladoknak("Katalin")
+        kerdesEladoknak("Géza")
+        kerdesEladoknak("Ilona")
+
+        interjukerdes("tanár")("Péter")
+        interjukerdes("eladó")("Elemér")
+
+    </script>
+</body>
+</html>

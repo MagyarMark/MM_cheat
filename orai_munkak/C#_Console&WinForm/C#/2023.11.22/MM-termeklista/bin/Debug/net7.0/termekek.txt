@@ -1,0 +1,29 @@
+Tej	liter	350	43
+Tojás	darab	80	320
+Kenyér (fehér kenyér)	kg	690	58
+Sajt (egy csomag)	csomag	1069	7
+Sajt (Trappista)	kg	629	30
+Csirkehús (alsócomb)	kg	929	24
+Marhahús	kg	3699	27
+Hal (szeletelt)	kg	3500	3
+Kristálycukor	kg	849	48
+Liszt (BL55)	kg	429	79
+Étolaj	liter	685	51
+Paprika (TV)	kg	1599	12
+Paradicsom	kg	1799	14
+Uborka	darab	699	32
+Sárgarépa	kg	499	25
+Káposzta	darab	599	6
+Hagyma	kg	599	15
+Zeller	kg	599	11
+Karalábé	db	349	9
+Padlizsán	kg	1399	4
+Sertéshús	kg	1199	36
+Vaddisznó gulyáshús	kg	1999	2
+Pulyka felsőcomb	kg	2099	27
+Retek	csomag	349	30
+Körte	kg	699	46
+Avokádó	darab	469	10
+Alma	kg	339	78
+Téliszalámi	kg	3499	52
+Royal vodka	liter	5570	5

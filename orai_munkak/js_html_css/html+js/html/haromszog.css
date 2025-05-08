@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    perspective: 800px; /* Added perspective for 3D effect */
+  }
+  
+  .pyramid {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transform: rotateY(360deg); /* Rotate the pyramid upside down */
+    animation: rotate 5s linear infinite reverse; /* Keep the rotation animation */
+  }
+  
+  .side {
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0.7;
+    border: 100px solid transparent;
+    border-bottom: 290px solid red;
+    border-top: 0px;
+  }
+  
+  .one {
+    transform: rotateX(-200deg); /* Adjust rotation for each side */
+    transform-origin: 0 0;
+    border-bottom-color: black;
+  }
+  
+  .two {
+    transform-origin: 100px 0;
+    transform: rotateY(90deg) rotateX(200deg); /* Adjust rotation */
+    border-bottom-color: purple;
+  }
+  
+  .three {
+    transform-origin: 100px 0;
+    transform: rotateY(270deg) rotateX(200deg); /* Adjust rotation */
+    border-bottom-color: red;
+  }
+  
+  .four {
+    transform-origin: 100px 0;
+    transform: rotateY(0) rotateX(200deg); /* Adjust rotation */
+    border-bottom-color: yellow;
+  }
+  
+  .base {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-372px) rotateX(-90deg); /* Adjust rotation */
+    border: 0;
+    background: blue;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotateY(0) rotateX(30deg) rotateZ(30deg);
+    }
+    to {
+      transform: rotateY(360deg) rotateX(30deg) rotateZ(30deg);
+    }
+  }
+  

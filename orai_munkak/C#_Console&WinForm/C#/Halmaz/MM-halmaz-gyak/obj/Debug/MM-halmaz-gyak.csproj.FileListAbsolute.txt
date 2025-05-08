@@ -1,0 +1,8 @@
+H:\asztalk\C#\Halmaz\MM-halmaz-gyak\obj\Debug\MM-halmaz-gyak.csproj.AssemblyReference.cache
+H:\asztalk\C#\Halmaz\MM-halmaz-gyak\obj\Debug\MM-halmaz-gyak.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\Halmaz\MM-halmaz-gyak\obj\Debug\MM-halmaz-gyak.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\Halmaz\MM-halmaz-gyak\bin\Debug\MM-halmaz-gyak.exe.config
+H:\asztalk\C#\Halmaz\MM-halmaz-gyak\bin\Debug\MM-halmaz-gyak.exe
+H:\asztalk\C#\Halmaz\MM-halmaz-gyak\bin\Debug\MM-halmaz-gyak.pdb
+H:\asztalk\C#\Halmaz\MM-halmaz-gyak\obj\Debug\MM-halmaz-gyak.exe
+H:\asztalk\C#\Halmaz\MM-halmaz-gyak\obj\Debug\MM-halmaz-gyak.pdb

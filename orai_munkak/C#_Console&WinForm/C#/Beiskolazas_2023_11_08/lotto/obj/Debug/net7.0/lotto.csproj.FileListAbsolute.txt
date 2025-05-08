@@ -1,0 +1,15 @@
+H:\asztalk\C#\Beiskolazas_2023_11_08\lotto\bin\Debug\net7.0\lotto.exe
+H:\asztalk\C#\Beiskolazas_2023_11_08\lotto\bin\Debug\net7.0\lotto.deps.json
+H:\asztalk\C#\Beiskolazas_2023_11_08\lotto\bin\Debug\net7.0\lotto.runtimeconfig.json
+H:\asztalk\C#\Beiskolazas_2023_11_08\lotto\bin\Debug\net7.0\lotto.dll
+H:\asztalk\C#\Beiskolazas_2023_11_08\lotto\bin\Debug\net7.0\lotto.pdb
+H:\asztalk\C#\Beiskolazas_2023_11_08\lotto\obj\Debug\net7.0\lotto.csproj.AssemblyReference.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\lotto\obj\Debug\net7.0\lotto.GeneratedMSBuildEditorConfig.editorconfig
+H:\asztalk\C#\Beiskolazas_2023_11_08\lotto\obj\Debug\net7.0\lotto.AssemblyInfoInputs.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\lotto\obj\Debug\net7.0\lotto.AssemblyInfo.cs
+H:\asztalk\C#\Beiskolazas_2023_11_08\lotto\obj\Debug\net7.0\lotto.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\lotto\obj\Debug\net7.0\lotto.dll
+H:\asztalk\C#\Beiskolazas_2023_11_08\lotto\obj\Debug\net7.0\refint\lotto.dll
+H:\asztalk\C#\Beiskolazas_2023_11_08\lotto\obj\Debug\net7.0\lotto.pdb
+H:\asztalk\C#\Beiskolazas_2023_11_08\lotto\obj\Debug\net7.0\lotto.genruntimeconfig.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\lotto\obj\Debug\net7.0\ref\lotto.dll

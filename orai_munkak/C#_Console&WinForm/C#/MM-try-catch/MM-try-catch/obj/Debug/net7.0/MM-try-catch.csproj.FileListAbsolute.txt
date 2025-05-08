@@ -1,0 +1,15 @@
+H:\asztalk\C#\MM-try-catch\MM-try-catch\bin\Debug\net7.0\MM-try-catch.exe
+H:\asztalk\C#\MM-try-catch\MM-try-catch\bin\Debug\net7.0\MM-try-catch.deps.json
+H:\asztalk\C#\MM-try-catch\MM-try-catch\bin\Debug\net7.0\MM-try-catch.runtimeconfig.json
+H:\asztalk\C#\MM-try-catch\MM-try-catch\bin\Debug\net7.0\MM-try-catch.dll
+H:\asztalk\C#\MM-try-catch\MM-try-catch\bin\Debug\net7.0\MM-try-catch.pdb
+H:\asztalk\C#\MM-try-catch\MM-try-catch\obj\Debug\net7.0\MM-try-catch.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-try-catch\MM-try-catch\obj\Debug\net7.0\MM-try-catch.GeneratedMSBuildEditorConfig.editorconfig
+H:\asztalk\C#\MM-try-catch\MM-try-catch\obj\Debug\net7.0\MM-try-catch.AssemblyInfoInputs.cache
+H:\asztalk\C#\MM-try-catch\MM-try-catch\obj\Debug\net7.0\MM-try-catch.AssemblyInfo.cs
+H:\asztalk\C#\MM-try-catch\MM-try-catch\obj\Debug\net7.0\MM-try-catch.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-try-catch\MM-try-catch\obj\Debug\net7.0\MM-try-catch.dll
+H:\asztalk\C#\MM-try-catch\MM-try-catch\obj\Debug\net7.0\refint\MM-try-catch.dll
+H:\asztalk\C#\MM-try-catch\MM-try-catch\obj\Debug\net7.0\MM-try-catch.pdb
+H:\asztalk\C#\MM-try-catch\MM-try-catch\obj\Debug\net7.0\MM-try-catch.genruntimeconfig.cache
+H:\asztalk\C#\MM-try-catch\MM-try-catch\obj\Debug\net7.0\ref\MM-try-catch.dll

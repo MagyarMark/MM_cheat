@@ -1,0 +1,8 @@
+H:\asztalk\C#\Alprogramok_2024.01.24\fv + el\bin\Debug\fv + el.exe.config
+H:\asztalk\C#\Alprogramok_2024.01.24\fv + el\bin\Debug\fv + el.exe
+H:\asztalk\C#\Alprogramok_2024.01.24\fv + el\bin\Debug\fv + el.pdb
+H:\asztalk\C#\Alprogramok_2024.01.24\fv + el\obj\Debug\fv + el.csproj.AssemblyReference.cache
+H:\asztalk\C#\Alprogramok_2024.01.24\fv + el\obj\Debug\fv + el.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\Alprogramok_2024.01.24\fv + el\obj\Debug\fv + el.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\Alprogramok_2024.01.24\fv + el\obj\Debug\fv + el.exe
+H:\asztalk\C#\Alprogramok_2024.01.24\fv + el\obj\Debug\fv + el.pdb

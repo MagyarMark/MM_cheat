@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-csudh\MM-csudh\bin\Debug\MM-csudh.exe.config
+H:\asztalk\C#\MM-csudh\MM-csudh\bin\Debug\MM-csudh.exe
+H:\asztalk\C#\MM-csudh\MM-csudh\bin\Debug\MM-csudh.pdb
+H:\asztalk\C#\MM-csudh\MM-csudh\obj\Debug\MM-csudh.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-csudh\MM-csudh\obj\Debug\MM-csudh.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-csudh\MM-csudh\obj\Debug\MM-csudh.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-csudh\MM-csudh\obj\Debug\MM-csudh.exe
+H:\asztalk\C#\MM-csudh\MM-csudh\obj\Debug\MM-csudh.pdb

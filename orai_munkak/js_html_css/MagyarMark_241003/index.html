@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanulói Azonosítók Dolgozat</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table{
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th{
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+        td{
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+        th{
+            background-color: #f2f2f2;
+        }
+        .error{
+            color: red;
+        }
+        #delet{
+            color: white;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tanulói Azonosítók</h1>
+    <form id="studentForm">
+        <label for="name">Név:</label>
+        <input type="text" id="name" name="name">
+        <label for="id">Oktatási azonosító:</label>
+        <input type="text" id="id" name="id">
+        <button type="button" onclick="addStudent()">Hozzáad</button>
+        <button type="button" onclick="clearTable()" id="delet">Mindent töröl</button>
+        <p id="error" class="error"></p>
+    </form>
+<!--<thead>
+            <br>
+            <tr>
+                <th><button type="button" onclick="addStudent()">Hozzáad</button></th>
+                
+            </tr>
+            <tr>
+                <button type="button" onclick="clearTable()" id="delet">Mindent töröl</button>
+            </tr>
+        </thead>-->
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Név</th>
+                <th>Oktatási azonosító</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+        function addStudent() {
+            const name = document.getElementById('name').value;
+            const id = document.getElementById('id').value;
+            const errorElement = document.getElementById('error');
+            errorElement.textContent = '';
+
+            if (!name || !id) {
+                errorElement.textContent = 'Add meg a nevet és az azonosíót';
+                return;
+            }
+
+            if (!isValidId(id)) {
+                errorElement.textContent = 'Hibás oktatási azonosító.';
+                return;
+            }
+
+            const table = document.getElementById('studentTable').getElementsByTagName('tbody')[0];
+            const newRow = table.insertRow();
+            const nameCell = newRow.insertCell(0);
+            const idCell = newRow.insertCell(1);
+            const actionCell = newRow.insertCell(2);
+
+            nameCell.textContent = name;
+            idCell.textContent = id;
+            actionCell.innerHTML = '<button onclick="deleteRow(this)" id="delet">X</button>';
+
+            document.getElementById('studentForm').reset();
+        }
+        function isValidId(id) {
+            if (id.length !== 11 || id[0] !== '7') {
+                return false;
+            }
+
+            const digits = id.split('').map(Number);
+            let sum = 0;
+
+            for (let i = 0; i < 10; i++) {
+                sum += digits[i] * (i + 1);
+            }
+
+            const checkDigit = sum % 11;
+            return checkDigit === digits[10];
+        }
+        function generateIdentifier() {
+            let fixszam = '7';
+
+            for (let i = 0; i < 9; i++) {
+                fixszam += Math.floor(Math.random() * 10);
+            }
+
+            let sum = 0;
+            for (let i = 0; i < 10; i++) {
+                sum += parseInt(fixszam[i]) * (i + 1);
+            }
+            let ell = sum % 11;
+
+            fixszam += ell;
+
+            return fixszam;
+        } 
+        console.log(generateIdentifier());
+
+        function clearTable() {
+            const table = document.getElementById('studentTable').getElementsByTagName('tbody')[0];
+            table.innerHTML = '';
+        }
+
+        function deleteRow(button) {
+            const row = button.parentNode.parentNode;
+            row.parentNode.removeChild(row);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+H:\asztalk\C#\2024.01.03\MM-ettermek\bin\Debug\MM-ettermek.exe.config
+H:\asztalk\C#\2024.01.03\MM-ettermek\bin\Debug\MM-ettermek.exe
+H:\asztalk\C#\2024.01.03\MM-ettermek\bin\Debug\MM-ettermek.pdb
+H:\asztalk\C#\2024.01.03\MM-ettermek\obj\Debug\MM-ettermek.csproj.AssemblyReference.cache
+H:\asztalk\C#\2024.01.03\MM-ettermek\obj\Debug\MM-ettermek.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\2024.01.03\MM-ettermek\obj\Debug\MM-ettermek.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2024.01.03\MM-ettermek\obj\Debug\MM-ettermek.exe
+H:\asztalk\C#\2024.01.03\MM-ettermek\obj\Debug\MM-ettermek.pdb

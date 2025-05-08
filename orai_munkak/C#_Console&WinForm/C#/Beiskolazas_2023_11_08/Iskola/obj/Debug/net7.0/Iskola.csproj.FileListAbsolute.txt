@@ -1,0 +1,15 @@
+H:\asztalk\C#\Beiskolazas_2023_11_08\Iskola\bin\Debug\net7.0\Iskola.exe
+H:\asztalk\C#\Beiskolazas_2023_11_08\Iskola\bin\Debug\net7.0\Iskola.deps.json
+H:\asztalk\C#\Beiskolazas_2023_11_08\Iskola\bin\Debug\net7.0\Iskola.runtimeconfig.json
+H:\asztalk\C#\Beiskolazas_2023_11_08\Iskola\bin\Debug\net7.0\Iskola.dll
+H:\asztalk\C#\Beiskolazas_2023_11_08\Iskola\bin\Debug\net7.0\Iskola.pdb
+H:\asztalk\C#\Beiskolazas_2023_11_08\Iskola\obj\Debug\net7.0\Iskola.csproj.AssemblyReference.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\Iskola\obj\Debug\net7.0\Iskola.GeneratedMSBuildEditorConfig.editorconfig
+H:\asztalk\C#\Beiskolazas_2023_11_08\Iskola\obj\Debug\net7.0\Iskola.AssemblyInfoInputs.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\Iskola\obj\Debug\net7.0\Iskola.AssemblyInfo.cs
+H:\asztalk\C#\Beiskolazas_2023_11_08\Iskola\obj\Debug\net7.0\Iskola.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\Iskola\obj\Debug\net7.0\Iskola.dll
+H:\asztalk\C#\Beiskolazas_2023_11_08\Iskola\obj\Debug\net7.0\refint\Iskola.dll
+H:\asztalk\C#\Beiskolazas_2023_11_08\Iskola\obj\Debug\net7.0\Iskola.pdb
+H:\asztalk\C#\Beiskolazas_2023_11_08\Iskola\obj\Debug\net7.0\Iskola.genruntimeconfig.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\Iskola\obj\Debug\net7.0\ref\Iskola.dll

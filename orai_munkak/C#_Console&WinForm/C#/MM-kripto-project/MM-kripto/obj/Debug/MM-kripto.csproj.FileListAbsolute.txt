@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-kripto-project\MM-kripto\bin\Debug\MM-kripto.exe.config
+H:\asztalk\C#\MM-kripto-project\MM-kripto\bin\Debug\MM-kripto.exe
+H:\asztalk\C#\MM-kripto-project\MM-kripto\bin\Debug\MM-kripto.pdb
+H:\asztalk\C#\MM-kripto-project\MM-kripto\obj\Debug\MM-kripto.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-kripto-project\MM-kripto\obj\Debug\MM-kripto.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-kripto-project\MM-kripto\obj\Debug\MM-kripto.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-kripto-project\MM-kripto\obj\Debug\MM-kripto.exe
+H:\asztalk\C#\MM-kripto-project\MM-kripto\obj\Debug\MM-kripto.pdb

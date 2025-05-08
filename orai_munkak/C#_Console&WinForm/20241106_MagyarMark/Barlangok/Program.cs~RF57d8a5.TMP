@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Barlangok
+{
+    class Barlang
+    {
+        public int hossz;
+        public int melyseg;
+        public string nev;
+        public string telepules;
+        public string vedettseg;
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
+}

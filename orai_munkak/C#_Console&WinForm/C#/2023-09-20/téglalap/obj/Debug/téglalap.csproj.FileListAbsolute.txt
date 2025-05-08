@@ -1,0 +1,8 @@
+H:\asztalk\C#\2023-09-20\téglalap\bin\Debug\téglalap.exe.config
+H:\asztalk\C#\2023-09-20\téglalap\bin\Debug\téglalap.exe
+H:\asztalk\C#\2023-09-20\téglalap\bin\Debug\téglalap.pdb
+H:\asztalk\C#\2023-09-20\téglalap\obj\Debug\téglalap.csproj.AssemblyReference.cache
+H:\asztalk\C#\2023-09-20\téglalap\obj\Debug\téglalap.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\2023-09-20\téglalap\obj\Debug\téglalap.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2023-09-20\téglalap\obj\Debug\téglalap.exe
+H:\asztalk\C#\2023-09-20\téglalap\obj\Debug\téglalap.pdb

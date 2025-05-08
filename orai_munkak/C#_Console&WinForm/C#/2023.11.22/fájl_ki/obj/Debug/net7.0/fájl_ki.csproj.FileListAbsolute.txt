@@ -1,0 +1,15 @@
+H:\asztalk\C#\2023.11.22\fájl_ki\bin\Debug\net7.0\fájl_ki.exe
+H:\asztalk\C#\2023.11.22\fájl_ki\bin\Debug\net7.0\fájl_ki.deps.json
+H:\asztalk\C#\2023.11.22\fájl_ki\bin\Debug\net7.0\fájl_ki.runtimeconfig.json
+H:\asztalk\C#\2023.11.22\fájl_ki\bin\Debug\net7.0\fájl_ki.dll
+H:\asztalk\C#\2023.11.22\fájl_ki\bin\Debug\net7.0\fájl_ki.pdb
+H:\asztalk\C#\2023.11.22\fájl_ki\obj\Debug\net7.0\fájl_ki.csproj.AssemblyReference.cache
+H:\asztalk\C#\2023.11.22\fájl_ki\obj\Debug\net7.0\fájl_ki.GeneratedMSBuildEditorConfig.editorconfig
+H:\asztalk\C#\2023.11.22\fájl_ki\obj\Debug\net7.0\fájl_ki.AssemblyInfoInputs.cache
+H:\asztalk\C#\2023.11.22\fájl_ki\obj\Debug\net7.0\fájl_ki.AssemblyInfo.cs
+H:\asztalk\C#\2023.11.22\fájl_ki\obj\Debug\net7.0\fájl_ki.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2023.11.22\fájl_ki\obj\Debug\net7.0\fájl_ki.dll
+H:\asztalk\C#\2023.11.22\fájl_ki\obj\Debug\net7.0\refint\fájl_ki.dll
+H:\asztalk\C#\2023.11.22\fájl_ki\obj\Debug\net7.0\fájl_ki.pdb
+H:\asztalk\C#\2023.11.22\fájl_ki\obj\Debug\net7.0\fájl_ki.genruntimeconfig.cache
+H:\asztalk\C#\2023.11.22\fájl_ki\obj\Debug\net7.0\ref\fájl_ki.dll

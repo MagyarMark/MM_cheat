@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- assinkron program véletlen szerű késleltetéssel vissza ad 
+    program véletlen szám 1-100 promison keresztül véletlen késleltetéssel -->
+
+    <script>
+        async function randomGenerator(){
+            const delay = Math.floor(Math.random()*  4000 + 1000)
+            await new Promise((resolve) => setTimeout(resolve, delay));
+            const randomNumber = (Math.random() *100);
+            console.log("Generált véletlenszám:" + randomNumber +", "+ delay/1000 + " idő alatt")
+        }
+        randomGenerator();
+    </script>
+
+    <!-- gomb nyomásra jelenítsen meg async eseményt html és js használatával azt szimulálva, hogy tölt az oldal -->
+
+    <button id="adatgomb">Adatok betöltése</button>
+    <p id="valasz"></p>
+
+    <script>
+        document.getElementById('adatgomb').addEventListener('click', async()=>{
+            document.getElementById('valasz').innerText = 'Betöltés.';
+            await betoltes()
+            document.getElementById('valasz').innerText = 'Betöltés..';
+            await betoltes()
+            document.getElementById('valasz').innerText = 'Betöltés...';
+            await betoltes()
+            document.getElementById('valasz').innerText = 'Betöltés.';
+            await betoltes()
+            document.getElementById('valasz').innerText = 'Betöltés..';
+            await betoltes()
+            document.getElementById('valasz').innerText = 'Sikeres betöltés';
+        });
+        
+        function randomdelay(){
+            return Math.floor(Math.random() * 1000) +500;//1-6mp késleltetés
+        }
+        
+        function betoltes(){
+            return new Promise(resolve =>{
+                setTimeout(resolve, randomdelay());
+            })
+        }
+
+        /*function lista(){
+            document.getElementById('valasz').innerText = 'Adatok betöltése';
+        }*/
+</script>
+</body>
+</html>

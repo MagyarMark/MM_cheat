@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            width: 10px;
+            height: 10px;
+            padding: 0;
+            margin: 0;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>négyzet</h1>
+    <table></table>
+    <h1>háromszög</h1>
+    <table></table>
+    <h1>Pöttyös</h1>
+    <table></table>
+    <h1>Zászló</h1>
+    <table></table>
+    <h1>Felnégyelve</h1>
+    <table></table>
+    <h1>az</h1>
+    <table></table>
+
+    <script>
+        const table = document.getElementsByTagName("table")[0]
+        const table1 = document.getElementsByTagName("table")[1]
+        const table2 = document.getElementsByTagName("table")[2]
+        const table3 = document.getElementsByTagName("table")[3]
+        const table4 = document.getElementsByTagName("table")[4]
+        const table5 = document.getElementsByTagName("table")[5]
+
+        let row;
+        let column;
+        for (let i = 0; i < 16; i++) {
+            row = document.createElement("tr");
+            for(let j = 0; j < 16; j++){
+                column = document.createElement("td")
+                color = "#" + j.toString(16) + i.toString(16) + '0';
+                column.style.backgroundColor = color;
+                row.append(column)
+            }
+            table.append(row)
+        }
+
+        for (let i = 0; i < 16; i++) {
+            row = document.createElement("tr");
+            for(let j = 0; j <= i; j++){
+                column = document.createElement("td")
+                color = "#" + j.toString(16) + i.toString(16) + '0';
+                column.style.backgroundColor = color;
+                row.append(column)
+            }
+            table1.append(row)
+        }
+        
+        for (let i = 0; i < 16; i++) {
+            row = document.createElement("tr");
+            for(let j = 0; j < 16; j++){
+                column = document.createElement("td")
+                color = "#" + j.toString(16) + i.toString(16) + '0';
+                if(j * i % 2 == 0 && (i + j) %2 != 0){
+                    column.style.backgroundColor = color;
+                }
+                
+                /*if(i % 2 || j == 1|| j == 3 || j == 5|| j == 7|| j == 9|| j == 11|| j == 13|| j == 15){
+                    column.style.backgroundColor = color;
+                }if(j % 2 == 0){
+                    column.style.backgroundColor = color;
+                }*/
+                
+                /*if(j % 2 == 0){
+                    column.style.backgroundColor = color;
+                }if(i % 2 !== 0){
+                    column.style.backgroundColor = color;
+                }*/
+                
+                row.append(column)
+            }
+            table2.append(row)
+        }
+
+        for (let i = 0; i < 16; i++) {
+            row = document.createElement("tr");
+            for(let j = 0; j < 16; j++){
+                column = document.createElement("td")
+                color = "red";
+                if(i != 7 && j !=7 && i != 8 && j!= 8){
+                    column.style.backgroundColor = color;
+                }else(column.style.backgroundColor = "blue")
+                row.append(column)
+            }
+            table3.append(row)
+        }
+
+        for (let i = 0; i < 16; i++) {
+  let row = document.createElement("tr");
+  for(let j = 0; j < 16; j++){
+    let column = document.createElement("td");
+    if(j != i && i + j != 15){
+      column.style.backgroundColor = "grey";
+    }else{
+      column.style.backgroundColor = "";
+    }
+    row.append(column);
+  }
+  table4.append(row);
+}
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace barlangok
+{
+    class Barlang
+    {
+        private int Melyseg = 0;
+        private int Hossz = 0;
+        public int hossz { get { return Hossz; } private set { if (value >= Hossz || value >= 0) Hossz = value ;} }
+        public int melyseg { get { return Melyseg; } private set { if (value >= 0) Melyseg = value; } }
+        public int azon { get; set; }
+        public string nev { get; set; }
+        public string telepules { get; set; }
+        public string vedettseg { get; set; }
+        
+        public Barlang(string line)
+        {
+            try
+            {
+                string[] strings = line.Split(';');
+                hossz = int.Parse(strings[2]);
+                melyseg = int.Parse(strings[3]);
+                azon = int.Parse(strings[0]);
+                nev = strings[1];
+                telepules = strings[4];
+                vedettseg = strings[5];
+            }
+            catch (Exception)
+            {
+                Hossz = 0;
+            }
+            
+        }
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            StreamReader sr = new StreamReader("barlangok.txt", encoding: Encoding.UTF8);
+            List<string> barlangs = new List<string>();
+
+            try
+            {
+                sr = new StreamReader("barlangok.txt", encoding: Encoding.UTF8);
+                while (!sr.EndOfStream)
+                {
+                    barlangs.Add(sr.ReadLine());
+                }
+                sr.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error: " + e.ToString());
+            }
+
+            Console.WriteLine("4. feladat: Barlangok száma: " + barlangs.Count);
+
+            double miskolciBarlangokOssz = 0;
+            int miskolciBarlangokDb = 0;
+
+            foreach (string sor in barlangs)
+            {
+                string[] s = sor.Split(';');
+                if (s[4].StartsWith("Miskolc"))
+                {
+                    miskolciBarlangokOssz += int.Parse(s[3]);
+                    miskolciBarlangokDb++;
+                }
+            }
+
+            double miskolciBarlangokAtlag = miskolciBarlangokOssz / miskolciBarlangokDb;
+            Console.WriteLine("Az átlagos mélysége: {0:F3} m", miskolciBarlangokAtlag);
+
+
+            //Barlang a = new Barlang("1;Abaligeti-barlang;1893;10;Abaliget;fokozottan védett");
+
+
+            Console.ReadKey();
+        }
+    }
+}

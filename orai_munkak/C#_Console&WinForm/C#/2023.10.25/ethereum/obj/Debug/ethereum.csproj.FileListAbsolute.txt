@@ -1,0 +1,8 @@
+H:\asztalk\C#\2023.10.25\ethereum\bin\Debug\ethereum.exe.config
+H:\asztalk\C#\2023.10.25\ethereum\bin\Debug\ethereum.exe
+H:\asztalk\C#\2023.10.25\ethereum\bin\Debug\ethereum.pdb
+H:\asztalk\C#\2023.10.25\ethereum\obj\Debug\ethereum.csproj.AssemblyReference.cache
+H:\asztalk\C#\2023.10.25\ethereum\obj\Debug\ethereum.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\2023.10.25\ethereum\obj\Debug\ethereum.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2023.10.25\ethereum\obj\Debug\ethereum.exe
+H:\asztalk\C#\2023.10.25\ethereum\obj\Debug\ethereum.pdb

@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-lista\autok\bin\Debug\autok.exe.config
+H:\asztalk\C#\MM-lista\autok\bin\Debug\autok.exe
+H:\asztalk\C#\MM-lista\autok\bin\Debug\autok.pdb
+H:\asztalk\C#\MM-lista\autok\obj\Debug\autok.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-lista\autok\obj\Debug\autok.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-lista\autok\obj\Debug\autok.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-lista\autok\obj\Debug\autok.exe
+H:\asztalk\C#\MM-lista\autok\obj\Debug\autok.pdb

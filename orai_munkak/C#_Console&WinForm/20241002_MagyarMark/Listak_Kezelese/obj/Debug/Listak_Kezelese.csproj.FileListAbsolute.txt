@@ -1,0 +1,10 @@
+C:\Users\MagyarMark\Desktop\20241002_MagyarMark\Listak_Kezelese\bin\Debug\Listak_Kezelese.exe.config
+C:\Users\MagyarMark\Desktop\20241002_MagyarMark\Listak_Kezelese\bin\Debug\Listak_Kezelese.exe
+C:\Users\MagyarMark\Desktop\20241002_MagyarMark\Listak_Kezelese\bin\Debug\Listak_Kezelese.pdb
+C:\Users\MagyarMark\Desktop\20241002_MagyarMark\Listak_Kezelese\obj\Debug\Listak_Kezelese.csproj.AssemblyReference.cache
+C:\Users\MagyarMark\Desktop\20241002_MagyarMark\Listak_Kezelese\obj\Debug\Listak_Kezelese.Form1.resources
+C:\Users\MagyarMark\Desktop\20241002_MagyarMark\Listak_Kezelese\obj\Debug\Listak_Kezelese.Properties.Resources.resources
+C:\Users\MagyarMark\Desktop\20241002_MagyarMark\Listak_Kezelese\obj\Debug\Listak_Kezelese.csproj.GenerateResource.cache
+C:\Users\MagyarMark\Desktop\20241002_MagyarMark\Listak_Kezelese\obj\Debug\Listak_Kezelese.csproj.CoreCompileInputs.cache
+C:\Users\MagyarMark\Desktop\20241002_MagyarMark\Listak_Kezelese\obj\Debug\Listak_Kezelese.exe
+C:\Users\MagyarMark\Desktop\20241002_MagyarMark\Listak_Kezelese\obj\Debug\Listak_Kezelese.pdb

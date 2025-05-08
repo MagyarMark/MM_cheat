@@ -1,0 +1,15 @@
+H:\asztalk\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\net7.0\OrvosiNobeldijasok.csproj.AssemblyReference.cache
+H:\asztalk\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\net7.0\OrvosiNobeldijasok.GeneratedMSBuildEditorConfig.editorconfig
+H:\asztalk\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\net7.0\OrvosiNobeldijasok.AssemblyInfoInputs.cache
+H:\asztalk\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\net7.0\OrvosiNobeldijasok.AssemblyInfo.cs
+H:\asztalk\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\net7.0\OrvosiNobeldijasok.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\net7.0\OrvosiNobeldijasok.exe
+H:\asztalk\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\net7.0\OrvosiNobeldijasok.deps.json
+H:\asztalk\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\net7.0\OrvosiNobeldijasok.runtimeconfig.json
+H:\asztalk\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\net7.0\OrvosiNobeldijasok.dll
+H:\asztalk\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\net7.0\OrvosiNobeldijasok.pdb
+H:\asztalk\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\net7.0\OrvosiNobeldijasok.dll
+H:\asztalk\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\net7.0\refint\OrvosiNobeldijasok.dll
+H:\asztalk\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\net7.0\OrvosiNobeldijasok.pdb
+H:\asztalk\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\net7.0\OrvosiNobeldijasok.genruntimeconfig.cache
+H:\asztalk\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\net7.0\ref\OrvosiNobeldijasok.dll

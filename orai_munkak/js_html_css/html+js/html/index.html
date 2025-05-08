@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+    <title>Document</title>
+</head>
+<body id="top">
+    <h1>Címsor 1</h1>
+    <h2>Címsor 2</h2>
+    <h3>Címsor 3</h3>
+    <h4>Címsor 4</h4>
+    <h5>Címsor 5</h5>
+    <h6>Címsor 6</h6>
+
+   <ol reversed start = 2>
+       <li>barack</li>
+       <li value = 5>körte</li>
+        <li>szilva</li>
+        <li>cseresznye</li>
+        <li>birs</li>
+    </ol>
+    <ul>
+        <li>magyar</li>
+        <li>matek</li>
+        <li>info</li>
+    </ul>
+
+    <table>
+        <caption>Ez egy táblázat</caption>
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+        </tr>
+        <tr>
+            <td colspan="2">E</td>
+            
+            <td>G</td>
+            <td rowspan="2">H</td>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>J</td>
+            <td>K</td>
+            
+        </tr>
+        <tr>
+            <td>M</td>
+            <td rowspan="2" colspan="2">N</td>
+            
+            <td>P</td>
+        </tr>
+        <tr>
+            <td>Q</td>
+            
+            
+            <td>T</td>
+        </tr>
+    </table>
+
+    <br>
+    <img src="200.webp" alt="haha" title="haha">
+
+    <p>&copy; copyright &euro;</p>
+
+    <p>idézet: <q>Lenni vagy nem lenni...</q> </p>
+
+    <pre>
+        Ez egy sor
+            második sor
+            harmadik
+        negyedik
+    </pre>
+
+    <meter min="10" max="100" value="40"></meter>
+
+    <p>hosszú szó efélw4<wbr>towi4ö32q5mu79ö82uü1ci5,934mbu6ó1tu4,c916ö95b<wbr>76m91567v9ö56ci,4ü5i9mu68zn8ö43<wbr>159ö4ub61ubm7</p>
+
+    <a href="https://szbi-pg.hu/index.php/hu/" target="_blank">honlap</a>
+
+    <a href="mailto:mail@gmail.hu">Mail</a>
+    
+    <a href="#top">top</a>
+
+    <form action="mailto:kiss.gabor@szbi-pg.hu" method="post">
+        <p><label for="nev">Név: <input type="text" name="nev" id="nev" placeholder="Gipsz Jakab" size="10" maxlength="20"></label></p>
+        <p><label for="">Jelszó<input type="password" name="password" id=""></label></p>
+        <p> 
+        <fieldset>
+            <legend>Beszélt nyelvek:</legend>
+            
+            <label for=""><input type="checkbox" name="hu" id="" checked>magyar</label>
+            <label for=""><input type="checkbox" name="en" id="">angol</label>
+            <label for=""><input type="checkbox" name="de" id="">német</label>
+            <label for=""><input type="checkbox" name="it" id="">olasz</label>
+        </fieldset>
+        </p>
+        <p> Válasz:
+            <label for=""><input type="radio" name="" id="" checked>igen</label>
+            <label for=""><input type="radio" name="" id="">nem</label>
+            <label for=""><input type="radio" name="" id="">talán</label>
+        </p>
+        <p><label for="">Dátum<input type="datetime" name="date" id="dátum"></label></p>
+        <p><label for="">Hónap<input type="month" name="datum" id=""></label></p>
+        <p><label for="">Hét:<input type="week" name="week" id="hét"></label></p>
+        <p><label for="">Idő<input type="time" name="time" id="idő"></label></p>
+        <p><label for="">Szám<input type="number" name="szam" id="" min="10" max="100" value="50" step="10"></label></p>
+        <p><label for="">Range<input type="range" name="ran" id="" min="10" max="200" value="50" step="25"></label></p>
+        <p><label for="">Fájl<input type="file" name="file" id=""></label></p>
+        <p><label for="">Szín<input type="color" name="color" id=""></label></p>
+
+        <p>Kedvenc gyümölcsök:
+        <select name="gyümölcs" id="">
+            <option value="gy1">barack</option>
+            <option value="gy2">szilva</option>
+            <option value="gy3">körte</option>
+            <option value="gy4" selected>alma</option>
+            <option value="gy5">kivi</option>
+            <option value="gy6">banán</option>
+            <option value="gy7">cseresznye</option>
+            <option value="gy8">meggy</option>
+        </select>
+        </p>
+
+        <textarea name="" id="" cols="10" rows="5">Jegyzet</textarea>
+
+        <p>
+            <input type="reset" value="töröl">
+            <input type="submit" value="Elküld">
+        </p>
+        <button type="button">Számol</button>
+    </form>
+
+<p id="azon">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, accusantium commodi. Tenetur a sapiente sint! Impedit, illum eos consequatur ex repellat temporibus! Ipsum itaque, commodi minus et sed sunt perferendis.</p>
+
+<div id="keret">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum amet tempora iste soluta sunt. Sed sequi cum accusamus possimus iure iusto? Fugit, ipsum iusto hic molestiae pariatur placeat culpa quam?</p>
+</div>
+
+<div id="content">
+    <div class="news">
+        <img src="200.webp" alt="haha" title="haha" class="jobbra">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque pariatur, excepturi maxime esse quas incidunt recusandae quibusdam tenetur ab officia debitis hic. Velit pariatur quasi fugit fuga. Accusantium, quisquam illo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas maiores fuga necessitatibus aliquam ad repellat illo dolore excepturi, vitae expedita ab dolores a minus non? Illum vero debitis quia error!</p>
+    </div>
+    <div class="clear"></div>
+    <div class="news">
+        <p>Placeat tempora aliquid aut, ut nobis pariatur vero magnam natus quia excepturi ab atque ea consequuntur molestias amet adipisci inventore mollitia quaerat animi, libero incidunt sunt impedit architecto necessitatibus. Repudiandae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt earum dolorem eius minima iusto illum facere reprehenderit maiores ipsum obcaecati laborum exercitationem atque, saepe maxime cum possimus aliquam est dolorum?</p>
+    </div>
+    <div class="news2">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed deserunt facilis iusto, in deleniti qui id iste eligendi expedita nobis nemo ex voluptas vitae incidunt fuga laborum? Ad, veritatis porro.</p>
+    </div>
+    <div class="news2">
+        <p>Aliquid id, nihil accusantium, quibusdam ducimus numquam officia corrupti nesciunt labore error beatae, saepe delectus deserunt fugiat cupiditate temporibus tempora? Ea atque quae excepturi esse quam quia laboriosam autem a!</p>
+    </div>
+    <div class="news2">
+        <p>Distinctio neque porro illum adipisci voluptate laboriosam nisi. Voluptatem, omnis, aut consequuntur fugit fugiat officiis corporis aliquid, voluptates harum assumenda doloribus sed perferendis quasi velit placeat animi vel aliquam iste.</p>
+    </div>
+    <div class="clear"></div>
+</div>
+<div id="csordul">
+    <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquid vero dolores. Blanditiis repellat nostrum quis accusantium non odit beatae! Consequuntur enim omnis voluptate culpa tempora facere harum, nobis iste.</span><span>Alias molestiae quaerat magnam perferendis facere dolorem est eum recusandae exercitationem? Incidunt, commodi? Corrupti molestiae, a facilis qui eum totam ipsam doloremque consequatur, voluptatum fuga, non blanditiis neque recusandae aut?</span><span>Reiciendis suscipit quidem ut iste vitae maxime quisquam dicta amet nobis, delectus quae, voluptatem ex ad porro eveniet impedit corporis, quis officiis assumenda sequi maiores quia neque. Neque, est quo.</span><span>Neque architecto dolorum deserunt vel tempore nesciunt mollitia voluptates, fugit a quasi ratione totam aliquam, id recusandae unde illum modi eligendi ipsum obcaecati. Voluptas quia, enim eius commodi pariatur quaerat!</span><span>Vel consequatur incidunt, dolorem reprehenderit quam enim, possimus laudantium ad facilis minima hic quod quaerat facere assumenda quasi harum ea recusandae rerum ratione ducimus, cumque repudiandae sit! Expedita, hic est!</span></p>
+</div>
+
+</body>
+</html>

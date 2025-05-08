@@ -1,0 +1,10 @@
+H:\2024-2025\ikt-aaf\20240912_MagyarMark\calculatorMini\bin\Debug\calculatorMini.exe.config
+H:\2024-2025\ikt-aaf\20240912_MagyarMark\calculatorMini\bin\Debug\calculatorMini.exe
+H:\2024-2025\ikt-aaf\20240912_MagyarMark\calculatorMini\bin\Debug\calculatorMini.pdb
+H:\2024-2025\ikt-aaf\20240912_MagyarMark\calculatorMini\obj\Debug\calculatorMini.csproj.AssemblyReference.cache
+H:\2024-2025\ikt-aaf\20240912_MagyarMark\calculatorMini\obj\Debug\calculatorMini.Form1.resources
+H:\2024-2025\ikt-aaf\20240912_MagyarMark\calculatorMini\obj\Debug\calculatorMini.Properties.Resources.resources
+H:\2024-2025\ikt-aaf\20240912_MagyarMark\calculatorMini\obj\Debug\calculatorMini.csproj.GenerateResource.cache
+H:\2024-2025\ikt-aaf\20240912_MagyarMark\calculatorMini\obj\Debug\calculatorMini.csproj.CoreCompileInputs.cache
+H:\2024-2025\ikt-aaf\20240912_MagyarMark\calculatorMini\obj\Debug\calculatorMini.exe
+H:\2024-2025\ikt-aaf\20240912_MagyarMark\calculatorMini\obj\Debug\calculatorMini.pdb

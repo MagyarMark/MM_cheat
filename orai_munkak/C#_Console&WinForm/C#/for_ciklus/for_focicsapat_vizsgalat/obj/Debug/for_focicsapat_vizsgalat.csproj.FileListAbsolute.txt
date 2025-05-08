@@ -1,0 +1,8 @@
+H:\asztalk\C#\for_ciklus\for_focicsapat_vizsgalat\bin\Debug\for_focicsapat_vizsgalat.exe.config
+H:\asztalk\C#\for_ciklus\for_focicsapat_vizsgalat\bin\Debug\for_focicsapat_vizsgalat.exe
+H:\asztalk\C#\for_ciklus\for_focicsapat_vizsgalat\bin\Debug\for_focicsapat_vizsgalat.pdb
+H:\asztalk\C#\for_ciklus\for_focicsapat_vizsgalat\obj\Debug\for_focicsapat_vizsgalat.csproj.AssemblyReference.cache
+H:\asztalk\C#\for_ciklus\for_focicsapat_vizsgalat\obj\Debug\for_focicsapat_vizsgalat.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\for_ciklus\for_focicsapat_vizsgalat\obj\Debug\for_focicsapat_vizsgalat.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\for_ciklus\for_focicsapat_vizsgalat\obj\Debug\for_focicsapat_vizsgalat.exe
+H:\asztalk\C#\for_ciklus\for_focicsapat_vizsgalat\obj\Debug\for_focicsapat_vizsgalat.pdb

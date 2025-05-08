@@ -1,0 +1,3 @@
+H:\asztalk\C#\2023-09-20\Feltétel\obj\Debug\Feltétel.csproj.AssemblyReference.cache
+H:\asztalk\C#\2023-09-20\Feltétel\obj\Debug\Feltétel.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\2023-09-20\Feltétel\obj\Debug\Feltétel.csproj.CoreCompileInputs.cache

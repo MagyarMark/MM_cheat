@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <script>
+        /*
+        function divide(a,b){
+            if(b == 0){
+                throw "division by zero";
+            }
+            return a / b;
+        }
+
+        function logDivide(a,b){
+            try {
+                console.log(a + " / " + b + " = " +  divide(a,b))
+            } catch (error) {
+                console.log("Error " + error)
+            } finally{
+                console.log("Division finished.")
+            }
+        }
+
+        logDivide(5,0);
+        logDivide(5,2);
+
+        class DivisionByZeroError extends Error{
+            constructor(...params){
+                super(...params);
+            }
+        }
+
+        function divide(a,b){
+            if(b == 0){
+                throw new DivisionByZeroError();
+            }
+            return a / b;
+        }
+
+        function logDivide(a,b){
+            try {
+                console.log(a + " / " + b + " = " +  divide(a,b))
+            } catch (error) {
+                if(error instanceof DivisionByZeroError){
+                    console.log("DivisionByZeroError ")
+                }else{
+                    console.log("Error " + error)
+                }
+            } finally{
+                console.log("Division finished.")
+            }
+        }
+
+        logDivide(5,0);
+        logDivide(5,2);
+
+
+        //Destrukturálás
+
+        let arr = [2,3];
+        let a = arr[0];
+        let b = arr[1];
+        
+        let [a,b, ...c] = [2,3,4,5,6,7,8]
+        
+        console.log(a);//a = 2
+        console.log(b);//b = 3
+        console.log(c);//c = a többi 
+
+        let person = {
+            firstName: "Csaba",
+            lastName: "Faragó",
+            Age: 43
+        }
+
+        //let vezetekNev = person.lastName
+        //let keresztNev = person.firstName
+        /*let {lastName:vezetekNev, firstName:keresztNev} = person;
+
+        console.log(vezetekNev);
+        console.log(keresztNev);
+
+        function printShort(p){
+            console.log(p.firstName + " (" + p.Age + ")")
+        }
+        
+        printShort(person)
+
+        function printShort({firstName:firstName, Age:Age}){
+            console.log(firstName + " (" + Age + ")")
+        }
+
+        printShort(person)
+
+        function katt(){
+            console.log("megnyomtad a gombot")
+        }
+
+        const button = document.getElementById("my-button");
+        button.addEventListener("click", function(){
+            alert("Hurrá működik az esemény kezelő!")
+        })
+
+        function capture() {console.log("Capturing: " + this.tagName)}
+
+        function bubble() {console.log("Bubbling: " + this.tagName)}
+
+        const p = document.getElementById("my-paragraph")
+        const strong = document.getElementById("my-strong")
+
+        p.addEventListener("click", capture, true)
+        strong.addEventListener("click", capture, true)
+
+        p.addEventListener("click", bubble, false)
+        strong.addEventListener("click", bubble, false)
+
+        function egergomb(event){
+            console.log(`Az egérgomb sorszáma: ${event.button}`);
+            console.log(`x: ${event.clientX}, y: ${event.clientY}`);
+        }*/
+
+        //készíts egy input mezőt ha az esemény tartalmában változás történik írassuk ki a logban
+        
+
+        //tegyünk fel egy gombot és számoljuk meg a kattintásokat
+
+        //2kép rá viszed az egeret vagy valami akkor másik képet mutasson
+
+    </script>
+
+<!--<button onclick="katt()">Kattints!</button>
+<button type="button" id="my-button">Kattints rám!</button>
+
+<p id="my-paragraph">
+    Példa <strong id="my-strong">eseménykezelők</strong> használata.
+</p>
+
+<button onmousedown="egergomb(event);">Kattints az egér gombra!</button>
+
+<input type="text" name="" id="my-text"> ide írj te</input>
+<script>
+let text = document.getElementById("my-text")
+        text.addEventListener("input", function(){
+            console.log(text.value);
+        });
+</script>-->
+<img src="panda.jpg" name="" id="my-img" onmouseover="bigimg()" onmouseout="normalimg()" />
+<script>
+let img = document.getElementById("my-img")
+img.addEventListener("click", function(){
+    img.src = "animal.jpg"
+})
+
+function bigimg(){
+    img.src = "animal.jpg"
+}
+
+function normalimg(){
+    img.src = "panda.jpg"
+}
+</script>
+</body>
+</html>

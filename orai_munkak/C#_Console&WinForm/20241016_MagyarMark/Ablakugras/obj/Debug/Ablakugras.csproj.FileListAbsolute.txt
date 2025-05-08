@@ -1,0 +1,10 @@
+C:\Users\MagyarMark\Desktop\20241016_MagyarMark\Ablakugras\bin\Debug\Ablakugras.exe.config
+C:\Users\MagyarMark\Desktop\20241016_MagyarMark\Ablakugras\bin\Debug\Ablakugras.exe
+C:\Users\MagyarMark\Desktop\20241016_MagyarMark\Ablakugras\bin\Debug\Ablakugras.pdb
+C:\Users\MagyarMark\Desktop\20241016_MagyarMark\Ablakugras\obj\Debug\Ablakugras.csproj.AssemblyReference.cache
+C:\Users\MagyarMark\Desktop\20241016_MagyarMark\Ablakugras\obj\Debug\Ablakugras.Form1.resources
+C:\Users\MagyarMark\Desktop\20241016_MagyarMark\Ablakugras\obj\Debug\Ablakugras.Properties.Resources.resources
+C:\Users\MagyarMark\Desktop\20241016_MagyarMark\Ablakugras\obj\Debug\Ablakugras.csproj.GenerateResource.cache
+C:\Users\MagyarMark\Desktop\20241016_MagyarMark\Ablakugras\obj\Debug\Ablakugras.csproj.CoreCompileInputs.cache
+C:\Users\MagyarMark\Desktop\20241016_MagyarMark\Ablakugras\obj\Debug\Ablakugras.exe
+C:\Users\MagyarMark\Desktop\20241016_MagyarMark\Ablakugras\obj\Debug\Ablakugras.pdb

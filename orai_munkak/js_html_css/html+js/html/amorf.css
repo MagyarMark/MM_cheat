@@ -1,0 +1,66 @@
+#amorf{
+    width: 300px;
+    background-color: yellow;
+    color: red;
+    padding: 30px 0 30px 100px;
+    border-radius: 2em 14em 4em 8em / 3em 12em 6em 10em;
+    transition-property: width, background-color, color, padding, border-radius, margin;
+    transition-duration: 4s, 10s, 5s, 8s, 8s, 3s;
+    transition-delay: 5s, 4s, 8s, 10s, 7s, 3s;
+    transition-timing-function: cubic-bezier(0.2 0.6 0.4 0.8 , linear, ease, cubic-bezier(1.0 0.0 0.0 1.0), linear, ease-in-out);
+}
+
+#amorf:hover{
+    width: 200px;
+    background-color: red;
+    color: teal;
+    padding: 10px 50px 40px 60px;
+    border-radius: 3em 12em 8em 12em / 5em 10em 8em 12em;
+    margin: 200px;
+}
+
+#image img{
+    width: 320px;
+    height: 240px;
+    position: absolute;
+    transition: opacity 2s linear steps(3, end);
+}
+
+#ketto:hover{
+    opacity: 0;
+}
+
+.lefelegomb {
+    background-color: yellow;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+.lefele {
+    position: relative;
+    display: inline-block;
+  }
+
+.lefele-content {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.lefele-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.lefele-content a:hover {background-color: teal;}
+  
+.lefele:hover .lefele-content {display: block;}
+  
+.lefele:hover .lefelegomb {background-color: red}

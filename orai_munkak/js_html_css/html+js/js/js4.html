@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*let tomb = new Array();
+        tomb['a'] = 100;
+        console.log('a')
+        console.log(tomb.a)
+
+        let tomb =[
+            [1,3,6,2],
+            [6,8,9,3],
+            [7,4,6,1],
+        ];
+        //console.log(tomb[1][1])
+
+        let matrix = '';
+        for(let sor of tomb){
+            for(let oszlop of sor){
+                matrix += oszlop+ ' '
+            }
+            matrix += '\n';
+        }
+        console.log(matrix)
+
+        let autok =['Mercedes','BMW','Audi','Volvo','Renault'];
+        //console.log(autok.at(2))
+        //console.log(autok.at(-3))
+        let buszok =['Setra','Neoplan','MAN'];
+        let traktor='Johndeer';
+        let jarmuvek = autok.concat(buszok,traktor)
+        console.log(jarmuvek)
+        autok.fill('trabant');
+        console.log(autok)
+        autok.fill('lada',2,4)
+        console.log(autok)
+
+        let szoveg ='ABCDEFG'
+        let betuk = Array.from(szoveg)
+        console.log(betuk)
+
+        let autok =['Mercedes','BMW','Audi','Volvo','Renault'];
+        console.log(autok.join(', '))
+
+        let szamok = [5,8,3,12,31]
+        szamok.reverse()
+        console.log(szamok)
+
+        let autok =['Mercedes','BMW','Audi','Volvo','Renault']
+        console.log(autok.indexOf('BMW'))
+        console.log(autok.indexOf('BMW'),2)
+        console.log(autok.lastIndexOf('BMW'),2)
+        console.log(autok.includes('BMW'))
+        console.log(autok.slice(1,3))
+        console.log(autok.slice(-3,-1))
+
+        let autok = ['Mercedes','BMW','Audi','Volvo','Renault']
+        autok.sort()
+        console.log(autok)
+        let szamok = [5,8,3,12,31]
+        szamok.sort()
+        console.log(szamok)
+        szamok.sort(function(a,b){return a-b})
+        console.log(szamok)
+
+        let szamok = [5,8,3,12,31]
+        szamok.push(2)
+        szamok.push(45,20)
+        console.log(szamok.pop())
+        console.log(szamok)
+        console.log(szamok.shift())
+        console.log(szamok)
+
+        let kimenet = '';
+        let szamok = [5,8,3,12,31]
+
+        szamok.forEach(duplaz)//lista minden elemét és indexét ki írja
+        console.log(kimenet)
+        function duplaz(ertek, /*index){
+           /* kimenet += index + ' ' + ertek *2 + "\n";
+            return ertek *2
+        }
+
+        console.log(szamok.every(nagyobb))//csak akkor ad vissza igaz értéket ha mindegyik nagyobb
+
+        function nagyobb(szam){
+            return szam > 6;
+        }
+
+        console.log(szamok.some(nagyobb))// csak akkor ad vissza igaz értéket ha legalább 1 szám igaz
+
+        function nagyobb(szam){
+            return szam > 6;
+        }
+
+        console.log(szamok.find(nagyobb))// vissza adja az elsp olyan értéket amire igaz értéket kap 
+        console.log(szamok.findIndex(nagyobb))
+
+        function nagyobb(szam){
+            return szam > 6;
+        }
+
+        console.log(szamok.filter(nagyobb))//csak azt adja vissza ami igaz a fügvényre
+
+        function nagyobb(szam){
+            return szam > 6;
+        }
+        
+        let gyok = szamok.map(Math.sqrt)
+        console.log(gyok)
+        console.log(szamok.map(duplaz))
+        
+        //1. feladat szimulálj 100 dobást és írd ki melyikből mennyit dobtunk
+        
+        let nagyobb1 = []
+        let dobasok = []
+        let szam2 = 1
+        let sum = 0
+        while(szam2 <100){
+            let forog = Math.floor(Math.random() * 6) + 1;
+            szam2++;
+            dobasok.push(forog)
+        }
+        console.log(dobasok)
+        for(let db of dobasok){
+            sum += db
+            }
+        console.log(sum/100)
+        for(let db of dobasok){
+            if(db > sum/100) {nagyobb1.push(db)}
+        }
+        console.log(nagyobb1)
+    
+        // kérj be két számot az egyik egy 10 számrendszerbeli szám a másik pedig 2 és 32 között a 10 számrendszerbeli számot váltsa át számrendszerekbe
+
+        const decimálisszam = parseInt(prompt("10-es számrendszer száma:"));
+        const keresett = parseInt(prompt("célszámrendszer (2 és 32 között):"));
+
+        if (keresett < 2 || keresett > 32) {
+            console.log("célszámrendszernek 2 és 32 között kell lennie.");
+        } else {
+        const szam = decimálisszam.toString(keresett);
+        console.log(`átváltva a szám a ${keresett}-es számrendszerben: ${szam}`);
+        }*/
+
+        const szam = 255
+        const alap = 16
+        const szamjegyek = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+        let sz = szam
+        let stack = []
+        
+        do{
+            stack.push(szam % alap)
+            sz = Math.floor(sz / alap)
+        }while(sz != 0)
+        
+        let uj_szam = ''
+
+        while(stack.length != 0){
+            uj_szam += szamjegyek[stack.pop()]
+        }
+        console.log(`${szam} = ${uj_szam} (${alap})`)
+</script>
+</body>
+</html>

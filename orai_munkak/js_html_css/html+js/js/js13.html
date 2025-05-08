@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" name="urlap" onsubmit="ellenor()">
+        
+        <p>Telefon: <input type="text" name="tel" > </p>
+        <p>E-mail:  <input type="text" name="mail" style="width: 175px;"></p>
+        <input type="submit" value="Elküld" style="width: 235px;">
+        <p><input type="color" name="szin" id="szin" oninput="szinez()"></p>
+        <p><input type="range" value="ertek" id="ertek" min="0" max="100" value="15" oninput="szamol()"><span id="szam"></span></p>
+        <input type="text" id="szoveg" onkeyup="reverseText()"><p id="vissza"></p>
+        <select id="valami" name="valami" size=”1” onchange="vlm()">
+            <option value="valami1">valami1</option>
+            <option value="valami2">valami2</option>
+            <option value="valami3">valami3</option>
+        </select>
+    </form>
+
+    <script>
+        function vlm(){
+        let valami = [
+        {nev: "valami", valamik: ["valami1", "valami2", "valami3"]},
+        {nev: "valami", valamik: ["valami1", "valami2", "valami3"]},
+        {nev: "valami", valamik: ["valami1", "valami2", "valami3"]},
+        ];
+
+        if(valami == valami){
+            alert(valami)
+            console.log(valami)
+        }
+}
+        function reverseText() {
+            let szoveg = document.getElementById("szoveg").value;
+            let visszaszoveg = szoveg.split("").reverse().join("");
+            document.getElementById("vissza").innerHTML = visszaszoveg;
+        }
+
+        function szamol(){
+            let e = document.getElementById("ertek").value
+            document.getElementById("szam").innerText = e
+        }
+
+        function szinez(){
+            let c = document.getElementById("szin").value;
+            document.body.style.backgroundColor = c
+        }
+
+        function telefonEllenor(s){
+            error = "";
+            let newstring = s.replace(/\(\)\.\-\+\ /g);
+            let filter = /^\d+$/;
+            if(!filter.test(newstring)){
+                error="Kérem adjon meg érvényes telefonszámot\n"
+            }
+            return error;
+        }
+
+        function emailEllenor(s){
+            error = "";
+            let filter = /^.+@.+\..{2,6}$/;
+            if(!filter.test(s)){
+                error = "Kérem adjon meg érvényes e-mail címet!\n"
+            }
+
+            return error;
+        }
+
+        function ellenor() {
+            let tel = document.forms["urlap"]["tel"].value
+            let mail = document.forms["urlap"]["mail"].value
+        
+            if(telefonEllenor(tel)){
+                alert(error)
+            }else if (emailEllenor(mail)){
+                alert(error)
+            }
+        }
+    </script>
+
+    //készíts szöveges beviteli mezőt ami folyamatosan írja alá a szöveget vissza fele
+
+    //csinálj legördülő listát select és option segítséggel kiválasztott elem ki iratása
+</body>
+</html>

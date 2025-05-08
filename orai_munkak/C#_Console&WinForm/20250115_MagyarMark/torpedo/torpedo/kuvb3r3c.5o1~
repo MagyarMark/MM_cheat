@@ -1,0 +1,77 @@
+namespace torpedo
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+        public CheckBox[,] matrix = new CheckBox[10, 10];
+        private void Torpedo_Load(object sender, EventArgs e)
+        {
+            btnSave.Enabled = false;
+            for (int y = 0; y < 10; y++)
+            {
+                for (int x = 0; x < 10; x++)
+                {
+                    matrix[y, x] = new CheckBox();
+                    matrix[y, x].Location = new Point(15 + x * 20, 90 + y * 20);
+                    matrix[y, x].AutoSize = false;
+                    matrix[y, x].Size = new Size(20, 20);
+                    matrix[y, x].Enabled = true;
+                    matrix[y, x].Checked = false;
+                    matrix[y, x].Text = null;
+                    Controls.Add(matrix[y, x]);
+
+                }
+            }
+
+        }
+
+        public void btnReset_Click(object sender, EventArgs e)
+        {
+            foreach (var item in matrix)
+            {
+                item.Checked = false;
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            //textBox1.Text.Replace(' ','_');
+            textBox1.Text = textBox1.Text.Trim();
+            if (textBox1.Text.Length == 0) btnSave.Enabled = false;
+            else btnSave.Enabled = true;
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            int jelolt = 0;
+            foreach (var item in matrix)
+            {
+                //if (otos == 5 && negy == 4 && harom == 3 && ketto == 2 && egy = 1)
+
+                if (item.Checked) jelolt++;
+                if (jelolt != 15) return;
+            }
+
+
+
+
+            System.IO.StreamWriter sw = new System.IO.StreamWriter(textBox1.Text, true, Encoding.UTF8);
+            foreach (var item in matrix)
+            {
+                if (item.Checked) sw.Write(1.ToString());
+                else sw.Write(0.ToString());
+            }
+            sw.WriteLine();
+            sw.Close();
+            btnReset_Click(sender, e);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}

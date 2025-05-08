@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        /*let betuk = new Set([ 'a', 'b', 'c', 'd' ])
+        console.log(betuk)
+        betuk.add('e')
+        let a = 'f'
+        betuk.add(a)
+        console.log(betuk)
+
+        betuk.add('e')//halmaz nem változott 1 elem csak 1x szerepelhet
+        console.log(betuk)
+
+        console.log(betuk.size) //halmaz elem szám kiíratás
+
+        betuk.forEach(function(ertek){
+            console.log(ertek)//minden értéket meg néz és ki ír minden értéket egymás alá egyesével
+        });
+
+        for(let elem of betuk.values()){
+            console.log(elem)//ugyanazt csinálja mint az előző (ha nincs ott a VALUES akkor ugyan úgy működik)
+        }
+
+        console.log(typeof(betuk))
+
+        console.log(typeof(betuk.values()))
+
+        if(betuk.has('c')){
+            console.log('Ez az elem a halmazban van')
+        }else{
+            console.log('nincs a halmazban a betű')
+        }
+
+        let szamok = new Set()
+        while(szamok.size != 5){
+            szamok.add(Math.floor(Math.random()*90)+1)
+        }
+        console.log(Array.from(szamok).sort(function(a,b){return a-b}))
+
+        //1.feladat írj progrmaot amely 2 halmazt feltült 20db 1-100 között lévő számmal nézzük meg metszetét különbségét unoóját
+
+        let a = new Set()
+        let b = new Set()
+
+        while(a.size != 20){
+            a.add(Math.floor(Math.random() * 100) + 1)
+        }
+        console.log(a)
+
+        while(b.size != 20){
+            b.add(Math.floor(Math.random() * 100) + 1)
+        }
+        console.log(b)
+        
+        let unio = new Set([...a, ...b])//csak azt írja ki ami mind a 2ben van
+        console.log(unio)
+
+        let metszet = new Set([...a].filter(x => b.has(x)))// csak a közöseket írja ki
+        console.log(metszet)
+
+        let kulonbseg = new Set([...a].filter(x => !b.has(x)))// csak a különbséget írja ki
+        console.log(kulonbseg)
+
+        let aruk = new Map([
+            ['alma', 300],
+            ['paradicsom',500],
+            ['repa',200]
+        ])
+        console.log(aruk)
+
+        let aruk = new Map();
+        aruk.set('alma',300)
+        aruk.set('paradicsom',500)
+        aruk.set('repa',200)
+
+        aruk.set('repa',400)// A set felül is tudja írni az értéket
+        console.log(aruk)
+        console.log(aruk.get('alma'))//1 érték lekérése
+        console.log(aruk.size)//méret meg nézése
+
+        //aruk.delete('paradicsom')
+        console.log(aruk)
+        //aruk.clear()
+        console.log(aruk)
+
+        console.log(aruk.has('alma'))//igaz értéket ad vissza ha a paraméterként megadott elem létezik
+
+        aruk.forEach(function(value, key){
+            console.log(key + ' = ' + value)
+        })
+
+        for(aru of aruk.entries()){
+            console.log(aru)
+        }
+
+        for(aru of aruk.keys()){
+            console.log(aru)
+        }
+
+        for(aru of aruk.values()){
+            console.log(aru)
+        }
+
+        //hozzon létre egy mapet amelyek a kulcsok az év hónapjai a kulcsok pedig a napok száma a hónapban
+
+        const napokAMonthban = new Map();
+
+        napokAMonthban.set("január", 31);
+        napokAMonthban.set("február", 28);
+        napokAMonthban.set("március", 31);
+        napokAMonthban.set("április", 30);
+        napokAMonthban.set("május", 31);
+        napokAMonthban.set("június", 30);
+        napokAMonthban.set("július", 31);
+        napokAMonthban.set("augusztus", 31);
+        napokAMonthban.set("szeptember", 30);
+        napokAMonthban.set("október", 31);
+        napokAMonthban.set("november", 30);
+        napokAMonthban.set("december", 31);
+        console.log(napokAMonthban);
+
+        napokAMonthban.forEach(function(value, key){
+            if(value != 30 && value != 28  ){console.log(key + ' = ' + value)}
+        })
+
+        let db = 0 ;
+        for(nap of napokAMonthban.values()){
+            if(nap ==31){
+                db++
+            }
+        }
+        console.log(db + 'db 31 napos hónap van')
+
+        napokAMonthban.forEach(function(value, key){
+            if(value == 30){
+                console.log("30napos hónapok: " + key)
+            }
+        })*/
+
+        const tomb = Array.from({ length: 3 }, () => Math.floor(Math.random() * 101) - 50);
+        console.log("véletlenszerű számok :", tomb);
+
+        console.error('a rész: ')
+        const max = Math.max(...tomb);
+        console.log('legnagyobb érték: ' + max)
+        const index = tomb.indexOf(max);
+        console.log('indexe: ' + index);
+
+        console.error('b rész: ')
+
+        const osszeg = tomb.reduce((accumulator, current) => accumulator + current, 0);
+        console.log("elemek összege: ", osszeg);
+
+        console.error('c rész: ')
+        let parosDarab = 0;
+        let paratlanDarab = 0;
+
+        for (const szam of tomb) {
+            if (szam % 2 === 0) {
+                parosDarab++
+            } else {
+                paratlanDarab++
+            }
+        }
+        console.log('Páros számok:' + parosDarab);
+        console.log('Páratlan számok:' + paratlanDarab);
+
+        console.error('d rész')
+        let hetteloszthato = 0;
+        for (const szam of tomb){
+            if(szam % 7){
+                hetteloszthato++
+            }
+        }
+        console.log('7-el osztható számok: ' + hetteloszthato)
+
+        //Van-e a tömben olyan elem amelynek mindkét szomszédja negatív javascriptben
+        console.error('e rész')
+
+        function vanNegativSzomszed(tomb) {
+            for (let i = 1; i < tomb.length - 1; i++) {
+                if (tomb[i] < 0 && tomb[i - 1] < 0 && tomb[i + 1] < 0) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        if (vanNegativSzomszed(tomb)) {
+            console.log("Van olyan elem, amelynek mindkét szomszédja negatív.");
+        } else {
+            console.log("Nincs olyan elem, amelynek mindkét szomszédja negatív.");
+        }
+
+        
+</script>
+
+</body>
+</html>

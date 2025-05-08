@@ -1,0 +1,8 @@
+H:\asztalk\C#\Halmaz\Halmaz\bin\Debug\Halmaz.exe.config
+H:\asztalk\C#\Halmaz\Halmaz\bin\Debug\Halmaz.exe
+H:\asztalk\C#\Halmaz\Halmaz\bin\Debug\Halmaz.pdb
+H:\asztalk\C#\Halmaz\Halmaz\obj\Debug\Halmaz.csproj.AssemblyReference.cache
+H:\asztalk\C#\Halmaz\Halmaz\obj\Debug\Halmaz.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\Halmaz\Halmaz\obj\Debug\Halmaz.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\Halmaz\Halmaz\obj\Debug\Halmaz.exe
+H:\asztalk\C#\Halmaz\Halmaz\obj\Debug\Halmaz.pdb

@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-bizonyitvany\MM-bizonyitvany\bin\Debug\MM-bizonyitvany.exe.config
+H:\asztalk\C#\MM-bizonyitvany\MM-bizonyitvany\bin\Debug\MM-bizonyitvany.exe
+H:\asztalk\C#\MM-bizonyitvany\MM-bizonyitvany\bin\Debug\MM-bizonyitvany.pdb
+H:\asztalk\C#\MM-bizonyitvany\MM-bizonyitvany\obj\Debug\MM-bizonyitvany.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-bizonyitvany\MM-bizonyitvany\obj\Debug\MM-bizonyitvany.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-bizonyitvany\MM-bizonyitvany\obj\Debug\MM-bizonyitvany.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-bizonyitvany\MM-bizonyitvany\obj\Debug\MM-bizonyitvany.exe
+H:\asztalk\C#\MM-bizonyitvany\MM-bizonyitvany\obj\Debug\MM-bizonyitvany.pdb

@@ -1,0 +1,7 @@
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\TryCatchPéldák\bin\Debug\TryCatchPéldák.exe.config
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\TryCatchPéldák\bin\Debug\TryCatchPéldák.exe
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\TryCatchPéldák\bin\Debug\TryCatchPéldák.pdb
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\TryCatchPéldák\obj\Debug\TryCatchPéldák.csproj.AssemblyReference.cache
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\TryCatchPéldák\obj\Debug\TryCatchPéldák.csproj.CoreCompileInputs.cache
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\TryCatchPéldák\obj\Debug\TryCatchPéldák.exe
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\TryCatchPéldák\obj\Debug\TryCatchPéldák.pdb

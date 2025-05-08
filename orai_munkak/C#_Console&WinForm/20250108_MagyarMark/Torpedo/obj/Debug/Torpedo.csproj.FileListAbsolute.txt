@@ -1,0 +1,10 @@
+C:\Users\MagyarMark\Desktop\20250108_MagyarMark\Torpedo\bin\Debug\Torpedo.exe.config
+C:\Users\MagyarMark\Desktop\20250108_MagyarMark\Torpedo\bin\Debug\Torpedo.exe
+C:\Users\MagyarMark\Desktop\20250108_MagyarMark\Torpedo\bin\Debug\Torpedo.pdb
+C:\Users\MagyarMark\Desktop\20250108_MagyarMark\Torpedo\obj\Debug\Torpedo.csproj.AssemblyReference.cache
+C:\Users\MagyarMark\Desktop\20250108_MagyarMark\Torpedo\obj\Debug\Torpedo.Form1.resources
+C:\Users\MagyarMark\Desktop\20250108_MagyarMark\Torpedo\obj\Debug\Torpedo.Properties.Resources.resources
+C:\Users\MagyarMark\Desktop\20250108_MagyarMark\Torpedo\obj\Debug\Torpedo.csproj.GenerateResource.cache
+C:\Users\MagyarMark\Desktop\20250108_MagyarMark\Torpedo\obj\Debug\Torpedo.csproj.CoreCompileInputs.cache
+C:\Users\MagyarMark\Desktop\20250108_MagyarMark\Torpedo\obj\Debug\Torpedo.exe
+C:\Users\MagyarMark\Desktop\20250108_MagyarMark\Torpedo\obj\Debug\Torpedo.pdb

@@ -1,0 +1,8 @@
+H:\asztalk\C#\for_ciklus\MM-kosarlabda\bin\Debug\MM-kosarlabda.exe.config
+H:\asztalk\C#\for_ciklus\MM-kosarlabda\bin\Debug\MM-kosarlabda.exe
+H:\asztalk\C#\for_ciklus\MM-kosarlabda\bin\Debug\MM-kosarlabda.pdb
+H:\asztalk\C#\for_ciklus\MM-kosarlabda\obj\Debug\MM-kosarlabda.csproj.AssemblyReference.cache
+H:\asztalk\C#\for_ciklus\MM-kosarlabda\obj\Debug\MM-kosarlabda.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\for_ciklus\MM-kosarlabda\obj\Debug\MM-kosarlabda.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\for_ciklus\MM-kosarlabda\obj\Debug\MM-kosarlabda.exe
+H:\asztalk\C#\for_ciklus\MM-kosarlabda\obj\Debug\MM-kosarlabda.pdb

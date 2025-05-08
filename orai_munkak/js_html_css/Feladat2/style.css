@@ -1,0 +1,83 @@
+#page{
+    width: 200px;
+    margin: 0 auto;
+    display: table;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.panel{
+    display: table-cell;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #8000;
+}
+
+.panel1{
+    width: 430px;
+    background-color: #FFEEEE;
+    border:1px solid #ff0000;
+    float: left;
+}
+.panel2{
+    width: 280px;
+    height: 500px;
+    background-image: url(opposite_arrows.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 200px;
+    float: left;
+}
+
+.panel3{
+    width: 430px;
+    background-color: #EEFFEE;
+    float: left;
+    border:1px solid green;
+    color:#006600;
+    box-shadow: 5px 5px 5px #800;
+}
+
+.bad{
+    border: 1px red;
+    background-color: lightcoral;
+    border-radius: 5px;
+}
+
+#page{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.panel1{
+    width: 450px;
+    height: 785px;
+    float: left;
+    background-color: lightcoral;
+    border-radius: 5px;
+}
+
+.kep{
+    width: 200px;
+    margin-top: 350px;
+    padding-left: 50px;
+}
+
+.panel2{
+    width: 300px;
+    height: 785px;
+    float: left;
+}
+
+.panel3{
+    width: 450px;
+    float: left;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM példa</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header{
+        background-color: #007bff;
+        color: #fff;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    header h1{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    th{
+        background-color: rgba(0,0,0,0.05);
+    }
+
+    th, td{
+        padding: 20px;
+        border-top: 2px solid #dee2e6;
+        border-bottom: 2px solid #dee2e6;
+    }
+
+    th:first-child, td:first-child{
+        text-align: left;
+    }
+
+    button{
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    .card{
+        background-color: #fff;
+        width: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+
+    .form-input{
+        margin-right: 10px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        padding: 10px;
+        outline: none;
+    }
+
+    .form-input:focus{
+        border: 1px solid lightblue;
+    }
+
+    .add-button{
+        background-color: #17a2b8;
+        color: #fff;
+    }
+
+    .delete-button{
+        background-color: #dc3545;
+        color: #fff;
+    }
+
+    .text-center{
+        text-align: center;
+    }
+
+    #delete-all-tasks-button{
+        display: block;
+        padding: 15px;
+        margin: 30px auto;
+        width: 50%;
+        font-size: 20px;
+    }
+</style>
+<body>
+    
+    <!--<h1>Oldal címe</h1>
+    <img src="panda.jpg" alt="Valamilyen kép">
+    <p>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Valami klassz link</a>
+    </p>-->
+    <header>
+        <h1 id="page-title" class="text-center"> Feladataim </h1>
+    </header>
+
+    <!-- 
+    <div id="parent">
+        <p>Első bekezdés</p>
+        <p>harmadik bekezdés</p>
+    </div>-->
+
+
+    <div class="card">
+        <div id="add-task">
+            <h2>Új feladat</h2>
+            <form>
+                <input type="text" name="" id="task-text" class="form-input">
+                <button type="button" class="add-button" onclick="addTask()">Hozzáad</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="task-container" style="display: none;">
+        <h2>Feladataim</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Feladat szövege</th>
+                    <th>Törlés</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Az újonnan beszúrt feladat szövege...</td>
+                    <td><button type="button" class="delete-button" onclick="deleteTask(this)">X</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="button" id="delete-all-tasks-button" class="delete-button" onclick="deleteAllTasks()">Összes feladat törlése</button>
+    </div>
+
+    <script>
+        /*
+
+        console.log(document.getElementById("page-title"))
+        
+        console.log(document.getElementsByTagName("h1")[0]) 
+        //ez vissza ad egy listát szintén csak egy 0 elemet ad vissza 
+        console.log(document.getElementsByClassName("text-center")[0]) 
+
+        //ez is egy tömböt ad vissza mivel meg van adva a 0 elem ezért csak azt az elemet adja vissza ha nincs megadva akkor mindegyik elemt vissza adja
+        console.log(document.querySelector("header h1.text-center"))
+
+        console.log(document.querySelectorAll("header h1.text-center")[0]) 
+        //ha nincs be sorszámozva akkor mindegyiket vissza adja
+        
+
+        const parent = document.getElementById("parent")
+
+        const newParagraph = document.createElement("p")
+        //új bekezdést hoz létre a parent id-n belül
+
+        newParagraph.innerText = "Második bekezédés"
+        //megadtuk, hogy mi legyen a p-nek a szövege
+
+        parent.insertBefore(newParagraph, parent.children[1])
+        //megadjuk melyik közé szúrjuk be
+
+        */
+
+        function hideTaskContainer(){
+            document.getElementById("task-container").style.display = "none"
+        }
+
+        function showTaskContainer(){
+            document.getElementById("task-container").style.display = "block"
+        }
+
+
+        function addTask(){
+            const tbody = document.getElementsByTagName("tbody")[0]
+            const row = document.createElement("tr")
+            const column1 = document.createElement("td")
+            column1.innerText = document.getElementById("task-text").value
+
+            const column2 = document.createElement("td")
+            const deleteButton = document.createElement("button")
+            deleteButton.innerText = "X"
+            deleteButton.setAttribute("type", "button")
+            deleteButton.setAttribute("onclick", "deleteTask(this)")
+            deleteButton.classList.add("delete-button")
+            column2.append(deleteButton)
+            
+            row.append(column1, column2)
+            tbody.append(row)
+            showTaskContainer()
+        }
+
+        function deleteTask(button){
+            const tbody = document.getElementsByTagName("tbody")[0]
+            const row = button.parentNode.parentNode
+            tbody.removeChild(row)
+            if (!tbody.hasChildNodes) {
+                hideTaskContainer()
+            }
+        }
+
+        function deleteAllTasks(){
+            const tbody = document.getElementsByTagName("tbody")[0]
+            while(tbody.hasChildNodes){
+                tbody.removeChild(tbody.firstChild)
+            }
+            hideTaskContainer()
+        }
+    </script>
+</body>
+</html>

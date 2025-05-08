@@ -1,0 +1,8 @@
+H:\asztalk\C#\2023.10.25\gyumolcslista\bin\Debug\gyumolcslista.exe.config
+H:\asztalk\C#\2023.10.25\gyumolcslista\bin\Debug\gyumolcslista.exe
+H:\asztalk\C#\2023.10.25\gyumolcslista\bin\Debug\gyumolcslista.pdb
+H:\asztalk\C#\2023.10.25\gyumolcslista\obj\Debug\gyumolcslista.csproj.AssemblyReference.cache
+H:\asztalk\C#\2023.10.25\gyumolcslista\obj\Debug\gyumolcslista.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\2023.10.25\gyumolcslista\obj\Debug\gyumolcslista.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2023.10.25\gyumolcslista\obj\Debug\gyumolcslista.exe
+H:\asztalk\C#\2023.10.25\gyumolcslista\obj\Debug\gyumolcslista.pdb

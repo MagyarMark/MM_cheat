@@ -1,0 +1,8 @@
+H:\asztalk\C#\MM-2024.01.31\6.feladat\bin\Debug\6.feladat.exe.config
+H:\asztalk\C#\MM-2024.01.31\6.feladat\bin\Debug\6.feladat.exe
+H:\asztalk\C#\MM-2024.01.31\6.feladat\bin\Debug\6.feladat.pdb
+H:\asztalk\C#\MM-2024.01.31\6.feladat\obj\Debug\6.feladat.csproj.AssemblyReference.cache
+H:\asztalk\C#\MM-2024.01.31\6.feladat\obj\Debug\6.feladat.csproj.SuggestedBindingRedirects.cache
+H:\asztalk\C#\MM-2024.01.31\6.feladat\obj\Debug\6.feladat.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\MM-2024.01.31\6.feladat\obj\Debug\6.feladat.exe
+H:\asztalk\C#\MM-2024.01.31\6.feladat\obj\Debug\6.feladat.pdb

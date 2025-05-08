@@ -1,0 +1,32 @@
+.flex-container{
+    background-color: brown;
+    display: flex;
+    height: 500px;
+    /*flex-direction: row;
+    flex-wrap: wrap-reverse;*/
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.box{
+    margin: 10px;
+    padding: 40px;
+    background-color: aquamarine;
+}
+
+.box1{
+    flex-grow: 1;
+    order: 2;
+}
+
+.box2{
+    flex-grow: 2;
+    order: 1;
+}
+
+.box{
+    flex-grow: 1;
+    order: 3;
+}

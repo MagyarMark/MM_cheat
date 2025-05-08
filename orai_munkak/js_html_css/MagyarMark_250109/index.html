@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolgozat</title>
+</head>
+<body>
+
+<script>
+  async function fetchData() {
+    // JavaScript Example: Fetch All Data
+    // This function demonstrates how to fetch all data using the Fetch API.
+
+    const url = "https://www.freetestapi.com/apis/countries";
+    const options = {
+      method: "GET",
+    };
+
+    try {
+      const response = await fetch(url, options);
+      const result = await response.text();
+      console.log(result);
+    } catch (error) {
+      throw new Error("Error fetching data:" + error);
+    }
+  }
+
+  fetchData();
+    /*fetch("https://www.freetestapi.com/apis/countries", {mode:"no-cors"})
+        .then(response => response.json())
+        .then(data => {
+            const orszag = data.data;
+            const orszaglist = document.createElement("ul");
+            document.body.appendChild(orszaglist);
+
+            orszag.forEach(orszagok => {
+
+                const id = document.createElement("li");
+                id.textContent = orszagok.id;
+                characterInfo.appendChild(id);
+
+                const orszagnev = document.createElement("h2");
+                orszagnev.textContent = orszagok.name;
+                characterInfo.appendChild(orszagnev);
+
+                const orszagpop = document.createElement("p");
+                orszagpop.textContent = orszagok.population;
+                characterInfo.appendChild(orszagpop);
+
+                const orszagland = document.createElement("p");
+                orszagland.textContent = orszagok.land_area;
+                characterInfo.appendChild(orszagland);
+
+                const orszagdensity = document.createElement("p");
+                orszagdensity.textContent = orszagok.density;
+                characterInfo.appendChild(orszagdensity);
+
+                const orszagcapital = document.createElement("p");
+                orszagcapital.textContent = orszagok.capital;
+                characterInfo.appendChild(orszagcapital);
+
+                const orszagcurrency = document.createElement("p");
+                orszagcurrency.textContent = orszagok.currency;
+                characterInfo.appendChild(orszagcurrency);
+
+                const orszagflag = document.createElement("p");
+                orszagflag.textContent = orszagok.flag;
+                characterInfo.appendChild(orszagflag);
+            });
+        });*/
+
+    /*fetch('https://www.freetestapi.com/apis/countries?limit=100&offset=0', {mode:"no-cors"})
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.error(error));*/
+        
+    /*fetch('https://www.freetestapi.com/apis/countries', {mode:"no-cors"})
+        .then(response => response.json())
+        .then(data => {
+            const countries = data.countries;
+            countries.forEach(country => {
+            console.log(`${country.name} - ${country.capital}`);
+        });
+    })
+    .catch(error => console.error(error));*/
+
+</script>
+</body>
+</html>

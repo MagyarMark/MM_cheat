@@ -1,0 +1,15 @@
+H:\asztalk\C#\2023.11.22\szokitalalo\bin\Debug\net7.0\szokitalalo.exe
+H:\asztalk\C#\2023.11.22\szokitalalo\bin\Debug\net7.0\szokitalalo.deps.json
+H:\asztalk\C#\2023.11.22\szokitalalo\bin\Debug\net7.0\szokitalalo.runtimeconfig.json
+H:\asztalk\C#\2023.11.22\szokitalalo\bin\Debug\net7.0\szokitalalo.dll
+H:\asztalk\C#\2023.11.22\szokitalalo\bin\Debug\net7.0\szokitalalo.pdb
+H:\asztalk\C#\2023.11.22\szokitalalo\obj\Debug\net7.0\szokitalalo.csproj.AssemblyReference.cache
+H:\asztalk\C#\2023.11.22\szokitalalo\obj\Debug\net7.0\szokitalalo.GeneratedMSBuildEditorConfig.editorconfig
+H:\asztalk\C#\2023.11.22\szokitalalo\obj\Debug\net7.0\szokitalalo.AssemblyInfoInputs.cache
+H:\asztalk\C#\2023.11.22\szokitalalo\obj\Debug\net7.0\szokitalalo.AssemblyInfo.cs
+H:\asztalk\C#\2023.11.22\szokitalalo\obj\Debug\net7.0\szokitalalo.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2023.11.22\szokitalalo\obj\Debug\net7.0\szokitalalo.dll
+H:\asztalk\C#\2023.11.22\szokitalalo\obj\Debug\net7.0\refint\szokitalalo.dll
+H:\asztalk\C#\2023.11.22\szokitalalo\obj\Debug\net7.0\szokitalalo.pdb
+H:\asztalk\C#\2023.11.22\szokitalalo\obj\Debug\net7.0\szokitalalo.genruntimeconfig.cache
+H:\asztalk\C#\2023.11.22\szokitalalo\obj\Debug\net7.0\ref\szokitalalo.dll

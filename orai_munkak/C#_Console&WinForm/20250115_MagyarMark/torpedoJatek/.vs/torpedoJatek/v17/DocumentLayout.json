@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\2024-2025\\ikt-aaf\\20250115_MagyarMark\\torpedoJatek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3732E8E-8263-4D5A-A652-AFDB571F95D3}|torpedoJatek\\torpedoJatek.csproj|h:\\2024-2025\\ikt-aaf\\20250115_magyarmark\\torpedojatek\\torpedojatek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3732E8E-8263-4D5A-A652-AFDB571F95D3}|torpedoJatek\\torpedoJatek.csproj|solutionrelative:torpedojatek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3732E8E-8263-4D5A-A652-AFDB571F95D3}|torpedoJatek\\torpedoJatek.csproj|H:\\2024-2025\\ikt-aaf\\20250115_MagyarMark\\torpedoJatek\\torpedojatek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3732E8E-8263-4D5A-A652-AFDB571F95D3}|torpedoJatek\\torpedoJatek.csproj|solutionrelative:torpedojatek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "H:\\2024-2025\\ikt-aaf\\20250115_MagyarMark\\torpedoJatek\\torpedoJatek\\Form1.cs",
+              "RelativeDocumentMoniker": "torpedoJatek\\Form1.cs",
+              "ToolTip": "H:\\2024-2025\\ikt-aaf\\20250115_MagyarMark\\torpedoJatek\\torpedoJatek\\Form1.cs",
+              "RelativeToolTip": "torpedoJatek\\Form1.cs",
+              "ViewState": "AQIAAHgBAAAAAAAAAAD4v3wBAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T11:16:09.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "H:\\2024-2025\\ikt-aaf\\20250115_MagyarMark\\torpedoJatek\\torpedoJatek\\Form1.cs",
+              "RelativeDocumentMoniker": "torpedoJatek\\Form1.cs",
+              "ToolTip": "H:\\2024-2025\\ikt-aaf\\20250115_MagyarMark\\torpedoJatek\\torpedoJatek\\Form1.cs [Design]",
+              "RelativeToolTip": "torpedoJatek\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T11:10:49.438Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 859,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1a46fd64-28d5-434c-8eb3-17a02d419b53}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\Szamonkeres\bin\Debug\Szamonkeres.exe.config
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\Szamonkeres\bin\Debug\Szamonkeres.exe
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\Szamonkeres\bin\Debug\Szamonkeres.pdb
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\Szamonkeres\obj\Debug\Szamonkeres.csproj.AssemblyReference.cache
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\Szamonkeres\obj\Debug\Szamonkeres.Form1.resources
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\Szamonkeres\obj\Debug\Szamonkeres.Properties.Resources.resources
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\Szamonkeres\obj\Debug\Szamonkeres.csproj.GenerateResource.cache
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\Szamonkeres\obj\Debug\Szamonkeres.csproj.CoreCompileInputs.cache
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\Szamonkeres\obj\Debug\Szamonkeres.exe
+C:\Users\MagyarMark\Desktop\20240918_MagyarMark\Szamonkeres\obj\Debug\Szamonkeres.pdb

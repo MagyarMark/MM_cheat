@@ -1,0 +1,23 @@
+#tovabb{
+	position:relative;
+	top:-39px;
+	left:580px;
+	width:120px;
+}
+
+.Div{
+	background-color: orange;
+	text-align: center;
+	opacity: 60%;
+	margin-inline: 15;
+	margin-left: 35;
+}
+
+body{
+	margin: auto;
+	width: 600px;
+}
+
+table{
+	width: 500px;
+}

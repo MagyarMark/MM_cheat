@@ -1,0 +1,53 @@
+namespace torpedoJatek
+{
+    public partial class Form1 : Form
+    {
+        CheckBox[,] sajat = new CheckBox[10, 10];
+        CheckBox[,] lovesek = new CheckBox[10, 10];
+        CheckBox[,] puska = new CheckBox[10, 10];
+        Label loves = new Label();
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            for (int s = 0; s < 10; s++)
+            {
+                for (int o = 0; o < 10; o++)
+                {
+                    sajat[o, s] = new CheckBox();
+
+                    sajat[s, o] = new CheckBox();
+                    sajat[s, o].Location = new Point(15 + o * 25, 115 + s * 20);
+                    sajat[s, o].AutoSize = false;
+                    sajat[s, o].Size = new Size(20, 20);
+                    sajat[s, o].Enabled = true;
+                    sajat[s, o].Checked = false;
+                    sajat[s, o].Text = null;
+                    Controls.Add(sajat[s, o]);
+                }
+            }
+
+            for (int s = 0; s < 10; s++)
+            {
+                for (int o = 0; o < 10; o++)
+                {
+                    lovesek[o, s] = new CheckBox();
+                    loves = new Label();
+                    loves.Text = "lovesek";
+                    loves.Location = new Point(270,125);
+                    lovesek[s, o] = new CheckBox();
+                    lovesek[s, o].Location = new Point(270 + o * 25, 115 + s * 20);
+                    lovesek[s, o].AutoSize = false;
+                    lovesek[s, o].Size = new Size(20, 20);
+                    lovesek[s, o].Enabled = true;
+                    lovesek[s, o].Checked = false;
+                    lovesek[s, o].Text = null;
+                    Controls.Add(lovesek[s, o]);
+                }
+            }
+        }
+    }
+}

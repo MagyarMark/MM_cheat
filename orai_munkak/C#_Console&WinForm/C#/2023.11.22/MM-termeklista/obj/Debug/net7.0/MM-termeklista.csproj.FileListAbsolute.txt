@@ -1,0 +1,15 @@
+H:\asztalk\C#\2023.11.22\MM-termeklista\bin\Debug\net7.0\MM-termeklista.exe
+H:\asztalk\C#\2023.11.22\MM-termeklista\bin\Debug\net7.0\MM-termeklista.deps.json
+H:\asztalk\C#\2023.11.22\MM-termeklista\bin\Debug\net7.0\MM-termeklista.runtimeconfig.json
+H:\asztalk\C#\2023.11.22\MM-termeklista\bin\Debug\net7.0\MM-termeklista.dll
+H:\asztalk\C#\2023.11.22\MM-termeklista\bin\Debug\net7.0\MM-termeklista.pdb
+H:\asztalk\C#\2023.11.22\MM-termeklista\obj\Debug\net7.0\MM-termeklista.csproj.AssemblyReference.cache
+H:\asztalk\C#\2023.11.22\MM-termeklista\obj\Debug\net7.0\MM-termeklista.GeneratedMSBuildEditorConfig.editorconfig
+H:\asztalk\C#\2023.11.22\MM-termeklista\obj\Debug\net7.0\MM-termeklista.AssemblyInfoInputs.cache
+H:\asztalk\C#\2023.11.22\MM-termeklista\obj\Debug\net7.0\MM-termeklista.AssemblyInfo.cs
+H:\asztalk\C#\2023.11.22\MM-termeklista\obj\Debug\net7.0\MM-termeklista.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\2023.11.22\MM-termeklista\obj\Debug\net7.0\MM-termeklista.dll
+H:\asztalk\C#\2023.11.22\MM-termeklista\obj\Debug\net7.0\refint\MM-termeklista.dll
+H:\asztalk\C#\2023.11.22\MM-termeklista\obj\Debug\net7.0\MM-termeklista.pdb
+H:\asztalk\C#\2023.11.22\MM-termeklista\obj\Debug\net7.0\MM-termeklista.genruntimeconfig.cache
+H:\asztalk\C#\2023.11.22\MM-termeklista\obj\Debug\net7.0\ref\MM-termeklista.dll

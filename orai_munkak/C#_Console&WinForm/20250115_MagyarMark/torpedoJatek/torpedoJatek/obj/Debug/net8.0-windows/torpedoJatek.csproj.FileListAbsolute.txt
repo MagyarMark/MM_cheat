@@ -1,0 +1,16 @@
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\bin\Debug\net8.0-windows\torpedoJatek.exe
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\bin\Debug\net8.0-windows\torpedoJatek.deps.json
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\bin\Debug\net8.0-windows\torpedoJatek.runtimeconfig.json
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\bin\Debug\net8.0-windows\torpedoJatek.dll
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\bin\Debug\net8.0-windows\torpedoJatek.pdb
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\obj\Debug\net8.0-windows\torpedoJatek.Form1.resources
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\obj\Debug\net8.0-windows\torpedoJatek.csproj.GenerateResource.cache
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\obj\Debug\net8.0-windows\torpedoJatek.GeneratedMSBuildEditorConfig.editorconfig
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\obj\Debug\net8.0-windows\torpedoJatek.AssemblyInfoInputs.cache
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\obj\Debug\net8.0-windows\torpedoJatek.AssemblyInfo.cs
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\obj\Debug\net8.0-windows\torpedoJatek.csproj.CoreCompileInputs.cache
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\obj\Debug\net8.0-windows\torpedoJatek.dll
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\obj\Debug\net8.0-windows\refint\torpedoJatek.dll
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\obj\Debug\net8.0-windows\torpedoJatek.pdb
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\obj\Debug\net8.0-windows\torpedoJatek.genruntimeconfig.cache
+H:\2024-2025\ikt-aaf\20250115_MagyarMark\torpedoJatek\torpedoJatek\obj\Debug\net8.0-windows\ref\torpedoJatek.dll

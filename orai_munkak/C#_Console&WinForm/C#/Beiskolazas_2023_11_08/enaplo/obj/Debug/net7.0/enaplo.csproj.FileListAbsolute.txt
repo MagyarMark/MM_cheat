@@ -1,0 +1,15 @@
+H:\asztalk\C#\Beiskolazas_2023_11_08\enaplo\bin\Debug\net7.0\enaplo.exe
+H:\asztalk\C#\Beiskolazas_2023_11_08\enaplo\bin\Debug\net7.0\enaplo.deps.json
+H:\asztalk\C#\Beiskolazas_2023_11_08\enaplo\bin\Debug\net7.0\enaplo.runtimeconfig.json
+H:\asztalk\C#\Beiskolazas_2023_11_08\enaplo\bin\Debug\net7.0\enaplo.dll
+H:\asztalk\C#\Beiskolazas_2023_11_08\enaplo\bin\Debug\net7.0\enaplo.pdb
+H:\asztalk\C#\Beiskolazas_2023_11_08\enaplo\obj\Debug\net7.0\enaplo.csproj.AssemblyReference.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\enaplo\obj\Debug\net7.0\enaplo.GeneratedMSBuildEditorConfig.editorconfig
+H:\asztalk\C#\Beiskolazas_2023_11_08\enaplo\obj\Debug\net7.0\enaplo.AssemblyInfoInputs.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\enaplo\obj\Debug\net7.0\enaplo.AssemblyInfo.cs
+H:\asztalk\C#\Beiskolazas_2023_11_08\enaplo\obj\Debug\net7.0\enaplo.csproj.CoreCompileInputs.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\enaplo\obj\Debug\net7.0\enaplo.dll
+H:\asztalk\C#\Beiskolazas_2023_11_08\enaplo\obj\Debug\net7.0\refint\enaplo.dll
+H:\asztalk\C#\Beiskolazas_2023_11_08\enaplo\obj\Debug\net7.0\enaplo.pdb
+H:\asztalk\C#\Beiskolazas_2023_11_08\enaplo\obj\Debug\net7.0\enaplo.genruntimeconfig.cache
+H:\asztalk\C#\Beiskolazas_2023_11_08\enaplo\obj\Debug\net7.0\ref\enaplo.dll
