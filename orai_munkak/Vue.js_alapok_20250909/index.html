@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<body>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <div id="app">
+        <h1>{{ hello }}</h1>
+        <p>Greeting: <b>{{hello}}</b></p>
+        <p :title= "tooltip">Move mouse over me!</p>
+        <p :class="[color,fontweight]">Text</p>
+        <p :style="StyleObject">Styled text</p>
+    </div>    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
