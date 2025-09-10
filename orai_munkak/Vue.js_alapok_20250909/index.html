@@ -6,9 +6,17 @@
     <div id="app">
         <h1>{{ hello }}</h1>
         <p>Greeting: <b>{{hello}}</b></p>
-        <p :title= "tooltip">Move mouse over me!</p>
+        <p :title= "tooltip">Move mouse over me!</p><!--a v-bind: ugyan az mint ha csak a : lenne ott-->
         <p :class="[color,fontweight]">Text</p>
         <p :style="StyleObject">Styled text</p>
+        <p>{{hello.split(' ').reverse().join(' ')}}</p><!--mindent felül vizsgál ami a {}-ben van-->
+        <span v-html="myheader"></span>
+        {{myheader}}<!--így nem értelmezi a html tageket kell hozzá a v-html direktíva-->
+        <br>
+        <span v-once>{{hello}}</span>
+        <p>{{reverseHello}}</p>
+        <p>{{capitalizeHello()}}</p>
+        <p>{{add(5,3)}}</p>
     </div>    
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="app.js"></script>
