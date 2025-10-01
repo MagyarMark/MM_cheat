@@ -45,6 +45,7 @@ export default {
 <style>
     table{
         box-shadow:  5px 5px 15px 5px lightgray;
+        margin: 0 auto;
     }
 
     table th, table td{
