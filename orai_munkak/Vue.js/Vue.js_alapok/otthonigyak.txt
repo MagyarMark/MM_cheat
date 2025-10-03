@@ -1,0 +1,29 @@
+  <div id="app">
+        <label>Pont:</label>
+        <select v-model="selectedIndex">
+          <option v-for="(item, idx) in items" :key="idx" :value="idx">{{ item.label }}</option>
+        </select>
+      <div>
+        <img :src="currentImage.src" :alt="currentImage.alt" />
+      </div>
+      <div>{{ currentImage.alt }}</div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    new Vue ({
+        el: '#app',
+        data: {
+            selectedIndex: 0,
+            items:[
+                {label: 'hegyek', src: 'https://picsum.photos/id/1015/800/500', alt: 'hegyek'},
+                {label: 'város', src: 'https://picsum.photos/id/1011/800/500', alt: 'város'}
+            ]
+        },
+        computed:{
+            currentImage(){
+                return this.items[this.selectedIndex] || {src:'', alt: ''}
+            }
+        }
+    })
+  </script>
