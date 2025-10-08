@@ -1,8 +1,7 @@
-<template>
-    <div>
-        <button @click="counter++">Add +1</button>
-        <p>Clicked {{ counter }} times.</p>
-    </div>
+<template lang="pug">
+    div
+        button(@click="counter++") Add +1
+        p Clicked {{ counter }}
 </template>
 
 <script>
@@ -15,8 +14,9 @@ export default {
     }
 </script>
 
-<style scoped>
+<style lang="less" scoped>
+@color: blue;
     p{
-        color: blue;
+        color: @color;
     }
 </style>

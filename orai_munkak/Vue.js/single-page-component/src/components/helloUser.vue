@@ -1,7 +1,9 @@
-<template>
-    <div>
-        <p>Hello {{ name }}</p>
-    </div>
+<template lang="pug">
+    div
+        p Hello {{ name }}
+
+        h1 This is a header
+        p This is a paragraph
 </template>
 
 <script>
@@ -12,8 +14,9 @@ export default {
     }
 </script>
 
-<style>
+<style lang="less" scoped>
+@color: red;
 p{
-    color: red;
+    color: @color;
 }
 </style>
