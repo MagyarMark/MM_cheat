@@ -2,10 +2,10 @@
     <div><!--@click="countClicks"-->
         <h2>
             {{ foodName }}
-            <img src="../img_quality.svg" v-show="foodisfavorite">
+            <img src="../img_quality.svg" v-show="isFavorite">
         </h2>
         <p>{{ foodDesc }}</p>
-        <button @click="togglefavorite">{{ foodisfavorite ? "Kedvenc törlése" : "Kedvenc hozzáadása" }}</button>
+        <button @click="togglefavorite">{{ isFavorite ? "Kedvenc törlése" : "Kedvenc hozzáadása" }}</button>
         <!--<h2>{{ name }}</h2>
         <p>{{ message }}</p>
         <p id="red">Klikkelések száma: {{ clicks }}</p>-->
@@ -14,8 +14,22 @@
 
 <script>
 export default {
+
+    props: ["foodName", "foodDesc", "isFavorite"],
+    emits:[ 'toggle-favorite'],
+    /*data() {
+        return {
+            foodisfavorite: this.isFavorite
+    }
+},*/
+    methods: {
+        togglefavorite() {
+            //this.foodisfavorite = !this.foodisfavorite;
+            this.$emit('toggle-favorite', this.foodName);
+        }
+},
     //props:["foodName", "foodDesc", "isFavorite"],
-    props: {
+    /*props: {
         foodName: {
             type: String,
             required: true // ha nincs megadva név akkor hiba üzenetet ad
