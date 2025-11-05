@@ -77,7 +77,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped> /*a scoped miatt csak itt fog működni a stílus sehol máshol*/
     /*#red{
         font-weight: bold;
         color: rgb(144, 12, 12);
@@ -85,5 +85,9 @@ export default {
     img{
         height: 1.5em;
         float: right;
+    }
+
+    p{
+        color:  red;
     }
 </style>

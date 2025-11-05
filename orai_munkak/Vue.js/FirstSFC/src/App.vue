@@ -5,9 +5,13 @@
             message: "Hello Vue 3"
         }
     }
-}*/
+}
+import FoodItem from './components/FoodItem.vue'*/
 
 export default {
+    /*components: {
+        'food-item':FoodItem,
+    },*/
     data() {
         return {
             foods: [
@@ -17,7 +21,9 @@ export default {
                 { name: 'Hal', desc: 'A hal egy vízben élő állat', favorite: false },
                 { name: 'Sütemény', desc: 'A sütemény édes és nagyon finom', favorite: true}
 
-            ]
+            ],
+            newItem: "",
+            items: ['Bevásárlás', 'Mosás', 'Takarítás']
         }
     },
     methods: {
@@ -29,6 +35,10 @@ export default {
             const foundFood = this.foods.find(food => food.name == foodId); 
             foundFood.favorite = !foundFood.favorite;
 
+        },
+        addItem() {
+            this.items.push(this.newItem);
+            this.newItem = "";
         }
     }
 }
@@ -55,6 +65,30 @@ export default {
         <food-item 
         food-name="Rizs" 
         food-desc="Nagyon sok ember fogyaszt rizst" :is-favorite="false"/>-->
+    </div>
+    <h3>Teendők listája</h3>
+    <ul>
+        <todo-item
+        v-for="x in items"
+        :key="x"
+        :item-name="x"
+        style="
+        background-color: lightgreen; 
+        padding: 5px; 
+        margin: 5px; 
+        border: dashed 1px black; 
+        width: fit-content;"
+        ></todo-item>
+    </ul>
+    <input v-model="newItem">
+    <button @click="addItem">Hozzáadás</button>
+    <div class="wrapper">
+        <slot-comp v-for="x in foods" :key="x.name">
+            <img :src="x.url">
+            <h4>{{ x.desc }}</h4>
+            <p>{{ x.name }}</p>
+        </slot-comp>
+        <slot-comp></slot-comp>
     </div>
 </template>
 
