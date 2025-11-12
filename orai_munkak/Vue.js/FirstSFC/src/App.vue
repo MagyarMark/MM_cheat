@@ -45,7 +45,7 @@ export default {
 </script>
 
 <template>
-    <h1>Ételek</h1>
+    <!--<h1>Ételek</h1>
     <button @click="removeItem">Törlés</button>
     <div id="wrapper">
         <food-item v-for="x in foods"
@@ -56,7 +56,7 @@ export default {
         @toggle-favorite="receiveEmit"
         />
 
-        <!--<food-item 
+        <food-item 
         food-name="Almák" 
         food-desc="A különböző almák fákon teremnek" :is-favorite="true"/>
         <food-item 
@@ -64,7 +64,7 @@ export default {
         food-desc="A pizza kenyértéstra feltétekkel" :is-favorite="false"/>
         <food-item 
         food-name="Rizs" 
-        food-desc="Nagyon sok ember fogyaszt rizst" :is-favorite="false"/>-->
+        food-desc="Nagyon sok ember fogyaszt rizst" :is-favorite="false"/>
     </div>
     <h3>Teendők listája</h3>
     <ul>
@@ -88,12 +88,55 @@ export default {
             <h4>{{ x.desc }}</h4>
             <p>{{ x.name }}</p>
         </slot-comp>
-        <slot-comp></slot-comp>
-    </div>
+    </div>-->
+    <!--<h3>Fallback tartalom</h3>
+    <slot>
+
+    </slot>
+    <footer>
+        <slot-comp v-slot:bottomSlot>
+            <h3>Ez egy lábléc</h3>
+            <p>Copyright 2024</p>
+        </slot-comp>
+    </footer>
+    <slot-comp>
+        <template #bottomSlot> A v-slot helyett a # is működik
+            <h4>Ez az új tartalom</h4>
+            <p>Ez a tartalom bottomSlot nevű slotba kerül bele</p>
+        </template>
+    </slot-comp>-->
+    
+    <slot-comp v-slot="food" style="background-color: lightgreen; padding: 10px; margin: 0;">
+        <hr>
+        <h2>{{ food.foodName }} <img :src=food.foodUrl style="width: 70px; float: right; margin-left: 10px;"></h2>
+        <p>{{ food.foodDesc }}</p>
+    </slot-comp>
+
+    <!--<slot-comp v-slot="texts">
+        <h2>Statikus szöveg: {{ texts.staticText }}</h2>
+        <h2>Statikus szöveg: {{ texts.dynamicText}}</h2>
+    </slot-comp>-->
+    <br>
+    <hr>
+    <slot-comp>
+        <template #leftSlot="leftProps">
+            <h3>{{ leftProps.text }}</h3>
+        </template>
+    </slot-comp>
+
+    <slot-comp>
+        <template #rightSlot="rightProps">
+            <h3>{{ rightProps.text }}</h3>
+        </template>
+    </slot-comp>
 </template>
 
 <style>
-    #wrapper{
+    #app{
+        width: 300px;
+    }
+
+    /*#wrapper{
         display: flex;
         flex-wrap: wrap;
     }
@@ -104,7 +147,7 @@ export default {
         padding: 10px;
         background-color: lightgreen;
     }
-    /*#app > div:hover{
+    #app > div:hover{
         cursor: pointer;
     }*/
 </style>
