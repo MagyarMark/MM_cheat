@@ -8,10 +8,10 @@
 }
 import FoodItem from './components/FoodItem.vue'*/
 
-export default {
-    /*components: {
+/*export default {
+    components: {
         'food-item':FoodItem,
-    },*/
+    },
     data() {
         return {
             foods: [
@@ -39,6 +39,19 @@ export default {
         addItem() {
             this.items.push(this.newItem);
             this.newItem = "";
+        }
+    }
+}*/
+
+export default {
+    data() {
+        return {
+            toggleValue: true
+        }
+    },
+    computed: {
+        activeComp() {
+            return this.toggleValue ? 'comp-one' : 'comp-two';
         }
     }
 }
@@ -104,7 +117,7 @@ export default {
             <h4>Ez az új tartalom</h4>
             <p>Ez a tartalom bottomSlot nevű slotba kerül bele</p>
         </template>
-    </slot-comp>-->
+    </slot-comp>
     
     <slot-comp v-slot="food" style="background-color: lightgreen; padding: 10px; margin: 0;">
         <hr>
@@ -112,10 +125,10 @@ export default {
         <p>{{ food.foodDesc }}</p>
     </slot-comp>
 
-    <!--<slot-comp v-slot="texts">
+    <slot-comp v-slot="texts">
         <h2>Statikus szöveg: {{ texts.staticText }}</h2>
         <h2>Statikus szöveg: {{ texts.dynamicText}}</h2>
-    </slot-comp>-->
+    </slot-comp>
     <br>
     <hr>
     <slot-comp>
@@ -128,7 +141,14 @@ export default {
         <template #rightSlot="rightProps">
             <h3>{{ rightProps.text }}</h3>
         </template>
-    </slot-comp>
+    </slot-comp>-->
+
+    <h1>Dinamikus komponens</h1>
+    <p>Egy gombbal változtathatunk a két komponens között</p>
+    <button @click="toggleValue = !toggleValue" >Komponens választó</button>
+    <keep-alive include="comp-one">
+        <component :is="activeComp"></component>
+    </keep-alive>
 </template>
 
 <style>
