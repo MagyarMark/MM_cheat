@@ -41,7 +41,7 @@ import FoodItem from './components/FoodItem.vue'*/
             this.newItem = "";
         }
     }
-}*/
+}
 
 export default {
     data() {
@@ -52,6 +52,42 @@ export default {
     computed: {
         activeComp() {
             return this.toggleValue ? 'comp-one' : 'comp-two';
+        }
+    }
+}
+
+export default {
+    data() {
+        return {
+            randomMammal: null,
+            data: null
+        }
+    },
+    methods: {
+        async fetchData() {
+            /*const response = await fetch('bigLandMammals.json')
+            const data = await response.json();
+
+            const randomIndex = Math.floor(Math.random() * data.results.length);
+            this.randomMammal = data.results[randomIndex];
+            const response = await fetch('https://nameday.abalin.net/api/V2/today/budapest')
+            this.data = await response.json();
+        }
+    }
+}*/
+
+import axios from 'axios';
+
+export default {
+    data() {
+        return {
+            data: null
+        }
+    },
+    methods: {
+        async fetchData() {
+            const response = await axios.get('https://nameday.abalin.net/api/V2/today/budapest')
+            this.data = response.data;
         }
     }
 }
@@ -142,13 +178,26 @@ export default {
             <h3>{{ rightProps.text }}</h3>
         </template>
     </slot-comp>-->
-
-    <h1>Dinamikus komponens</h1>
+    <!--<h1>Dinamikus komponens</h1>
     <p>Egy gombbal változtathatunk a két komponens között</p>
     <button @click="toggleValue = !toggleValue" >Komponens választó</button>
     <keep-alive include="comp-one">
         <component :is="activeComp"></component>
-    </keep-alive>
+    </keep-alive>-->
+
+        <!--<p>A gombra kattintva egy véletlen állatot kapunk</p>
+        <button @click="fetchData">Fetch Data</button>
+        <div v-if="randomMammal">
+            <h2>{{ randomMammal.name }}</h2>
+            <p>Max Weight: {{ randomMammal.maxWeight }} kg</p>
+        </div>-->  
+        
+        <p>Névnapok</p>
+        <button @click="fetchData">Fetch Data</button>
+        <div v-if="data" id="dataDiv">
+            <p>Üzenet: {{ data.message }}</p>
+            <p>Névnap ma: <b>{{ data.data.hu }}</b></p>
+        </div>
 </template>
 
 <style>
