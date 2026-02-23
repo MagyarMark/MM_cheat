@@ -1,0 +1,26 @@
+laravel telepítése:
+composer create-project laravel/laravel Magyar_Mark_backend
+
+telepítés után:
+cd Magyar_Mark_backend
+
+beírás után:
+code .
+
+táblák létrehozása:
+most ingatlan és kategoria táblák lesznek
+parancsok hozzá:
+php artisan make:model kategoria -m
+
+php artisan make:model ingatlan -mc --api (--mc-> létrehozom a migrációt és a controllert is hozzá amiben lesznek kezelve a végpontok, --api-> CRUD műveletekhez létrehozza az alapokat)
+
+php artisan migrate --seed
+
+api létrehozásához kell egy api modult telepíteni:
+
+php artisan install:api
+
+sanctum letörlése:
+composer remove laravel/sanctum
+
+php artisan serve -> futtatja a szervert
